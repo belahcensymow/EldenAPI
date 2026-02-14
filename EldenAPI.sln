@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EldenAPI", "EldenAPI.csproj", "{268146D3-E80E-43E4-A9DE-D049B039B60D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SoulsFormats", "SoulsFormats", "{617D3EB1-AC76-969E-D6BE-22357ADC15AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoulsFormats", "SoulsFormats\SoulsFormats\SoulsFormats.csproj", "{C03B777D-4B14-464C-980C-1F9729F04811}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{268146D3-E80E-43E4-A9DE-D049B039B60D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{268146D3-E80E-43E4-A9DE-D049B039B60D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{268146D3-E80E-43E4-A9DE-D049B039B60D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{268146D3-E80E-43E4-A9DE-D049B039B60D}.Debug|x64.Build.0 = Debug|Any CPU
+		{268146D3-E80E-43E4-A9DE-D049B039B60D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{268146D3-E80E-43E4-A9DE-D049B039B60D}.Debug|x86.Build.0 = Debug|Any CPU
+		{268146D3-E80E-43E4-A9DE-D049B039B60D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{268146D3-E80E-43E4-A9DE-D049B039B60D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{268146D3-E80E-43E4-A9DE-D049B039B60D}.Release|x64.ActiveCfg = Release|Any CPU
+		{268146D3-E80E-43E4-A9DE-D049B039B60D}.Release|x64.Build.0 = Release|Any CPU
+		{268146D3-E80E-43E4-A9DE-D049B039B60D}.Release|x86.ActiveCfg = Release|Any CPU
+		{268146D3-E80E-43E4-A9DE-D049B039B60D}.Release|x86.Build.0 = Release|Any CPU
+		{C03B777D-4B14-464C-980C-1F9729F04811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C03B777D-4B14-464C-980C-1F9729F04811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C03B777D-4B14-464C-980C-1F9729F04811}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C03B777D-4B14-464C-980C-1F9729F04811}.Debug|x64.Build.0 = Debug|Any CPU
+		{C03B777D-4B14-464C-980C-1F9729F04811}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C03B777D-4B14-464C-980C-1F9729F04811}.Debug|x86.Build.0 = Debug|Any CPU
+		{C03B777D-4B14-464C-980C-1F9729F04811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C03B777D-4B14-464C-980C-1F9729F04811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C03B777D-4B14-464C-980C-1F9729F04811}.Release|x64.ActiveCfg = Release|Any CPU
+		{C03B777D-4B14-464C-980C-1F9729F04811}.Release|x64.Build.0 = Release|Any CPU
+		{C03B777D-4B14-464C-980C-1F9729F04811}.Release|x86.ActiveCfg = Release|Any CPU
+		{C03B777D-4B14-464C-980C-1F9729F04811}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C03B777D-4B14-464C-980C-1F9729F04811} = {617D3EB1-AC76-969E-D6BE-22357ADC15AB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80239B39-4661-4B3C-A3E1-5ADF87D00F94}
+	EndGlobalSection
+EndGlobal

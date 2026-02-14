@@ -1,0 +1,117 @@
+using System.Collections.Generic;
+using System.Linq;
+using SoulsFormats;
+
+namespace EldenRingDataExtractor
+{
+	public class EquipParamGem
+	{
+		private readonly PARAM _param;
+		public EquipParamGem(PARAM param) => _param = param;
+		public IEnumerable<EquipParamGemRow> Entries => _param.Rows.Select(r => new EquipParamGemRow(r));
+	}
+	public class EquipParamGemRow
+	{
+		private readonly PARAM.Row _row;
+		public EquipParamGemRow(PARAM.Row row) => _row = row;
+		public int ID => _row.ID;
+		public string Name => _row.Name;
+		public byte[] disableParam_NT => (byte[])_row["disableParam_NT"].Value;
+		public byte[] disableParamReserve1 => (byte[])_row["disableParamReserve1"].Value;
+		public byte[] disableParamReserve2 => (byte[])_row["disableParamReserve2"].Value;
+		public ushort iconId => (ushort)_row["iconId"].Value;
+		public sbyte rank => (sbyte)_row["rank"].Value;
+		public byte sortGroupId => (byte)_row["sortGroupId"].Value;
+		public int spEffectId0 => (int)_row["spEffectId0"].Value;
+		public int spEffectId1 => (int)_row["spEffectId1"].Value;
+		public int spEffectId2 => (int)_row["spEffectId2"].Value;
+		public uint itemGetTutorialFlagId => (uint)_row["itemGetTutorialFlagId"].Value;
+		public int swordArtsParamId => (int)_row["swordArtsParamId"].Value;
+		public int mountValue => (int)_row["mountValue"].Value;
+		public int sellValue => (int)_row["sellValue"].Value;
+		public int saleValue => (int)_row["saleValue"].Value;
+		public int sortId => (int)_row["sortId"].Value;
+		public short compTrophySedId => (short)_row["compTrophySedId"].Value;
+		public short trophySeqId => (short)_row["trophySeqId"].Value;
+		public byte[] configurableWepAttr00 => (byte[])_row["configurableWepAttr00"].Value;
+		public byte[] configurableWepAttr01 => (byte[])_row["configurableWepAttr01"].Value;
+		public byte[] configurableWepAttr02 => (byte[])_row["configurableWepAttr02"].Value;
+		public byte[] configurableWepAttr03 => (byte[])_row["configurableWepAttr03"].Value;
+		public byte[] configurableWepAttr04 => (byte[])_row["configurableWepAttr04"].Value;
+		public byte[] configurableWepAttr05 => (byte[])_row["configurableWepAttr05"].Value;
+		public byte[] configurableWepAttr06 => (byte[])_row["configurableWepAttr06"].Value;
+		public byte[] configurableWepAttr07 => (byte[])_row["configurableWepAttr07"].Value;
+		public byte[] configurableWepAttr08 => (byte[])_row["configurableWepAttr08"].Value;
+		public byte[] configurableWepAttr09 => (byte[])_row["configurableWepAttr09"].Value;
+		public byte[] configurableWepAttr10 => (byte[])_row["configurableWepAttr10"].Value;
+		public byte[] configurableWepAttr11 => (byte[])_row["configurableWepAttr11"].Value;
+		public byte[] configurableWepAttr12 => (byte[])_row["configurableWepAttr12"].Value;
+		public byte[] configurableWepAttr13 => (byte[])_row["configurableWepAttr13"].Value;
+		public byte[] configurableWepAttr14 => (byte[])_row["configurableWepAttr14"].Value;
+		public byte[] configurableWepAttr15 => (byte[])_row["configurableWepAttr15"].Value;
+		public byte rarity => (byte)_row["rarity"].Value;
+		public byte[] configurableWepAttr16 => (byte[])_row["configurableWepAttr16"].Value;
+		public byte[] configurableWepAttr17 => (byte[])_row["configurableWepAttr17"].Value;
+		public byte[] configurableWepAttr18 => (byte[])_row["configurableWepAttr18"].Value;
+		public byte[] configurableWepAttr19 => (byte[])_row["configurableWepAttr19"].Value;
+		public byte[] configurableWepAttr20 => (byte[])_row["configurableWepAttr20"].Value;
+		public byte[] configurableWepAttr21 => (byte[])_row["configurableWepAttr21"].Value;
+		public byte[] configurableWepAttr22 => (byte[])_row["configurableWepAttr22"].Value;
+		public byte[] configurableWepAttr23 => (byte[])_row["configurableWepAttr23"].Value;
+		public byte[] isDiscard => (byte[])_row["isDiscard"].Value;
+		public byte[] isDrop => (byte[])_row["isDrop"].Value;
+		public byte[] isDeposit => (byte[])_row["isDeposit"].Value;
+		public byte[] disableMultiDropShare => (byte[])_row["disableMultiDropShare"].Value;
+		public byte[] showDialogCondType => (byte[])_row["showDialogCondType"].Value;
+		public byte[] showLogCondType => (byte[])_row["showLogCondType"].Value;
+		public byte[] pad => (byte[])_row["pad"].Value;
+		public byte defaultWepAttr => (byte)_row["defaultWepAttr"].Value;
+		public byte[] pad2 => (byte[])_row["pad2"].Value;
+		public byte[] canMountWep_Dagger => (byte[])_row["canMountWep_Dagger"].Value;
+		public byte[] canMountWep_SwordNormal => (byte[])_row["canMountWep_SwordNormal"].Value;
+		public byte[] canMountWep_SwordLarge => (byte[])_row["canMountWep_SwordLarge"].Value;
+		public byte[] canMountWep_SwordGigantic => (byte[])_row["canMountWep_SwordGigantic"].Value;
+		public byte[] canMountWep_SaberNormal => (byte[])_row["canMountWep_SaberNormal"].Value;
+		public byte[] canMountWep_SaberLarge => (byte[])_row["canMountWep_SaberLarge"].Value;
+		public byte[] canMountWep_katana => (byte[])_row["canMountWep_katana"].Value;
+		public byte[] canMountWep_SwordDoubleEdge => (byte[])_row["canMountWep_SwordDoubleEdge"].Value;
+		public byte[] canMountWep_SwordPierce => (byte[])_row["canMountWep_SwordPierce"].Value;
+		public byte[] canMountWep_RapierHeavy => (byte[])_row["canMountWep_RapierHeavy"].Value;
+		public byte[] canMountWep_AxeNormal => (byte[])_row["canMountWep_AxeNormal"].Value;
+		public byte[] canMountWep_AxeLarge => (byte[])_row["canMountWep_AxeLarge"].Value;
+		public byte[] canMountWep_HammerNormal => (byte[])_row["canMountWep_HammerNormal"].Value;
+		public byte[] canMountWep_HammerLarge => (byte[])_row["canMountWep_HammerLarge"].Value;
+		public byte[] canMountWep_Flail => (byte[])_row["canMountWep_Flail"].Value;
+		public byte[] canMountWep_SpearNormal => (byte[])_row["canMountWep_SpearNormal"].Value;
+		public byte[] canMountWep_SpearLarge => (byte[])_row["canMountWep_SpearLarge"].Value;
+		public byte[] canMountWep_SpearHeavy => (byte[])_row["canMountWep_SpearHeavy"].Value;
+		public byte[] canMountWep_SpearAxe => (byte[])_row["canMountWep_SpearAxe"].Value;
+		public byte[] canMountWep_Sickle => (byte[])_row["canMountWep_Sickle"].Value;
+		public byte[] canMountWep_Knuckle => (byte[])_row["canMountWep_Knuckle"].Value;
+		public byte[] canMountWep_Claw => (byte[])_row["canMountWep_Claw"].Value;
+		public byte[] canMountWep_Whip => (byte[])_row["canMountWep_Whip"].Value;
+		public byte[] canMountWep_AxhammerLarge => (byte[])_row["canMountWep_AxhammerLarge"].Value;
+		public byte[] canMountWep_BowSmall => (byte[])_row["canMountWep_BowSmall"].Value;
+		public byte[] canMountWep_BowNormal => (byte[])_row["canMountWep_BowNormal"].Value;
+		public byte[] canMountWep_BowLarge => (byte[])_row["canMountWep_BowLarge"].Value;
+		public byte[] canMountWep_ClossBow => (byte[])_row["canMountWep_ClossBow"].Value;
+		public byte[] canMountWep_Ballista => (byte[])_row["canMountWep_Ballista"].Value;
+		public byte[] canMountWep_Staff => (byte[])_row["canMountWep_Staff"].Value;
+		public byte[] canMountWep_Sorcery => (byte[])_row["canMountWep_Sorcery"].Value;
+		public byte[] canMountWep_Talisman => (byte[])_row["canMountWep_Talisman"].Value;
+		public byte[] canMountWep_ShieldSmall => (byte[])_row["canMountWep_ShieldSmall"].Value;
+		public byte[] canMountWep_ShieldNormal => (byte[])_row["canMountWep_ShieldNormal"].Value;
+		public byte[] canMountWep_ShieldLarge => (byte[])_row["canMountWep_ShieldLarge"].Value;
+		public byte[] canMountWep_Torch => (byte[])_row["canMountWep_Torch"].Value;
+		public byte[] reserved_canMountWep => (byte[])_row["reserved_canMountWep"].Value;
+		public byte[] reserved2_canMountWep => (byte[])_row["reserved2_canMountWep"].Value;
+		public int spEffectMsgId0 => (int)_row["spEffectMsgId0"].Value;
+		public int spEffectMsgId1 => (int)_row["spEffectMsgId1"].Value;
+		public int spEffectId_forAtk0 => (int)_row["spEffectId_forAtk0"].Value;
+		public int spEffectId_forAtk1 => (int)_row["spEffectId_forAtk1"].Value;
+		public int spEffectId_forAtk2 => (int)_row["spEffectId_forAtk2"].Value;
+		public int mountWepTextId => (int)_row["mountWepTextId"].Value;
+		public byte[] pad6 => (byte[])_row["pad6"].Value;
+		public override string ToString() => $"ID: {ID} | Name: {Name} | iconId: {iconId} | rank: {rank} | sortGroupId: {sortGroupId} | spEffectId0: {spEffectId0} | spEffectId1: {spEffectId1} | spEffectId2: {spEffectId2} | itemGetTutorialFlagId: {itemGetTutorialFlagId} | swordArtsParamId: {swordArtsParamId} | mountValue: {mountValue} | sellValue: {sellValue} | saleValue: {saleValue} | sortId: {sortId} | compTrophySedId: {compTrophySedId} | trophySeqId: {trophySeqId} | rarity: {rarity} | defaultWepAttr: {defaultWepAttr} | spEffectMsgId0: {spEffectMsgId0} | spEffectMsgId1: {spEffectMsgId1} | spEffectId_forAtk0: {spEffectId_forAtk0} | spEffectId_forAtk1: {spEffectId_forAtk1} | spEffectId_forAtk2: {spEffectId_forAtk2} | mountWepTextId: {mountWepTextId}";
+	}
+}

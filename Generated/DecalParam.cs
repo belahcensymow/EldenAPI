@@ -1,0 +1,111 @@
+using System.Collections.Generic;
+using System.Linq;
+using SoulsFormats;
+
+namespace EldenRingDataExtractor
+{
+	public class DecalParam
+	{
+		private readonly PARAM _param;
+		public DecalParam(PARAM param) => _param = param;
+		public IEnumerable<DecalParamRow> Entries => _param.Rows.Select(r => new DecalParamRow(r));
+	}
+	public class DecalParamRow
+	{
+		private readonly PARAM.Row _row;
+		public DecalParamRow(PARAM.Row row) => _row = row;
+		public int ID => _row.ID;
+		public string Name => _row.Name;
+		public int textureId => (int)_row["textureId"].Value;
+		public int dmypolyId => (int)_row["dmypolyId"].Value;
+		public float pitchAngle => (float)_row["pitchAngle"].Value;
+		public float yawAngle => (float)_row["yawAngle"].Value;
+		public float nearDistance => (float)_row["nearDistance"].Value;
+		public float farDistance => (float)_row["farDistance"].Value;
+		public float nearSize => (float)_row["nearSize"].Value;
+		public float farSize => (float)_row["farSize"].Value;
+		public int maskSpeffectId => (int)_row["maskSpeffectId"].Value;
+		public uint pad_10 => (uint)_row["pad_10"].Value;
+		public uint replaceTextureId_byMaterial => (uint)_row["replaceTextureId_byMaterial"].Value;
+		public uint dmypolyCategory => (uint)_row["dmypolyCategory"].Value;
+		public uint pad_05 => (uint)_row["pad_05"].Value;
+		public uint useDeferredDecal => (uint)_row["useDeferredDecal"].Value;
+		public uint usePaintDecal => (uint)_row["usePaintDecal"].Value;
+		public uint bloodTypeEnable => (uint)_row["bloodTypeEnable"].Value;
+		public uint bUseNormal => (uint)_row["bUseNormal"].Value;
+		public uint pad_08 => (uint)_row["pad_08"].Value;
+		public uint pad_09 => (uint)_row["pad_09"].Value;
+		public uint usePom => (uint)_row["usePom"].Value;
+		public uint useEmissive => (uint)_row["useEmissive"].Value;
+		public uint putVertical => (uint)_row["putVertical"].Value;
+		public short randomSizeMin => (short)_row["randomSizeMin"].Value;
+		public short randomSizeMax => (short)_row["randomSizeMax"].Value;
+		public float randomRollMin => (float)_row["randomRollMin"].Value;
+		public float randomRollMax => (float)_row["randomRollMax"].Value;
+		public float randomPitchMin => (float)_row["randomPitchMin"].Value;
+		public float randomPitchMax => (float)_row["randomPitchMax"].Value;
+		public float randomYawMin => (float)_row["randomYawMin"].Value;
+		public float randomYawMax => (float)_row["randomYawMax"].Value;
+		public float pomHightScale => (float)_row["pomHightScale"].Value;
+		public byte pomSampleMin => (byte)_row["pomSampleMin"].Value;
+		public byte pomSampleMax => (byte)_row["pomSampleMax"].Value;
+		public byte[] blendMode => (byte[])_row["blendMode"].Value;
+		public byte[] appearDirType => (byte[])_row["appearDirType"].Value;
+		public float emissiveValueBegin => (float)_row["emissiveValueBegin"].Value;
+		public float emissiveValueEnd => (float)_row["emissiveValueEnd"].Value;
+		public float emissiveTime => (float)_row["emissiveTime"].Value;
+		public byte[] bIntpEnable => (byte[])_row["bIntpEnable"].Value;
+		public byte[] pad_01 => (byte[])_row["pad_01"].Value;
+		public float intpIntervalDist => (float)_row["intpIntervalDist"].Value;
+		public int beginIntpTextureId => (int)_row["beginIntpTextureId"].Value;
+		public int endIntpTextureId => (int)_row["endIntpTextureId"].Value;
+		public int appearSfxId => (int)_row["appearSfxId"].Value;
+		public float appearSfxOffsetPos => (float)_row["appearSfxOffsetPos"].Value;
+		public int maskTextureId => (int)_row["maskTextureId"].Value;
+		public int diffuseTextureId => (int)_row["diffuseTextureId"].Value;
+		public int reflecTextureId => (int)_row["reflecTextureId"].Value;
+		public float maskScale => (float)_row["maskScale"].Value;
+		public int normalTextureId => (int)_row["normalTextureId"].Value;
+		public int heightTextureId => (int)_row["heightTextureId"].Value;
+		public int emissiveTextureId => (int)_row["emissiveTextureId"].Value;
+		public byte diffuseColorR => (byte)_row["diffuseColorR"].Value;
+		public byte diffuseColorG => (byte)_row["diffuseColorG"].Value;
+		public byte diffuseColorB => (byte)_row["diffuseColorB"].Value;
+		public byte[] pad_03 => (byte[])_row["pad_03"].Value;
+		public byte reflecColorR => (byte)_row["reflecColorR"].Value;
+		public byte reflecColorG => (byte)_row["reflecColorG"].Value;
+		public byte reflecColorB => (byte)_row["reflecColorB"].Value;
+		public byte[] bLifeEnable => (byte[])_row["bLifeEnable"].Value;
+		public float siniScale => (float)_row["siniScale"].Value;
+		public float lifeTimeSec => (float)_row["lifeTimeSec"].Value;
+		public float fadeOutTimeSec => (float)_row["fadeOutTimeSec"].Value;
+		public short priority => (short)_row["priority"].Value;
+		public byte[] bDistThinOutEnable => (byte[])_row["bDistThinOutEnable"].Value;
+		public byte[] bAlignedTexRandomVariationEnable => (byte[])_row["bAlignedTexRandomVariationEnable"].Value;
+		public float distThinOutCheckDist => (float)_row["distThinOutCheckDist"].Value;
+		public float distThinOutCheckAngleDeg => (float)_row["distThinOutCheckAngleDeg"].Value;
+		public byte distThinOutMaxNum => (byte)_row["distThinOutMaxNum"].Value;
+		public byte distThinOutCheckNum => (byte)_row["distThinOutCheckNum"].Value;
+		public short delayAppearFrame => (short)_row["delayAppearFrame"].Value;
+		public uint randVaria_Diffuse => (uint)_row["randVaria_Diffuse"].Value;
+		public uint randVaria_Mask => (uint)_row["randVaria_Mask"].Value;
+		public uint randVaria_Reflec => (uint)_row["randVaria_Reflec"].Value;
+		public uint pad_12 => (uint)_row["pad_12"].Value;
+		public uint randVaria_Normal => (uint)_row["randVaria_Normal"].Value;
+		public uint randVaria_Height => (uint)_row["randVaria_Height"].Value;
+		public uint randVaria_Emissive => (uint)_row["randVaria_Emissive"].Value;
+		public uint pad_11 => (uint)_row["pad_11"].Value;
+		public float fadeInTimeSec => (float)_row["fadeInTimeSec"].Value;
+		public float thinOutOverlapMultiRadius => (float)_row["thinOutOverlapMultiRadius"].Value;
+		public float thinOutNeighborAddRadius => (float)_row["thinOutNeighborAddRadius"].Value;
+		public uint thinOutOverlapLimitNum => (uint)_row["thinOutOverlapLimitNum"].Value;
+		public uint thinOutNeighborLimitNum => (uint)_row["thinOutNeighborLimitNum"].Value;
+		public byte[] thinOutMode => (byte[])_row["thinOutMode"].Value;
+		public byte emissiveColorR => (byte)_row["emissiveColorR"].Value;
+		public byte emissiveColorG => (byte)_row["emissiveColorG"].Value;
+		public byte emissiveColorB => (byte)_row["emissiveColorB"].Value;
+		public float maxDecalSfxCreatableSlopeAngleDeg => (float)_row["maxDecalSfxCreatableSlopeAngleDeg"].Value;
+		public byte[] pad_02 => (byte[])_row["pad_02"].Value;
+		public override string ToString() => $"ID: {ID} | Name: {Name} | textureId: {textureId} | dmypolyId: {dmypolyId} | pitchAngle: {pitchAngle} | yawAngle: {yawAngle} | nearDistance: {nearDistance} | farDistance: {farDistance} | nearSize: {nearSize} | farSize: {farSize} | maskSpeffectId: {maskSpeffectId} | pad_10: {pad_10} | replaceTextureId_byMaterial: {replaceTextureId_byMaterial} | dmypolyCategory: {dmypolyCategory} | pad_05: {pad_05} | useDeferredDecal: {useDeferredDecal} | usePaintDecal: {usePaintDecal} | bloodTypeEnable: {bloodTypeEnable} | bUseNormal: {bUseNormal} | pad_08: {pad_08} | pad_09: {pad_09} | usePom: {usePom} | useEmissive: {useEmissive} | putVertical: {putVertical} | randomSizeMin: {randomSizeMin} | randomSizeMax: {randomSizeMax} | randomRollMin: {randomRollMin} | randomRollMax: {randomRollMax} | randomPitchMin: {randomPitchMin} | randomPitchMax: {randomPitchMax} | randomYawMin: {randomYawMin} | randomYawMax: {randomYawMax} | pomHightScale: {pomHightScale} | pomSampleMin: {pomSampleMin} | pomSampleMax: {pomSampleMax} | emissiveValueBegin: {emissiveValueBegin} | emissiveValueEnd: {emissiveValueEnd} | emissiveTime: {emissiveTime} | intpIntervalDist: {intpIntervalDist} | beginIntpTextureId: {beginIntpTextureId} | endIntpTextureId: {endIntpTextureId} | appearSfxId: {appearSfxId} | appearSfxOffsetPos: {appearSfxOffsetPos} | maskTextureId: {maskTextureId} | diffuseTextureId: {diffuseTextureId} | reflecTextureId: {reflecTextureId} | maskScale: {maskScale} | normalTextureId: {normalTextureId} | heightTextureId: {heightTextureId} | emissiveTextureId: {emissiveTextureId} | diffuseColorR: {diffuseColorR} | diffuseColorG: {diffuseColorG} | diffuseColorB: {diffuseColorB} | reflecColorR: {reflecColorR} | reflecColorG: {reflecColorG} | reflecColorB: {reflecColorB} | siniScale: {siniScale} | lifeTimeSec: {lifeTimeSec} | fadeOutTimeSec: {fadeOutTimeSec} | priority: {priority} | distThinOutCheckDist: {distThinOutCheckDist} | distThinOutCheckAngleDeg: {distThinOutCheckAngleDeg} | distThinOutMaxNum: {distThinOutMaxNum} | distThinOutCheckNum: {distThinOutCheckNum} | delayAppearFrame: {delayAppearFrame} | randVaria_Diffuse: {randVaria_Diffuse} | randVaria_Mask: {randVaria_Mask} | randVaria_Reflec: {randVaria_Reflec} | pad_12: {pad_12} | randVaria_Normal: {randVaria_Normal} | randVaria_Height: {randVaria_Height} | randVaria_Emissive: {randVaria_Emissive} | pad_11: {pad_11} | fadeInTimeSec: {fadeInTimeSec} | thinOutOverlapMultiRadius: {thinOutOverlapMultiRadius} | thinOutNeighborAddRadius: {thinOutNeighborAddRadius} | thinOutOverlapLimitNum: {thinOutOverlapLimitNum} | thinOutNeighborLimitNum: {thinOutNeighborLimitNum} | emissiveColorR: {emissiveColorR} | emissiveColorG: {emissiveColorG} | emissiveColorB: {emissiveColorB} | maxDecalSfxCreatableSlopeAngleDeg: {maxDecalSfxCreatableSlopeAngleDeg}";
+	}
+}
