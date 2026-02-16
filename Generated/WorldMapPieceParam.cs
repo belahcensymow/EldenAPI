@@ -16,7 +16,7 @@ namespace EldenRingDataExtractor
 		public WorldMapPieceParamRow(PARAM.Row row) => _row = row;
 		public int ID => _row.ID;
 		public string Name => _row.Name;
-		public byte[] disableParam_NT => (byte[])_row["disableParam_NT"].Value;
+		public byte disableParam_NT => (byte)_row["disableParam_NT"].Value;
 		public byte[] disableParamReserve1 => (byte[])_row["disableParamReserve1"].Value;
 		public byte[] disableParamReserve2 => (byte[])_row["disableParamReserve2"].Value;
 		public uint openEventFlagId => (uint)_row["openEventFlagId"].Value;
@@ -32,6 +32,6 @@ namespace EldenRingDataExtractor
 		public float acquisitionEventResOffsetX => (float)_row["acquisitionEventResOffsetX"].Value;
 		public float acquisitionEventResOffsetY => (float)_row["acquisitionEventResOffsetY"].Value;
 		public byte[] pad => (byte[])_row["pad"].Value;
-		public override string ToString() => $"ID: {ID} | Name: {Name} | openEventFlagId: {openEventFlagId} | openTravelAreaLeft: {openTravelAreaLeft} | openTravelAreaRight: {openTravelAreaRight} | openTravelAreaTop: {openTravelAreaTop} | openTravelAreaBottom: {openTravelAreaBottom} | acquisitionEventFlagId: {acquisitionEventFlagId} | acquisitionEventScale: {acquisitionEventScale} | acquisitionEventCenterX: {acquisitionEventCenterX} | acquisitionEventCenterY: {acquisitionEventCenterY} | acquisitionEventResScale: {acquisitionEventResScale} | acquisitionEventResOffsetX: {acquisitionEventResOffsetX} | acquisitionEventResOffsetY: {acquisitionEventResOffsetY}";
+		public override string ToString() => $"ID: {ID} | Name: {Name} | disableParam_NT: {disableParam_NT} | openEventFlagId: {openEventFlagId} | openTravelAreaLeft: {openTravelAreaLeft} | openTravelAreaRight: {openTravelAreaRight} | openTravelAreaTop: {openTravelAreaTop} | openTravelAreaBottom: {openTravelAreaBottom} | acquisitionEventFlagId: {acquisitionEventFlagId} | acquisitionEventScale: {acquisitionEventScale} | acquisitionEventCenterX: {acquisitionEventCenterX} | acquisitionEventCenterY: {acquisitionEventCenterY} | acquisitionEventResScale: {acquisitionEventResScale} | acquisitionEventResOffsetX: {acquisitionEventResOffsetX} | acquisitionEventResOffsetY: {acquisitionEventResOffsetY}";
 	}
 }

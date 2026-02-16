@@ -16,9 +16,9 @@ namespace EldenRingDataExtractor
 		public DirectionCameraParamRow(PARAM.Row row) => _row = row;
 		public int ID => _row.ID;
 		public string Name => _row.Name;
-		public byte[] isUseOption => (byte[])_row["isUseOption"].Value;
+		public byte isUseOption => (byte)_row["isUseOption"].Value;
 		public byte[] pad2 => (byte[])_row["pad2"].Value;
 		public byte[] pad1 => (byte[])_row["pad1"].Value;
-		public override string ToString() => $"ID: {ID} | Name: {Name}";
+		public override string ToString() => $"ID: {ID} | Name: {Name} | isUseOption: {isUseOption}";
 	}
 }

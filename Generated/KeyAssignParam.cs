@@ -16,12 +16,12 @@ namespace EldenRingDataExtractor
 		public KeyAssignParamRow(PARAM.Row row) => _row = row;
 		public int ID => _row.ID;
 		public string Name => _row.Name;
-		public byte[] padKeyId => (byte[])_row["padKeyId"].Value;
-		public byte[] keyboardModifyKey => (byte[])_row["keyboardModifyKey"].Value;
-		public byte[] keyboardKeyId => (byte[])_row["keyboardKeyId"].Value;
-		public byte[] mouseModifyKey => (byte[])_row["mouseModifyKey"].Value;
-		public byte[] mouseKeyId => (byte[])_row["mouseKeyId"].Value;
+		public byte padKeyId => (byte)_row["padKeyId"].Value;
+		public byte keyboardModifyKey => (byte)_row["keyboardModifyKey"].Value;
+		public byte keyboardKeyId => (byte)_row["keyboardKeyId"].Value;
+		public byte mouseModifyKey => (byte)_row["mouseModifyKey"].Value;
+		public byte mouseKeyId => (byte)_row["mouseKeyId"].Value;
 		public byte[] reserved => (byte[])_row["reserved"].Value;
-		public override string ToString() => $"ID: {ID} | Name: {Name}";
+		public override string ToString() => $"ID: {ID} | Name: {Name} | padKeyId: {padKeyId} | keyboardModifyKey: {keyboardModifyKey} | keyboardKeyId: {keyboardKeyId} | mouseModifyKey: {mouseModifyKey} | mouseKeyId: {mouseKeyId}";
 	}
 }

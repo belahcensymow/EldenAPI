@@ -16,7 +16,7 @@ namespace EldenRingDataExtractor
 		public RoleParamRow(PARAM.Row row) => _row = row;
 		public int ID => _row.ID;
 		public string Name => _row.Name;
-		public byte[] teamType => (byte[])_row["teamType"].Value;
+		public byte teamType => (byte)_row["teamType"].Value;
 		public byte[] pad10 => (byte[])_row["pad10"].Value;
 		public int phantomParamId => (int)_row["phantomParamId"].Value;
 		public int spEffectID0 => (int)_row["spEffectID0"].Value;
@@ -33,8 +33,8 @@ namespace EldenRingDataExtractor
 		public int mySosSignSfxId => (int)_row["mySosSignSfxId"].Value;
 		public int summonStartAnimId => (int)_row["summonStartAnimId"].Value;
 		public int itemlotParamId => (int)_row["itemlotParamId"].Value;
-		public byte[] voiceChatGroup => (byte[])_row["voiceChatGroup"].Value;
-		public byte[] roleNameColor => (byte[])_row["roleNameColor"].Value;
+		public byte voiceChatGroup => (byte)_row["voiceChatGroup"].Value;
+		public byte roleNameColor => (byte)_row["roleNameColor"].Value;
 		public byte[] pad1 => (byte[])_row["pad1"].Value;
 		public int roleNameId => (int)_row["roleNameId"].Value;
 		public uint threatLv => (uint)_row["threatLv"].Value;
@@ -48,6 +48,6 @@ namespace EldenRingDataExtractor
 		public int signPhantomId => (int)_row["signPhantomId"].Value;
 		public int nonPlayerSummonStartAnimId => (int)_row["nonPlayerSummonStartAnimId"].Value;
 		public byte[] pad2 => (byte[])_row["pad2"].Value;
-		public override string ToString() => $"ID: {ID} | Name: {Name} | phantomParamId: {phantomParamId} | spEffectID0: {spEffectID0} | spEffectID1: {spEffectID1} | spEffectID2: {spEffectID2} | spEffectID3: {spEffectID3} | spEffectID4: {spEffectID4} | spEffectID5: {spEffectID5} | spEffectID6: {spEffectID6} | spEffectID7: {spEffectID7} | spEffectID8: {spEffectID8} | spEffectID9: {spEffectID9} | sosSignSfxId: {sosSignSfxId} | mySosSignSfxId: {mySosSignSfxId} | summonStartAnimId: {summonStartAnimId} | itemlotParamId: {itemlotParamId} | roleNameId: {roleNameId} | threatLv: {threatLv} | phantomParamId_vowRank1: {phantomParamId_vowRank1} | phantomParamId_vowRank2: {phantomParamId_vowRank2} | phantomParamId_vowRank3: {phantomParamId_vowRank3} | spEffectID_vowRank0: {spEffectID_vowRank0} | spEffectID_vowRank1: {spEffectID_vowRank1} | spEffectID_vowRank2: {spEffectID_vowRank2} | spEffectID_vowRank3: {spEffectID_vowRank3} | signPhantomId: {signPhantomId} | nonPlayerSummonStartAnimId: {nonPlayerSummonStartAnimId}";
+		public override string ToString() => $"ID: {ID} | Name: {Name} | teamType: {teamType} | phantomParamId: {phantomParamId} | spEffectID0: {spEffectID0} | spEffectID1: {spEffectID1} | spEffectID2: {spEffectID2} | spEffectID3: {spEffectID3} | spEffectID4: {spEffectID4} | spEffectID5: {spEffectID5} | spEffectID6: {spEffectID6} | spEffectID7: {spEffectID7} | spEffectID8: {spEffectID8} | spEffectID9: {spEffectID9} | sosSignSfxId: {sosSignSfxId} | mySosSignSfxId: {mySosSignSfxId} | summonStartAnimId: {summonStartAnimId} | itemlotParamId: {itemlotParamId} | voiceChatGroup: {voiceChatGroup} | roleNameColor: {roleNameColor} | roleNameId: {roleNameId} | threatLv: {threatLv} | phantomParamId_vowRank1: {phantomParamId_vowRank1} | phantomParamId_vowRank2: {phantomParamId_vowRank2} | phantomParamId_vowRank3: {phantomParamId_vowRank3} | spEffectID_vowRank0: {spEffectID_vowRank0} | spEffectID_vowRank1: {spEffectID_vowRank1} | spEffectID_vowRank2: {spEffectID_vowRank2} | spEffectID_vowRank3: {spEffectID_vowRank3} | signPhantomId: {signPhantomId} | nonPlayerSummonStartAnimId: {nonPlayerSummonStartAnimId}";
 	}
 }

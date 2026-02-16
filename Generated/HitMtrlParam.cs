@@ -19,12 +19,12 @@ namespace EldenRingDataExtractor
 		public float aiVolumeRate => (float)_row["aiVolumeRate"].Value;
 		public int spEffectIdOnHit0 => (int)_row["spEffectIdOnHit0"].Value;
 		public int spEffectIdOnHit1 => (int)_row["spEffectIdOnHit1"].Value;
-		public byte[] footEffectHeightType => (byte[])_row["footEffectHeightType"].Value;
-		public byte[] footEffectDirType => (byte[])_row["footEffectDirType"].Value;
-		public byte[] floorHeightType => (byte[])_row["floorHeightType"].Value;
+		public byte footEffectHeightType => (byte)_row["footEffectHeightType"].Value;
+		public byte footEffectDirType => (byte)_row["footEffectDirType"].Value;
+		public byte floorHeightType => (byte)_row["floorHeightType"].Value;
 		public byte disableFallDamage => (byte)_row["disableFallDamage"].Value;
 		public byte isHardnessForSoundReverb => (byte)_row["isHardnessForSoundReverb"].Value;
-		public byte[] hardnessType => (byte[])_row["hardnessType"].Value;
+		public byte hardnessType => (byte)_row["hardnessType"].Value;
 		public byte[] pad2 => (byte[])_row["pad2"].Value;
 		public int spEffectIdOnHit0_ClearCount_2 => (int)_row["spEffectIdOnHit0_ClearCount_2"].Value;
 		public int spEffectIdOnHit0_ClearCount_3 => (int)_row["spEffectIdOnHit0_ClearCount_3"].Value;
@@ -47,6 +47,6 @@ namespace EldenRingDataExtractor
 		public int spEffectId_forWet02 => (int)_row["spEffectId_forWet02"].Value;
 		public int spEffectId_forWet03 => (int)_row["spEffectId_forWet03"].Value;
 		public int spEffectId_forWet04 => (int)_row["spEffectId_forWet04"].Value;
-		public override string ToString() => $"ID: {ID} | Name: {Name} | aiVolumeRate: {aiVolumeRate} | spEffectIdOnHit0: {spEffectIdOnHit0} | spEffectIdOnHit1: {spEffectIdOnHit1} | disableFallDamage: {disableFallDamage} | isHardnessForSoundReverb: {isHardnessForSoundReverb} | spEffectIdOnHit0_ClearCount_2: {spEffectIdOnHit0_ClearCount_2} | spEffectIdOnHit0_ClearCount_3: {spEffectIdOnHit0_ClearCount_3} | spEffectIdOnHit0_ClearCount_4: {spEffectIdOnHit0_ClearCount_4} | spEffectIdOnHit0_ClearCount_5: {spEffectIdOnHit0_ClearCount_5} | spEffectIdOnHit0_ClearCount_6: {spEffectIdOnHit0_ClearCount_6} | spEffectIdOnHit0_ClearCount_7: {spEffectIdOnHit0_ClearCount_7} | spEffectIdOnHit0_ClearCount_8: {spEffectIdOnHit0_ClearCount_8} | spEffectIdOnHit1_ClearCount_2: {spEffectIdOnHit1_ClearCount_2} | spEffectIdOnHit1_ClearCount_3: {spEffectIdOnHit1_ClearCount_3} | spEffectIdOnHit1_ClearCount_4: {spEffectIdOnHit1_ClearCount_4} | spEffectIdOnHit1_ClearCount_5: {spEffectIdOnHit1_ClearCount_5} | spEffectIdOnHit1_ClearCount_6: {spEffectIdOnHit1_ClearCount_6} | spEffectIdOnHit1_ClearCount_7: {spEffectIdOnHit1_ClearCount_7} | spEffectIdOnHit1_ClearCount_8: {spEffectIdOnHit1_ClearCount_8} | replaceMateiralId_Rain: {replaceMateiralId_Rain} | spEffectId_forWet00: {spEffectId_forWet00} | spEffectId_forWet01: {spEffectId_forWet01} | spEffectId_forWet02: {spEffectId_forWet02} | spEffectId_forWet03: {spEffectId_forWet03} | spEffectId_forWet04: {spEffectId_forWet04}";
+		public override string ToString() => $"ID: {ID} | Name: {Name} | aiVolumeRate: {aiVolumeRate} | spEffectIdOnHit0: {spEffectIdOnHit0} | spEffectIdOnHit1: {spEffectIdOnHit1} | footEffectHeightType: {footEffectHeightType} | footEffectDirType: {footEffectDirType} | floorHeightType: {floorHeightType} | disableFallDamage: {disableFallDamage} | isHardnessForSoundReverb: {isHardnessForSoundReverb} | hardnessType: {hardnessType} | spEffectIdOnHit0_ClearCount_2: {spEffectIdOnHit0_ClearCount_2} | spEffectIdOnHit0_ClearCount_3: {spEffectIdOnHit0_ClearCount_3} | spEffectIdOnHit0_ClearCount_4: {spEffectIdOnHit0_ClearCount_4} | spEffectIdOnHit0_ClearCount_5: {spEffectIdOnHit0_ClearCount_5} | spEffectIdOnHit0_ClearCount_6: {spEffectIdOnHit0_ClearCount_6} | spEffectIdOnHit0_ClearCount_7: {spEffectIdOnHit0_ClearCount_7} | spEffectIdOnHit0_ClearCount_8: {spEffectIdOnHit0_ClearCount_8} | spEffectIdOnHit1_ClearCount_2: {spEffectIdOnHit1_ClearCount_2} | spEffectIdOnHit1_ClearCount_3: {spEffectIdOnHit1_ClearCount_3} | spEffectIdOnHit1_ClearCount_4: {spEffectIdOnHit1_ClearCount_4} | spEffectIdOnHit1_ClearCount_5: {spEffectIdOnHit1_ClearCount_5} | spEffectIdOnHit1_ClearCount_6: {spEffectIdOnHit1_ClearCount_6} | spEffectIdOnHit1_ClearCount_7: {spEffectIdOnHit1_ClearCount_7} | spEffectIdOnHit1_ClearCount_8: {spEffectIdOnHit1_ClearCount_8} | replaceMateiralId_Rain: {replaceMateiralId_Rain} | spEffectId_forWet00: {spEffectId_forWet00} | spEffectId_forWet01: {spEffectId_forWet01} | spEffectId_forWet02: {spEffectId_forWet02} | spEffectId_forWet03: {spEffectId_forWet03} | spEffectId_forWet04: {spEffectId_forWet04}";
 	}
 }

@@ -16,8 +16,8 @@ namespace EldenRingDataExtractor
 		public SeMaterialConvertParamRow(PARAM.Row row) => _row = row;
 		public int ID => _row.ID;
 		public string Name => _row.Name;
-		public byte[] seMaterialId => (byte[])_row["seMaterialId"].Value;
+		public byte seMaterialId => (byte)_row["seMaterialId"].Value;
 		public byte[] pad => (byte[])_row["pad"].Value;
-		public override string ToString() => $"ID: {ID} | Name: {Name}";
+		public override string ToString() => $"ID: {ID} | Name: {Name} | seMaterialId: {seMaterialId}";
 	}
 }

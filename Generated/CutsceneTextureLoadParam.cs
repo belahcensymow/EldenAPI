@@ -16,8 +16,8 @@ namespace EldenRingDataExtractor
 		public CutsceneTextureLoadParamRow(PARAM.Row row) => _row = row;
 		public int ID => _row.ID;
 		public string Name => _row.Name;
-		public byte[] disableParam_NT => (byte[])_row["disableParam_NT"].Value;
-		public byte[] disableParam_Debug => (byte[])_row["disableParam_Debug"].Value;
+		public byte disableParam_NT => (byte)_row["disableParam_NT"].Value;
+		public byte disableParam_Debug => (byte)_row["disableParam_Debug"].Value;
 		public byte[] disableParamReserve1 => (byte[])_row["disableParamReserve1"].Value;
 		public byte[] disableParamReserve2 => (byte[])_row["disableParamReserve2"].Value;
 		public string texName_00 => (string)_row["texName_00"].Value;
@@ -36,6 +36,6 @@ namespace EldenRingDataExtractor
 		public string texName_13 => (string)_row["texName_13"].Value;
 		public string texName_14 => (string)_row["texName_14"].Value;
 		public string texName_15 => (string)_row["texName_15"].Value;
-		public override string ToString() => $"ID: {ID} | Name: {Name} | texName_00: {texName_00} | texName_01: {texName_01} | texName_02: {texName_02} | texName_03: {texName_03} | texName_04: {texName_04} | texName_05: {texName_05} | texName_06: {texName_06} | texName_07: {texName_07} | texName_08: {texName_08} | texName_09: {texName_09} | texName_10: {texName_10} | texName_11: {texName_11} | texName_12: {texName_12} | texName_13: {texName_13} | texName_14: {texName_14} | texName_15: {texName_15}";
+		public override string ToString() => $"ID: {ID} | Name: {Name} | disableParam_NT: {disableParam_NT} | disableParam_Debug: {disableParam_Debug} | texName_00: {texName_00} | texName_01: {texName_01} | texName_02: {texName_02} | texName_03: {texName_03} | texName_04: {texName_04} | texName_05: {texName_05} | texName_06: {texName_06} | texName_07: {texName_07} | texName_08: {texName_08} | texName_09: {texName_09} | texName_10: {texName_10} | texName_11: {texName_11} | texName_12: {texName_12} | texName_13: {texName_13} | texName_14: {texName_14} | texName_15: {texName_15}";
 	}
 }

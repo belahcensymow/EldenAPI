@@ -1,0 +1,78 @@
+Param: ActionbuttonParam
+   Fields found: textId
+------------------------------
+Param: BasechrSelectMenuParam
+   Fields found: textId
+------------------------------
+Param: BonfireWarpParam
+   Fields found: textId1, textId2, textId3, textId4, textId5, textId6, textId7, textId8
+------------------------------
+Param: BonfireWarpSubCategoryParam
+   Fields found: textId
+------------------------------
+Param: BonfireWarpTabParam
+   Fields found: textId
+------------------------------
+Param: CharmakemenutopParam
+   Fields found: refTextId, helpTextId
+------------------------------
+Param: EquipParamGem
+   Fields found: mountWepTextId
+------------------------------
+Param: FeTextEffectParam
+   Fields found: textId
+------------------------------
+Param: GameAreaParam
+   Fields found: foundBossTextId, notFindBossTextId
+------------------------------
+Param: GameSystemCommonParam
+   Fields found: retryPointActivatedDialogTextId
+------------------------------
+Param: KeyAssignMenuitemParam
+   Fields found: textID, mappingTextID
+------------------------------
+Param: MenuPropertyLayoutParam
+   Fields found: CaptionTextID, HelpTextID
+------------------------------
+Param: MenuPropertySpecParam
+   Fields found: CaptionTextID
+------------------------------
+Param: MenuValueTableSpecParam
+   Fields found: textId
+------------------------------
+Param: SignPuddleTabParam
+   Fields found: tabTextId
+------------------------------
+Param: SwordArtsParam
+   Fields found: textId
+------------------------------
+Param: TutorialParam
+   Fields found: textId
+------------------------------
+Param: WorldMapPlaceNameParam
+   Fields found: textId
+------------------------------
+Param: WorldMapPointParam
+   Fields found: textId1, textId2, textId3, textId4, textId5, textId6, textId7, textId8
+------------------------------
+
+
+
+
+
+
+Param: BonfireWarpParam
+   Fields found: textId1, textId2, textId3, textId4, textId5, textId6, textId7, textId8
+------------------------------
+Param: BonfireWarpSubCategoryParam
+   Fields found: textId
+------------------------------
+Param: BonfireWarpTabParam
+   Fields found: textId
+------------------------------
+Param: WorldMapPlaceNameParam
+   Fields found: textId
+------------------------------
+Param: WorldMapPointParam
+   Fields found: textId1, textId2, textId3, textId4, textId5, textId6, textId7, textId8
+------------------------------

@@ -16,11 +16,11 @@ namespace EldenRingDataExtractor
 		public GparamRefSettingsParamRow(PARAM.Row row) => _row = row;
 		public int ID => _row.ID;
 		public string Name => _row.Name;
-		public byte[] disableParam_NT => (byte[])_row["disableParam_NT"].Value;
+		public byte disableParam_NT => (byte)_row["disableParam_NT"].Value;
 		public byte[] disableParamReserve1 => (byte[])_row["disableParamReserve1"].Value;
 		public byte[] disableParamReserve2 => (byte[])_row["disableParamReserve2"].Value;
 		public int RefTargetMapId => (int)_row["RefTargetMapId"].Value;
 		public byte[] Reserve => (byte[])_row["Reserve"].Value;
-		public override string ToString() => $"ID: {ID} | Name: {Name} | RefTargetMapId: {RefTargetMapId}";
+		public override string ToString() => $"ID: {ID} | Name: {Name} | disableParam_NT: {disableParam_NT} | RefTargetMapId: {RefTargetMapId}";
 	}
 }

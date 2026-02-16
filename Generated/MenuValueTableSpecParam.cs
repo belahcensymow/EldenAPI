@@ -18,8 +18,8 @@ namespace EldenRingDataExtractor
 		public string Name => _row.Name;
 		public int value => (int)_row["value"].Value;
 		public int textId => (int)_row["textId"].Value;
-		public byte[] compareType => (byte[])_row["compareType"].Value;
+		public byte compareType => (byte)_row["compareType"].Value;
 		public byte[] padding => (byte[])_row["padding"].Value;
-		public override string ToString() => $"ID: {ID} | Name: {Name} | value: {value} | textId: {textId}";
+		public override string ToString() => $"ID: {ID} | Name: {Name} | value: {value} | textId: {textId} | compareType: {compareType}";
 	}
 }

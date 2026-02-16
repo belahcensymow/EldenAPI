@@ -39,12 +39,12 @@ namespace EldenRingDataExtractor
 		public byte[] reserve => (byte[])_row["reserve"].Value;
 		public float alpha => (float)_row["alpha"].Value;
 		public float blendRate => (float)_row["blendRate"].Value;
-		public byte[] blendType => (byte[])_row["blendType"].Value;
-		public byte[] isEdgeSubtract => (byte[])_row["isEdgeSubtract"].Value;
-		public byte[] isFrontSubtract => (byte[])_row["isFrontSubtract"].Value;
-		public byte[] isNo2Pass => (byte[])_row["isNo2Pass"].Value;
+		public byte blendType => (byte)_row["blendType"].Value;
+		public byte isEdgeSubtract => (byte)_row["isEdgeSubtract"].Value;
+		public byte isFrontSubtract => (byte)_row["isFrontSubtract"].Value;
+		public byte isNo2Pass => (byte)_row["isNo2Pass"].Value;
 		public float edgePower => (float)_row["edgePower"].Value;
 		public float glowScale => (float)_row["glowScale"].Value;
-		public override string ToString() => $"ID: {ID} | Name: {Name} | edgeColorA: {edgeColorA} | frontColorA: {frontColorA} | diffMulColorA: {diffMulColorA} | specMulColorA: {specMulColorA} | lightColorA: {lightColorA} | edgeColorR: {edgeColorR} | edgeColorG: {edgeColorG} | edgeColorB: {edgeColorB} | frontColorR: {frontColorR} | frontColorG: {frontColorG} | frontColorB: {frontColorB} | diffMulColorR: {diffMulColorR} | diffMulColorG: {diffMulColorG} | diffMulColorB: {diffMulColorB} | specMulColorR: {specMulColorR} | specMulColorG: {specMulColorG} | specMulColorB: {specMulColorB} | lightColorR: {lightColorR} | lightColorG: {lightColorG} | lightColorB: {lightColorB} | alpha: {alpha} | blendRate: {blendRate} | edgePower: {edgePower} | glowScale: {glowScale}";
+		public override string ToString() => $"ID: {ID} | Name: {Name} | edgeColorA: {edgeColorA} | frontColorA: {frontColorA} | diffMulColorA: {diffMulColorA} | specMulColorA: {specMulColorA} | lightColorA: {lightColorA} | edgeColorR: {edgeColorR} | edgeColorG: {edgeColorG} | edgeColorB: {edgeColorB} | frontColorR: {frontColorR} | frontColorG: {frontColorG} | frontColorB: {frontColorB} | diffMulColorR: {diffMulColorR} | diffMulColorG: {diffMulColorG} | diffMulColorB: {diffMulColorB} | specMulColorR: {specMulColorR} | specMulColorG: {specMulColorG} | specMulColorB: {specMulColorB} | lightColorR: {lightColorR} | lightColorG: {lightColorG} | lightColorB: {lightColorB} | alpha: {alpha} | blendRate: {blendRate} | blendType: {blendType} | isEdgeSubtract: {isEdgeSubtract} | isFrontSubtract: {isFrontSubtract} | isNo2Pass: {isNo2Pass} | edgePower: {edgePower} | glowScale: {glowScale}";
 	}
 }

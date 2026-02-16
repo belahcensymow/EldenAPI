@@ -16,7 +16,7 @@ namespace EldenRingDataExtractor
 		public WorldMapLegacyConvParamRow(PARAM.Row row) => _row = row;
 		public int ID => _row.ID;
 		public string Name => _row.Name;
-		public byte[] disableParam_NT => (byte[])_row["disableParam_NT"].Value;
+		public byte disableParam_NT => (byte)_row["disableParam_NT"].Value;
 		public byte[] disableParamReserve1 => (byte[])_row["disableParamReserve1"].Value;
 		public byte[] disableParamReserve2 => (byte[])_row["disableParamReserve2"].Value;
 		public byte srcAreaNo => (byte)_row["srcAreaNo"].Value;
@@ -33,9 +33,9 @@ namespace EldenRingDataExtractor
 		public float dstPosX => (float)_row["dstPosX"].Value;
 		public float dstPosY => (float)_row["dstPosY"].Value;
 		public float dstPosZ => (float)_row["dstPosZ"].Value;
-		public byte[] isBasePoint => (byte[])_row["isBasePoint"].Value;
+		public byte isBasePoint => (byte)_row["isBasePoint"].Value;
 		public byte[] pad3 => (byte[])_row["pad3"].Value;
 		public byte[] pad4 => (byte[])_row["pad4"].Value;
-		public override string ToString() => $"ID: {ID} | Name: {Name} | srcAreaNo: {srcAreaNo} | srcGridXNo: {srcGridXNo} | srcGridZNo: {srcGridZNo} | srcPosX: {srcPosX} | srcPosY: {srcPosY} | srcPosZ: {srcPosZ} | dstAreaNo: {dstAreaNo} | dstGridXNo: {dstGridXNo} | dstGridZNo: {dstGridZNo} | dstPosX: {dstPosX} | dstPosY: {dstPosY} | dstPosZ: {dstPosZ}";
+		public override string ToString() => $"ID: {ID} | Name: {Name} | disableParam_NT: {disableParam_NT} | srcAreaNo: {srcAreaNo} | srcGridXNo: {srcGridXNo} | srcGridZNo: {srcGridZNo} | srcPosX: {srcPosX} | srcPosY: {srcPosY} | srcPosZ: {srcPosZ} | dstAreaNo: {dstAreaNo} | dstGridXNo: {dstGridXNo} | dstGridZNo: {dstGridZNo} | dstPosX: {dstPosX} | dstPosY: {dstPosY} | dstPosZ: {dstPosZ} | isBasePoint: {isBasePoint}";
 	}
 }

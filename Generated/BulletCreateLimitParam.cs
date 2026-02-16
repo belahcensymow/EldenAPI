@@ -17,9 +17,9 @@ namespace EldenRingDataExtractor
 		public int ID => _row.ID;
 		public string Name => _row.Name;
 		public byte limitNum_byGroup => (byte)_row["limitNum_byGroup"].Value;
-		public byte[] isLimitEachOwner => (byte[])_row["isLimitEachOwner"].Value;
+		public byte isLimitEachOwner => (byte)_row["isLimitEachOwner"].Value;
 		public byte[] pad2 => (byte[])_row["pad2"].Value;
 		public byte[] pad => (byte[])_row["pad"].Value;
-		public override string ToString() => $"ID: {ID} | Name: {Name} | limitNum_byGroup: {limitNum_byGroup}";
+		public override string ToString() => $"ID: {ID} | Name: {Name} | limitNum_byGroup: {limitNum_byGroup} | isLimitEachOwner: {isLimitEachOwner}";
 	}
 }

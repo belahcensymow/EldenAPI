@@ -17,9 +17,9 @@ namespace EldenRingDataExtractor
 		public int ID => _row.ID;
 		public string Name => _row.Name;
 		public uint mapId => (uint)_row["mapId"].Value;
-		public byte[] TransitionSrcWeather => (byte[])_row["TransitionSrcWeather"].Value;
+		public byte TransitionSrcWeather => (byte)_row["TransitionSrcWeather"].Value;
 		public byte[] padding0 => (byte[])_row["padding0"].Value;
-		public byte[] isFireAsh => (byte[])_row["isFireAsh"].Value;
+		public byte isFireAsh => (byte)_row["isFireAsh"].Value;
 		public byte[] padding1 => (byte[])_row["padding1"].Value;
 		public uint reserved2 => (uint)_row["reserved2"].Value;
 		public int AssetId0 => (int)_row["AssetId0"].Value;
@@ -36,6 +36,6 @@ namespace EldenRingDataExtractor
 		public sbyte CreateAssetLimitId2 => (sbyte)_row["CreateAssetLimitId2"].Value;
 		public sbyte CreateAssetLimitId3 => (sbyte)_row["CreateAssetLimitId3"].Value;
 		public byte[] reserved1 => (byte[])_row["reserved1"].Value;
-		public override string ToString() => $"ID: {ID} | Name: {Name} | mapId: {mapId} | reserved2: {reserved2} | AssetId0: {AssetId0} | AssetId1: {AssetId1} | AssetId2: {AssetId2} | AssetId3: {AssetId3} | AssetId4: {AssetId4} | AssetId5: {AssetId5} | AssetId6: {AssetId6} | AssetId7: {AssetId7} | CreateAssetLimitId0: {CreateAssetLimitId0} | CreateAssetLimitId1: {CreateAssetLimitId1} | CreateAssetLimitId2: {CreateAssetLimitId2} | CreateAssetLimitId3: {CreateAssetLimitId3}";
+		public override string ToString() => $"ID: {ID} | Name: {Name} | mapId: {mapId} | TransitionSrcWeather: {TransitionSrcWeather} | isFireAsh: {isFireAsh} | reserved2: {reserved2} | AssetId0: {AssetId0} | AssetId1: {AssetId1} | AssetId2: {AssetId2} | AssetId3: {AssetId3} | AssetId4: {AssetId4} | AssetId5: {AssetId5} | AssetId6: {AssetId6} | AssetId7: {AssetId7} | CreateAssetLimitId0: {CreateAssetLimitId0} | CreateAssetLimitId1: {CreateAssetLimitId1} | CreateAssetLimitId2: {CreateAssetLimitId2} | CreateAssetLimitId3: {CreateAssetLimitId3}";
 	}
 }

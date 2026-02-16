@@ -16,13 +16,13 @@ namespace EldenRingDataExtractor
 		public SoundChrPhysicsSeParamRow(PARAM.Row row) => _row = row;
 		public int ID => _row.ID;
 		public string Name => _row.Name;
-		public byte[] disableParam_NT => (byte[])_row["disableParam_NT"].Value;
+		public byte disableParam_NT => (byte)_row["disableParam_NT"].Value;
 		public byte[] disableParamReserve1 => (byte[])_row["disableParamReserve1"].Value;
 		public byte[] disableParamReserve2 => (byte[])_row["disableParamReserve2"].Value;
 		public int ContactLandSeId => (int)_row["ContactLandSeId"].Value;
 		public int ContactLandAddSeId => (int)_row["ContactLandAddSeId"].Value;
 		public int ContactLandPlayNum => (int)_row["ContactLandPlayNum"].Value;
-		public byte[] IsEnablePlayCountPerRigid => (byte[])_row["IsEnablePlayCountPerRigid"].Value;
+		public byte IsEnablePlayCountPerRigid => (byte)_row["IsEnablePlayCountPerRigid"].Value;
 		public byte[] pad => (byte[])_row["pad"].Value;
 		public float ContactLandMinImpuse => (float)_row["ContactLandMinImpuse"].Value;
 		public float ContactLandMinSpeed => (float)_row["ContactLandMinSpeed"].Value;
@@ -45,6 +45,6 @@ namespace EldenRingDataExtractor
 		public sbyte ContactCheckRigidIdx13 => (sbyte)_row["ContactCheckRigidIdx13"].Value;
 		public sbyte ContactCheckRigidIdx14 => (sbyte)_row["ContactCheckRigidIdx14"].Value;
 		public sbyte ContactCheckRigidIdx15 => (sbyte)_row["ContactCheckRigidIdx15"].Value;
-		public override string ToString() => $"ID: {ID} | Name: {Name} | ContactLandSeId: {ContactLandSeId} | ContactLandAddSeId: {ContactLandAddSeId} | ContactLandPlayNum: {ContactLandPlayNum} | ContactLandMinImpuse: {ContactLandMinImpuse} | ContactLandMinSpeed: {ContactLandMinSpeed} | ContactPlayerSeId: {ContactPlayerSeId} | ContactPlayerMinImpuse: {ContactPlayerMinImpuse} | ContactPlayerMinSpeed: {ContactPlayerMinSpeed} | ContactCheckRigidIdx0: {ContactCheckRigidIdx0} | ContactCheckRigidIdx1: {ContactCheckRigidIdx1} | ContactCheckRigidIdx2: {ContactCheckRigidIdx2} | ContactCheckRigidIdx3: {ContactCheckRigidIdx3} | ContactCheckRigidIdx4: {ContactCheckRigidIdx4} | ContactCheckRigidIdx5: {ContactCheckRigidIdx5} | ContactCheckRigidIdx6: {ContactCheckRigidIdx6} | ContactCheckRigidIdx7: {ContactCheckRigidIdx7} | ContactCheckRigidIdx8: {ContactCheckRigidIdx8} | ContactCheckRigidIdx9: {ContactCheckRigidIdx9} | ContactCheckRigidIdx10: {ContactCheckRigidIdx10} | ContactCheckRigidIdx11: {ContactCheckRigidIdx11} | ContactCheckRigidIdx12: {ContactCheckRigidIdx12} | ContactCheckRigidIdx13: {ContactCheckRigidIdx13} | ContactCheckRigidIdx14: {ContactCheckRigidIdx14} | ContactCheckRigidIdx15: {ContactCheckRigidIdx15}";
+		public override string ToString() => $"ID: {ID} | Name: {Name} | disableParam_NT: {disableParam_NT} | ContactLandSeId: {ContactLandSeId} | ContactLandAddSeId: {ContactLandAddSeId} | ContactLandPlayNum: {ContactLandPlayNum} | IsEnablePlayCountPerRigid: {IsEnablePlayCountPerRigid} | ContactLandMinImpuse: {ContactLandMinImpuse} | ContactLandMinSpeed: {ContactLandMinSpeed} | ContactPlayerSeId: {ContactPlayerSeId} | ContactPlayerMinImpuse: {ContactPlayerMinImpuse} | ContactPlayerMinSpeed: {ContactPlayerMinSpeed} | ContactCheckRigidIdx0: {ContactCheckRigidIdx0} | ContactCheckRigidIdx1: {ContactCheckRigidIdx1} | ContactCheckRigidIdx2: {ContactCheckRigidIdx2} | ContactCheckRigidIdx3: {ContactCheckRigidIdx3} | ContactCheckRigidIdx4: {ContactCheckRigidIdx4} | ContactCheckRigidIdx5: {ContactCheckRigidIdx5} | ContactCheckRigidIdx6: {ContactCheckRigidIdx6} | ContactCheckRigidIdx7: {ContactCheckRigidIdx7} | ContactCheckRigidIdx8: {ContactCheckRigidIdx8} | ContactCheckRigidIdx9: {ContactCheckRigidIdx9} | ContactCheckRigidIdx10: {ContactCheckRigidIdx10} | ContactCheckRigidIdx11: {ContactCheckRigidIdx11} | ContactCheckRigidIdx12: {ContactCheckRigidIdx12} | ContactCheckRigidIdx13: {ContactCheckRigidIdx13} | ContactCheckRigidIdx14: {ContactCheckRigidIdx14} | ContactCheckRigidIdx15: {ContactCheckRigidIdx15}";
 	}
 }

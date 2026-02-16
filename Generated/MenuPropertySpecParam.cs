@@ -18,11 +18,11 @@ namespace EldenRingDataExtractor
 		public string Name => _row.Name;
 		public int CaptionTextID => (int)_row["CaptionTextID"].Value;
 		public int IconID => (int)_row["IconID"].Value;
-		public byte[] RequiredPropertyID => (byte[])_row["RequiredPropertyID"].Value;
-		public byte[] CompareType => (byte[])_row["CompareType"].Value;
+		public byte RequiredPropertyID => (byte)_row["RequiredPropertyID"].Value;
+		public byte CompareType => (byte)_row["CompareType"].Value;
 		public byte[] pad2 => (byte[])_row["pad2"].Value;
-		public byte[] FormatType => (byte[])_row["FormatType"].Value;
+		public byte FormatType => (byte)_row["FormatType"].Value;
 		public byte[] pad => (byte[])_row["pad"].Value;
-		public override string ToString() => $"ID: {ID} | Name: {Name} | CaptionTextID: {CaptionTextID} | IconID: {IconID}";
+		public override string ToString() => $"ID: {ID} | Name: {Name} | CaptionTextID: {CaptionTextID} | IconID: {IconID} | RequiredPropertyID: {RequiredPropertyID} | CompareType: {CompareType} | FormatType: {FormatType}";
 	}
 }

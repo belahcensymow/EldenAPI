@@ -16,7 +16,7 @@ namespace EldenRingDataExtractor
 		public BasechrSelectMenuParamRow(PARAM.Row row) => _row = row;
 		public int ID => _row.ID;
 		public string Name => _row.Name;
-		public byte[] disableParam_NT => (byte[])_row["disableParam_NT"].Value;
+		public byte disableParam_NT => (byte)_row["disableParam_NT"].Value;
 		public byte[] disableParamReserve1 => (byte[])_row["disableParamReserve1"].Value;
 		public byte[] disableParamReserve2 => (byte[])_row["disableParamReserve2"].Value;
 		public uint chrInitParam => (uint)_row["chrInitParam"].Value;
@@ -24,6 +24,6 @@ namespace EldenRingDataExtractor
 		public int imageId => (int)_row["imageId"].Value;
 		public int textId => (int)_row["textId"].Value;
 		public byte[] reserve => (byte[])_row["reserve"].Value;
-		public override string ToString() => $"ID: {ID} | Name: {Name} | chrInitParam: {chrInitParam} | originChrInitParam: {originChrInitParam} | imageId: {imageId} | textId: {textId}";
+		public override string ToString() => $"ID: {ID} | Name: {Name} | disableParam_NT: {disableParam_NT} | chrInitParam: {chrInitParam} | originChrInitParam: {originChrInitParam} | imageId: {imageId} | textId: {textId}";
 	}
 }

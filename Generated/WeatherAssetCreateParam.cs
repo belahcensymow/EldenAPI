@@ -18,11 +18,11 @@ namespace EldenRingDataExtractor
 		public string Name => _row.Name;
 		public uint AssetId => (uint)_row["AssetId"].Value;
 		public uint SlotNo => (uint)_row["SlotNo"].Value;
-		public byte[] CreateConditionType => (byte[])_row["CreateConditionType"].Value;
+		public byte CreateConditionType => (byte)_row["CreateConditionType"].Value;
 		public byte[] padding0 => (byte[])_row["padding0"].Value;
-		public byte[] TransitionSrcWeather => (byte[])_row["TransitionSrcWeather"].Value;
-		public byte[] TransitionDstWeather => (byte[])_row["TransitionDstWeather"].Value;
-		public byte[] ElapsedTimeCheckweather => (byte[])_row["ElapsedTimeCheckweather"].Value;
+		public byte TransitionSrcWeather => (byte)_row["TransitionSrcWeather"].Value;
+		public byte TransitionDstWeather => (byte)_row["TransitionDstWeather"].Value;
+		public byte ElapsedTimeCheckweather => (byte)_row["ElapsedTimeCheckweather"].Value;
 		public byte[] padding1 => (byte[])_row["padding1"].Value;
 		public float ElapsedTime => (float)_row["ElapsedTime"].Value;
 		public float CreateDelayTime => (float)_row["CreateDelayTime"].Value;
@@ -40,6 +40,6 @@ namespace EldenRingDataExtractor
 		public sbyte CreateAssetLimitId2 => (sbyte)_row["CreateAssetLimitId2"].Value;
 		public sbyte CreateAssetLimitId3 => (sbyte)_row["CreateAssetLimitId3"].Value;
 		public byte[] Reserved2 => (byte[])_row["Reserved2"].Value;
-		public override string ToString() => $"ID: {ID} | Name: {Name} | AssetId: {AssetId} | SlotNo: {SlotNo} | ElapsedTime: {ElapsedTime} | CreateDelayTime: {CreateDelayTime} | CreateProbability: {CreateProbability} | LifeTime: {LifeTime} | FadeTime: {FadeTime} | EnableCreateTimeMin: {EnableCreateTimeMin} | EnableCreateTimeMax: {EnableCreateTimeMax} | CreatePoint0: {CreatePoint0} | CreatePoint1: {CreatePoint1} | CreatePoint2: {CreatePoint2} | CreatePoint3: {CreatePoint3} | CreateAssetLimitId0: {CreateAssetLimitId0} | CreateAssetLimitId1: {CreateAssetLimitId1} | CreateAssetLimitId2: {CreateAssetLimitId2} | CreateAssetLimitId3: {CreateAssetLimitId3}";
+		public override string ToString() => $"ID: {ID} | Name: {Name} | AssetId: {AssetId} | SlotNo: {SlotNo} | CreateConditionType: {CreateConditionType} | TransitionSrcWeather: {TransitionSrcWeather} | TransitionDstWeather: {TransitionDstWeather} | ElapsedTimeCheckweather: {ElapsedTimeCheckweather} | ElapsedTime: {ElapsedTime} | CreateDelayTime: {CreateDelayTime} | CreateProbability: {CreateProbability} | LifeTime: {LifeTime} | FadeTime: {FadeTime} | EnableCreateTimeMin: {EnableCreateTimeMin} | EnableCreateTimeMax: {EnableCreateTimeMax} | CreatePoint0: {CreatePoint0} | CreatePoint1: {CreatePoint1} | CreatePoint2: {CreatePoint2} | CreatePoint3: {CreatePoint3} | CreateAssetLimitId0: {CreateAssetLimitId0} | CreateAssetLimitId1: {CreateAssetLimitId1} | CreateAssetLimitId2: {CreateAssetLimitId2} | CreateAssetLimitId3: {CreateAssetLimitId3}";
 	}
 }

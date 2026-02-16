@@ -16,12 +16,12 @@ namespace EldenRingDataExtractor
 		public KnowledgeLoadscreenItemParamRow(PARAM.Row row) => _row = row;
 		public int ID => _row.ID;
 		public string Name => _row.Name;
-		public byte[] disableParam_NT => (byte[])_row["disableParam_NT"].Value;
+		public byte disableParam_NT => (byte)_row["disableParam_NT"].Value;
 		public byte[] disableParamReserve1 => (byte[])_row["disableParamReserve1"].Value;
 		public byte[] disableParamReserve2 => (byte[])_row["disableParamReserve2"].Value;
 		public uint unlockFlagId => (uint)_row["unlockFlagId"].Value;
 		public uint invalidFlagId => (uint)_row["invalidFlagId"].Value;
 		public int msgId => (int)_row["msgId"].Value;
-		public override string ToString() => $"ID: {ID} | Name: {Name} | unlockFlagId: {unlockFlagId} | invalidFlagId: {invalidFlagId} | msgId: {msgId}";
+		public override string ToString() => $"ID: {ID} | Name: {Name} | disableParam_NT: {disableParam_NT} | unlockFlagId: {unlockFlagId} | invalidFlagId: {invalidFlagId} | msgId: {msgId}";
 	}
 }

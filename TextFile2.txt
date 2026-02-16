@@ -1,0 +1,371 @@
+WorldMapPointParam
+
+Stormveil Castle | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Leyndell, Royal Capital | Leyndell, Ashen Capital | -1 | -1 | -1 | -1 | -1 | -1
+Crumbling Farum Azula | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Academy of Raya Lucaria | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Miquella's Haligtree | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Elphael, Brace of the Haligtree | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Volcano Manor | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Stranded Graveyard | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Fringefolk Hero's Grave | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Belurat, Tower Settlement | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Miquella's Cross | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Enir-Ilim | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Miquella's Cross | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Shadow Keep | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Miquella's Cross | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Stone Coffin Fissure | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Miquella's Cross | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Midra's Manse | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Tombsward Catacombs | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Impaler's Catacombs | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Stormfoot Catacombs | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Road's End Catacombs | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Murkwater Catacombs | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Black Knife Catacombs | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Cliffbottom Catacombs | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Wyndham Catacombs | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Sainted Hero's Grave | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Gelmir Hero's Grave | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Auriza Hero's Grave | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Deathtouched Catacombs | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Unsightly Catacombs | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Auriza Side Tomb | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Minor Erdtree Catacombs | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Caelid Catacombs | -1 | -1 | -1 | -1 | -1 | -1 | -1
+War-Dead Catacombs | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Giant-Conquering Hero's Grave | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Giants' Mountaintop Catacombs | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Consecrated Snowfield Catacombs | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Hidden Path to the Haligtree | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Murkwater Cave | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Earthbore Cave | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Tombsward Cave | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Groveside Cave | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Stillwater Cave | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Lakeside Crystal Cave | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Academy Crystal Cave | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Seethewater Cave | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Volcano Cave | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Dragonbarrow Cave | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Sellia Hideaway | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Cave of the Forlorn | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Coastal Cave | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Highroad Cave | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Perfumer's Grotto | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Sage's Cave | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Abandoned Cave | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Gaol Cave | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Spiritcaller Cave | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Morne Tunnel | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Limgrave Tunnels | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Raya Lucaria Crystal Tunnel | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Old Altus Tunnel | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Altus Tunnel | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Gael Tunnel | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Sellia Crystal Tunnel | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Yelough Anix Tunnel | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Divine Tower of Limgrave | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Carian Study Hall | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Divine Tower of Liurnia | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Sealed Tunnel | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Divine Tower of West Altus | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Divine Tower of Caelid | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Divine Tower of East Altus | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Isolated Divine Tower | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Subterranean Shunning-Grounds | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Ruin-Strewn Precipice | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Fog Rift Catacombs | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Scorpion River Catacombs | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Darklight Catacombs | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Belurat Gaol | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Bonny Gaol | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Lamenter's Gaol | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Ruined Forge Lava Intake | -1 | -1 | -1 | -1 | -1 | -1 | -1
+ID:42010 | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Ruined Forge of Starfall Past | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Taylew's Ruined Forge | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Rivermouth Cave | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Dragon's Pit | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Royal Colosseum | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Limgrave Colosseum | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Caelid Colosseum | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Isolated Merchant's Shack | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Fourth Church of Marika | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Witchbane Ruins | -1 | Sorceress Sellen | Castellan Jerren | -1 | -1 | -1 | -1
+Church of Dragon Communion | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Stormhill Shack | -1 | Heartbroken Maiden | -1 | -1 | -1 | -1 | -1
+Tower of Return | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Weeping Evergaol | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Tombsward Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Church of Elleh | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Gatefront Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Stormhill Evergaol | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Stormgate | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Warmaster's Shack | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Castle Morne | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Minor Erdtree | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Church of Pilgrimage | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Demi-Human Forest Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Dragon-Burnt Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Callu Baptismal Church | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Ailing Village | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Bridge of Sacrifice | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Forest Lookout Tower | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Forlorn Hound Evergaol | -1 | Blaidd the Half-Wolf | Blaidd the Half-Wolf | -1 | -1 | -1 | -1
+Waypoint Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Artist's Shack | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Oridys's Rise | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Starfall Crater | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Siofra River Well | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Mistwood Ruins | -1 | Blaidd the Half-Wolf | -1 | -1 | -1 | -1 | -1
+Minor Erdtree | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Summonwater Village | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Fort Haight | -1 | Kenneth Haight, Limgrave Heir | -1 | -1 | -1 | -1 | -1
+Third Church of Marika | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Chelona's Rise | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Ringleader's Evergaol | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Minor Erdtree | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Revenger's Shack | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Cuckoo's Evergaol | -1 | -1 | -1 | -1 | -1 | -1 | -1
+The Four Belfries | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Deep Ainsel Well | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Moonfolk Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Converted Tower | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Temple Quarter | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Kingsrealm Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Seluvis's Rise | -1 | Preceptor Seluvis | Preceptor Seluvis | Preceptor Seluvis | -1 | -1 | -1
+Ranni's Rise | -1 | Ranni the Witch | Ranni the Witch | Blaidd the Half-Wolf | Blaidd the Half-Wolf | War Counselor Iji | Preceptor Seluvis
+Three Sisters | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Renna's Rise | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Lunar Estate Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Village of the Albinaurics | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Cathedral of Manus Celes | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Rose Church | -1 | White Mask Varré | -1 | -1 | -1 | -1 | -1
+Testu's Rise | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Caria Manor | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Slumbering Wolf's Shack | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Boilprawn Shack | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Bellum Church | -1 | Lightseeker Hyetta | -1 | -1 | -1 | -1 | -1
+Royal Grave Evergaol | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Laskyar Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Academy Gate Town | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Church of Vows | -1 | Miriel, Pastor of Vows | -1 | -1 | -1 | -1 | -1
+Church of Inhibition | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Malefactor's Evergaol | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Highway Lookout Tower | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Artist's Shack | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Ainsel River Well | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Uld Palace Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Frenzied Flame Village | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Minor Erdtree | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Frenzy-Flaming Tower | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Church of Irith | -1 | Sorcerer Thops | -1 | -1 | -1 | -1 | -1
+Purified Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Jarburg | -1 | Jar-Bairn | Potentate Diallos | Potentate Diallos | -1 | -1 | -1
+Converted Fringe Tower | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Fort Laiedd | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Perfumer's Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Hermit's Shack | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Craftsman's Shack | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Stormcaller Church | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Hermit Village | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Minor Erdtree | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Grand Lift of Dectus | -1 | Rya the Scout | -1 | -1 | -1 | -1 | -1
+Lux Ruins | -1 | Rya the Scout | -1 | -1 | -1 | -1 | -1
+Wyndham Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Corpse-Stench Shack | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Golden Lineage Evergaol | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Second Church of Marika | -1 | Yura, Hunter of Bloody Fingers | -1 | -1 | -1 | -1 | -1
+Mirage Rise | -1 | -1 | -1 | -1 | -1 | -1 | -1
+The Shaded Castle | -1 | -1 | -1 | -1 | -1 | -1 | -1
+St. Trina's Hideaway | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Writheblood Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1
+West Windmill Pasture | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Woodfolk Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Minor Erdtree | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Dominula, Windmill Village | -1 | -1 | -1 | -1 | -1 | -1 | -1
+East Windmill Pasture | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Village Windmill Pasture | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Highway Lookout Tower | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Minor Erdtree Church | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Hermit Merchant's Shack | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Minor Erdtree | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Smoldering Church | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Shack of the Rotting | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Caelid Waypoint Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Fort Gael | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Forsaken Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Minor Erdtree | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Caelem Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Cathedral of Dragon Communion | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Street of Sages Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Isolated Merchant's Shack | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Swamp Lookout Tower | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Sellia Gateway | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Sellia Evergaol | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Deep Siofra Well | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Gowry's Shack | -1 | Millicent | Sage Gowry | -1 | -1 | -1 | -1
+Church of the Plague | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Sellia, Town of Sorcery | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Redmane Castle | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Wailing Dunes | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Fort Faroth | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Minor Erdtree | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Bestial Sanctum | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Lenne's Rise | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Yelough Anix Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Apostate Derelict | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Ordina, Liturgical Town | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Zamor Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Grand Lift of Rold | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Shack of the Lofty | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Minor Erdtree | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Albinauric Rise | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Church of Repose | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Stargazers' Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Castle Sol | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Guardians' Garrison | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Minor Erdtree | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Heretical Rise | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Lord Contender's Evergaol | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Forge of the Giants | -1 | -1 | -1 | -1 | -1 | -1 | -1
+First Church of Marika | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Uhl Palace Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Uhl Palace Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Nokstella, Eternal City | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Grand Cloister | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Night's Sacred Ground | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Siofra Aqueduct | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Hallowhorn Grounds | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Hallowhorn Grounds | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Mohgwyn Dynasty Mausoleum | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Nokron, Eternal City | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Prospect Town | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Miquella's Cross | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Southern Nameless Mausoleum | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Church of Benediction | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Artist's Shack | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Western Nameless Mausoleum | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Miquella's Cross | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Scorched Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Run-Down Traveler's Rest | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Ellac Greatbridge | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Abandoned Ailing Village | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Castle Ensis | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Miquella's Cross | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Miquella's Cross | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Finger-Weaver's Hovel | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Church of Consolation | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Suppressing Pillar | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Miquella's Cross | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Grand Altar of Dragon Communion | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Elder's Hovel | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Finger Ruins of Rhia | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Finger Ruins of Rhia | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Abandoned Church | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Temple Town Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Northern Nameless Mausoleum | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Miquella's Cross | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Fog Rift Fort | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Church of the Crusade | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Miquella's Cross | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Miquella's Cross | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Fort of Reprimand | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Miquella's Cross | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Moorth Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Scadutree Chalice | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Albinauric's Shack | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Whipping Hut | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Bonny Village | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Village of Flies | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Ruins of Unte | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Scadutree Base | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Eastern Nameless Mausoleum | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Cathedral of Manus Metyr | -1 | Count Ymir, High Priest | Swordhand of Night Jolán | -1 | -1 | -1 | -1
+Finger Ruins of Miyr | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Rabbath's Rise | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Finger Ruins of Miyr | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Shaman Village | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Finger Ruins of Dheo | -1 | -1 | -1 | -1 | -1 | -1 | -1
+Finger Ruins of Dheo | -1 | -1 | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Gatekeeper Gostoc | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Sorcerer Rogier | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Nepheli Loux, Warrior | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Nepheli Loux, Warrior | Kenneth Haight, Limgrave Heir | Gatekeeper Gostoc | -1 | -1 | -1
+-1 | -1 | Volcano Manor Request: Vargram | -1 | -1 | -1 | -1 | -1
+-1 | -1 | The Noble Goldmask | Scribe Corhyn | -1 | -1 | -1 | -1
+-1 | -1 | Scribe Corhyn | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Alexander, Warrior Jar | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Castellan Jerren | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Millicent | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Zorayas the Scout | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Dung Eater | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Dung Eater | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Volcano Manor Request: Tragoth | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Nomadic Merchant | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Finger Reader Crone | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Volcano Manor Request: Istvan | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Castellan Edgar | Castellan Edgar | -1 | -1 | -1 | -1
+-1 | -1 | Yura, Hunter of Bloody Fingers | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Demi-Human Boc | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Alexander, Warrior Jar | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Yura, Hunter of Bloody Fingers | -1 | -1 | -1 | -1 | -1
+-1 | -1 | D, Hunter of the Dead | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Nomadic Merchant | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Irina of Morne | Castellan Edgar | -1 | -1 | -1 | -1
+-1 | -1 | Nomadic Merchant | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Kenneth Haight, Limgrave Heir | -1 | -1 | -1 | -1 | -1
+-1 | -1 | D, Hunter of the Dead | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Sending Gate | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Nepheli Loux, Warrior | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Sorceress Sellen | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Ranni the Witch | Ranni the Witch | -1 | -1 | -1 | -1
+-1 | -1 | Old Albus | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Isolated Merchant | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Yura, Hunter of Bloody Fingers | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Pidia, Carian Servant | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Finger Reader Crone | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Finger Reader Crone | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Nomadic Merchant | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Rya the Scout | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Knight Diallos | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Lightseeker Hyetta | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Lightseeker Hyetta | Lightseeker Hyetta | -1 | -1 | -1 | -1
+-1 | -1 | Alexander, Warrior Jar | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Alexander, Warrior Jar | Alexander, Warrior Jar | -1 | -1 | -1 | -1
+-1 | -1 | Patches | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Nomadic Merchant | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Millicent | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Volcano Manor Request: Rileigh | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Patches | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Brother Corhyn | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Finger Reader Crone | -1 | -1 | -1 | -1 | -1
+-1 | -1 | The Noble Goldmask | Scribe Corhyn | -1 | -1 | -1 | -1
+-1 | -1 | Finger Reader Crone | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Blackguard | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Nomadic Merchant | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Finger Reader Crone | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Nomadic Merchant | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Castellan Jerren | Castellan Jerren | -1 | -1 | -1 | -1
+-1 | -1 | Grand Lift of Rold | -1 | -1 | -1 | -1 | -1
+-1 | -1 | The Rold Route | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Volcano Manor Request: Juno Hoslow | -1 | -1 | -1 | -1 | -1
+-1 | -1 | The Noble Goldmask | Scribe Corhyn | Scribe Corhyn | -1 | -1 | -1
+-1 | -1 | Hermit Merchant | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Hermit Merchant | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Blaidd the Half-Wolf | -1 | -1 | -1 | -1 | -1
+-1 | -1 | D, Beholder of Death | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Abandoned Merchant | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Imprisoned Merchant | -1 | -1 | -1 | -1 | -1
+-1 | -1 | White Mask Varré | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Hornsent Grandam | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Needle Knight Leda | Redmane Freyja | Hornsent | Moore | Dryleaf Dane | -1
+-1 | -1 | Pureblood Knight Ansbach | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Pureblood Knight Ansbach | Thiollier | -1 | -1 | -1 | -1
+-1 | -1 | Needle Knight Leda | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Fire Knight Queelign | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Sir Ansbach | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Igon | -1 | -1 | -1 | -1 | -1
+-1 | -1 | Igon | -1 | -1 | -1 | -1 | -1

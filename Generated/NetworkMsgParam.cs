@@ -17,7 +17,7 @@ namespace EldenRingDataExtractor
 		public int ID => _row.ID;
 		public string Name => _row.Name;
 		public ushort priority => (ushort)_row["priority"].Value;
-		public byte[] forcePlay => (byte[])_row["forcePlay"].Value;
+		public byte forcePlay => (byte)_row["forcePlay"].Value;
 		public byte[] pad1 => (byte[])_row["pad1"].Value;
 		public int normalWhite => (int)_row["normalWhite"].Value;
 		public int umbasaWhite => (int)_row["umbasaWhite"].Value;
@@ -60,6 +60,6 @@ namespace EldenRingDataExtractor
 		public int forceJoinBlack_B_Npc => (int)_row["forceJoinBlack_B_Npc"].Value;
 		public int forceJoinBlack_C_Npc => (int)_row["forceJoinBlack_C_Npc"].Value;
 		public byte[] pad2 => (byte[])_row["pad2"].Value;
-		public override string ToString() => $"ID: {ID} | Name: {Name} | priority: {priority} | normalWhite: {normalWhite} | umbasaWhite: {umbasaWhite} | berserkerWhite: {berserkerWhite} | sinnerHeroWhite: {sinnerHeroWhite} | normalBlack: {normalBlack} | umbasaBlack: {umbasaBlack} | berserkerBlack: {berserkerBlack} | forceJoinBlack: {forceJoinBlack} | forceJoinUmbasaBlack: {forceJoinUmbasaBlack} | forceJoinBerserkerBlack: {forceJoinBerserkerBlack} | sinnerHunterVisitor: {sinnerHunterVisitor} | redHunterVisitor: {redHunterVisitor} | guardianOfBossVisitor: {guardianOfBossVisitor} | guardianOfForestMapVisitor: {guardianOfForestMapVisitor} | guardianOfAnolisVisitor: {guardianOfAnolisVisitor} | rosaliaBlack: {rosaliaBlack} | forceJoinRosaliaBlack: {forceJoinRosaliaBlack} | redHunterVisitor2: {redHunterVisitor2} | npc1: {npc1} | npc2: {npc2} | npc3: {npc3} | npc4: {npc4} | battleRoyal: {battleRoyal} | npc5: {npc5} | npc6: {npc6} | npc7: {npc7} | npc8: {npc8} | npc9: {npc9} | npc10: {npc10} | npc11: {npc11} | npc12: {npc12} | npc13: {npc13} | npc14: {npc14} | npc15: {npc15} | npc16: {npc16} | forceJoinBlack_B: {forceJoinBlack_B} | normalWhite_Npc: {normalWhite_Npc} | forceJoinBlack_Npc: {forceJoinBlack_Npc} | forceJoinBlack_B_Npc: {forceJoinBlack_B_Npc} | forceJoinBlack_C_Npc: {forceJoinBlack_C_Npc}";
+		public override string ToString() => $"ID: {ID} | Name: {Name} | priority: {priority} | forcePlay: {forcePlay} | normalWhite: {normalWhite} | umbasaWhite: {umbasaWhite} | berserkerWhite: {berserkerWhite} | sinnerHeroWhite: {sinnerHeroWhite} | normalBlack: {normalBlack} | umbasaBlack: {umbasaBlack} | berserkerBlack: {berserkerBlack} | forceJoinBlack: {forceJoinBlack} | forceJoinUmbasaBlack: {forceJoinUmbasaBlack} | forceJoinBerserkerBlack: {forceJoinBerserkerBlack} | sinnerHunterVisitor: {sinnerHunterVisitor} | redHunterVisitor: {redHunterVisitor} | guardianOfBossVisitor: {guardianOfBossVisitor} | guardianOfForestMapVisitor: {guardianOfForestMapVisitor} | guardianOfAnolisVisitor: {guardianOfAnolisVisitor} | rosaliaBlack: {rosaliaBlack} | forceJoinRosaliaBlack: {forceJoinRosaliaBlack} | redHunterVisitor2: {redHunterVisitor2} | npc1: {npc1} | npc2: {npc2} | npc3: {npc3} | npc4: {npc4} | battleRoyal: {battleRoyal} | npc5: {npc5} | npc6: {npc6} | npc7: {npc7} | npc8: {npc8} | npc9: {npc9} | npc10: {npc10} | npc11: {npc11} | npc12: {npc12} | npc13: {npc13} | npc14: {npc14} | npc15: {npc15} | npc16: {npc16} | forceJoinBlack_B: {forceJoinBlack_B} | normalWhite_Npc: {normalWhite_Npc} | forceJoinBlack_Npc: {forceJoinBlack_Npc} | forceJoinBlack_B_Npc: {forceJoinBlack_B_Npc} | forceJoinBlack_C_Npc: {forceJoinBlack_C_Npc}";
 	}
 }

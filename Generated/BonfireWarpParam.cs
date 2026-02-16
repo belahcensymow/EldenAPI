@@ -16,7 +16,7 @@ namespace EldenRingDataExtractor
 		public BonfireWarpParamRow(PARAM.Row row) => _row = row;
 		public int ID => _row.ID;
 		public string Name => _row.Name;
-		public byte[] disableParam_NT => (byte[])_row["disableParam_NT"].Value;
+		public byte disableParam_NT => (byte)_row["disableParam_NT"].Value;
 		public byte[] disableParamReserve1 => (byte[])_row["disableParamReserve1"].Value;
 		public byte[] disableParamReserve2 => (byte[])_row["disableParamReserve2"].Value;
 		public uint eventflagId => (uint)_row["eventflagId"].Value;
@@ -29,8 +29,8 @@ namespace EldenRingDataExtractor
 		public int bonfireSubCategoryId => (int)_row["bonfireSubCategoryId"].Value;
 		public uint clearedEventFlagId => (uint)_row["clearedEventFlagId"].Value;
 		public ushort iconId => (ushort)_row["iconId"].Value;
-		public byte[] dispMask00 => (byte[])_row["dispMask00"].Value;
-		public byte[] dispMask01 => (byte[])_row["dispMask01"].Value;
+		public byte dispMask00 => (byte)_row["dispMask00"].Value;
+		public byte dispMask01 => (byte)_row["dispMask01"].Value;
 		public byte[] pad1 => (byte[])_row["pad1"].Value;
 		public byte[] pad2 => (byte[])_row["pad2"].Value;
 		public byte areaNo => (byte)_row["areaNo"].Value;
@@ -64,14 +64,14 @@ namespace EldenRingDataExtractor
 		public int textId8 => (int)_row["textId8"].Value;
 		public uint textEnableFlagId8 => (uint)_row["textEnableFlagId8"].Value;
 		public uint textDisableFlagId8 => (uint)_row["textDisableFlagId8"].Value;
-		public byte[] textType1 => (byte[])_row["textType1"].Value;
-		public byte[] textType2 => (byte[])_row["textType2"].Value;
-		public byte[] textType3 => (byte[])_row["textType3"].Value;
-		public byte[] textType4 => (byte[])_row["textType4"].Value;
-		public byte[] textType5 => (byte[])_row["textType5"].Value;
-		public byte[] textType6 => (byte[])_row["textType6"].Value;
-		public byte[] textType7 => (byte[])_row["textType7"].Value;
-		public byte[] textType8 => (byte[])_row["textType8"].Value;
+		public byte textType1 => (byte)_row["textType1"].Value;
+		public byte textType2 => (byte)_row["textType2"].Value;
+		public byte textType3 => (byte)_row["textType3"].Value;
+		public byte textType4 => (byte)_row["textType4"].Value;
+		public byte textType5 => (byte)_row["textType5"].Value;
+		public byte textType6 => (byte)_row["textType6"].Value;
+		public byte textType7 => (byte)_row["textType7"].Value;
+		public byte textType8 => (byte)_row["textType8"].Value;
 		public int noIgnitionSfxDmypolyId_0 => (int)_row["noIgnitionSfxDmypolyId_0"].Value;
 		public int noIgnitionSfxId_0 => (int)_row["noIgnitionSfxId_0"].Value;
 		public int noIgnitionSfxDmypolyId_1 => (int)_row["noIgnitionSfxDmypolyId_1"].Value;
@@ -93,6 +93,6 @@ namespace EldenRingDataExtractor
 		public int unkE0 => (int)_row["unkE0"].Value;
 		public int unkE4 => (int)_row["unkE4"].Value;
 		public int unkE8 => (int)_row["unkE8"].Value;
-		public override string ToString() => $"ID: {ID} | Name: {Name} | eventflagId: {eventflagId} | bonfireEntityId: {bonfireEntityId} | bonfireSubCategorySortId: {bonfireSubCategorySortId} | forbiddenIconId: {forbiddenIconId} | dispMinZoomStep: {dispMinZoomStep} | selectMinZoomStep: {selectMinZoomStep} | bonfireSubCategoryId: {bonfireSubCategoryId} | clearedEventFlagId: {clearedEventFlagId} | iconId: {iconId} | areaNo: {areaNo} | gridXNo: {gridXNo} | gridZNo: {gridZNo} | posX: {posX} | posY: {posY} | posZ: {posZ} | textId1: {textId1} | textEnableFlagId1: {textEnableFlagId1} | textDisableFlagId1: {textDisableFlagId1} | textId2: {textId2} | textEnableFlagId2: {textEnableFlagId2} | textDisableFlagId2: {textDisableFlagId2} | textId3: {textId3} | textEnableFlagId3: {textEnableFlagId3} | textDisableFlagId3: {textDisableFlagId3} | textId4: {textId4} | textEnableFlagId4: {textEnableFlagId4} | textDisableFlagId4: {textDisableFlagId4} | textId5: {textId5} | textEnableFlagId5: {textEnableFlagId5} | textDisableFlagId5: {textDisableFlagId5} | textId6: {textId6} | textEnableFlagId6: {textEnableFlagId6} | textDisableFlagId6: {textDisableFlagId6} | textId7: {textId7} | textEnableFlagId7: {textEnableFlagId7} | textDisableFlagId7: {textDisableFlagId7} | textId8: {textId8} | textEnableFlagId8: {textEnableFlagId8} | textDisableFlagId8: {textDisableFlagId8} | noIgnitionSfxDmypolyId_0: {noIgnitionSfxDmypolyId_0} | noIgnitionSfxId_0: {noIgnitionSfxId_0} | noIgnitionSfxDmypolyId_1: {noIgnitionSfxDmypolyId_1} | noIgnitionSfxId_1: {noIgnitionSfxId_1} | unkA8: {unkA8} | unkAC: {unkAC} | unkB0: {unkB0} | unkB4: {unkB4} | unkB8: {unkB8} | unkBC: {unkBC} | unkC0: {unkC0} | unkC4: {unkC4} | unkC8: {unkC8} | unkCC: {unkCC} | unkD0: {unkD0} | unkD4: {unkD4} | unkD8: {unkD8} | unkDC: {unkDC} | unkE0: {unkE0} | unkE4: {unkE4} | unkE8: {unkE8}";
+		public override string ToString() => $"ID: {ID} | Name: {Name} | disableParam_NT: {disableParam_NT} | eventflagId: {eventflagId} | bonfireEntityId: {bonfireEntityId} | bonfireSubCategorySortId: {bonfireSubCategorySortId} | forbiddenIconId: {forbiddenIconId} | dispMinZoomStep: {dispMinZoomStep} | selectMinZoomStep: {selectMinZoomStep} | bonfireSubCategoryId: {bonfireSubCategoryId} | clearedEventFlagId: {clearedEventFlagId} | iconId: {iconId} | dispMask00: {dispMask00} | dispMask01: {dispMask01} | areaNo: {areaNo} | gridXNo: {gridXNo} | gridZNo: {gridZNo} | posX: {posX} | posY: {posY} | posZ: {posZ} | textId1: {textId1} | textEnableFlagId1: {textEnableFlagId1} | textDisableFlagId1: {textDisableFlagId1} | textId2: {textId2} | textEnableFlagId2: {textEnableFlagId2} | textDisableFlagId2: {textDisableFlagId2} | textId3: {textId3} | textEnableFlagId3: {textEnableFlagId3} | textDisableFlagId3: {textDisableFlagId3} | textId4: {textId4} | textEnableFlagId4: {textEnableFlagId4} | textDisableFlagId4: {textDisableFlagId4} | textId5: {textId5} | textEnableFlagId5: {textEnableFlagId5} | textDisableFlagId5: {textDisableFlagId5} | textId6: {textId6} | textEnableFlagId6: {textEnableFlagId6} | textDisableFlagId6: {textDisableFlagId6} | textId7: {textId7} | textEnableFlagId7: {textEnableFlagId7} | textDisableFlagId7: {textDisableFlagId7} | textId8: {textId8} | textEnableFlagId8: {textEnableFlagId8} | textDisableFlagId8: {textDisableFlagId8} | textType1: {textType1} | textType2: {textType2} | textType3: {textType3} | textType4: {textType4} | textType5: {textType5} | textType6: {textType6} | textType7: {textType7} | textType8: {textType8} | noIgnitionSfxDmypolyId_0: {noIgnitionSfxDmypolyId_0} | noIgnitionSfxId_0: {noIgnitionSfxId_0} | noIgnitionSfxDmypolyId_1: {noIgnitionSfxDmypolyId_1} | noIgnitionSfxId_1: {noIgnitionSfxId_1} | unkA8: {unkA8} | unkAC: {unkAC} | unkB0: {unkB0} | unkB4: {unkB4} | unkB8: {unkB8} | unkBC: {unkBC} | unkC0: {unkC0} | unkC4: {unkC4} | unkC8: {unkC8} | unkCC: {unkCC} | unkD0: {unkD0} | unkD4: {unkD4} | unkD8: {unkD8} | unkDC: {unkDC} | unkE0: {unkE0} | unkE4: {unkE4} | unkE8: {unkE8}";
 	}
 }

@@ -16,13 +16,13 @@ namespace EldenRingDataExtractor
 		public BonfireWarpSubCategoryParamRow(PARAM.Row row) => _row = row;
 		public int ID => _row.ID;
 		public string Name => _row.Name;
-		public byte[] disableParam_NT => (byte[])_row["disableParam_NT"].Value;
+		public byte disableParam_NT => (byte)_row["disableParam_NT"].Value;
 		public byte[] disableParamReserve1 => (byte[])_row["disableParamReserve1"].Value;
 		public byte[] disableParamReserve2 => (byte[])_row["disableParamReserve2"].Value;
 		public int textId => (int)_row["textId"].Value;
 		public ushort tabId => (ushort)_row["tabId"].Value;
 		public ushort sortId => (ushort)_row["sortId"].Value;
 		public byte[] pad => (byte[])_row["pad"].Value;
-		public override string ToString() => $"ID: {ID} | Name: {Name} | textId: {textId} | tabId: {tabId} | sortId: {sortId}";
+		public override string ToString() => $"ID: {ID} | Name: {Name} | disableParam_NT: {disableParam_NT} | textId: {textId} | tabId: {tabId} | sortId: {sortId}";
 	}
 }

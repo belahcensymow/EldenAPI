@@ -16,10 +16,10 @@ namespace EldenRingDataExtractor
 		public MapGdRegionDrawParamRow(PARAM.Row row) => _row = row;
 		public int ID => _row.ID;
 		public string Name => _row.Name;
-		public byte[] disableParam_NT => (byte[])_row["disableParam_NT"].Value;
+		public byte disableParam_NT => (byte)_row["disableParam_NT"].Value;
 		public byte[] disableParamReserve1 => (byte[])_row["disableParamReserve1"].Value;
 		public byte[] disableParamReserve2 => (byte[])_row["disableParamReserve2"].Value;
 		public float overrideIVLocalLightScale => (float)_row["overrideIVLocalLightScale"].Value;
-		public override string ToString() => $"ID: {ID} | Name: {Name} | overrideIVLocalLightScale: {overrideIVLocalLightScale}";
+		public override string ToString() => $"ID: {ID} | Name: {Name} | disableParam_NT: {disableParam_NT} | overrideIVLocalLightScale: {overrideIVLocalLightScale}";
 	}
 }

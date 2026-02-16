@@ -47,7 +47,7 @@ namespace EldenRingDataExtractor
             }
             param = PARAM.Read(file.Bytes);
 			string paramdefName = GetParamdefName(param);
-			param.ApplyParamdef(new ParamDefHandler(GetParamdefName(param)).GetPARAMDEF());
+			param.ApplyParamdef(new ParamDefHandler(paramdefName).GetPARAMDEF());
             _PARAMMetadata.Add(param, new RegulationMetadata { Name = file.Name, ID = file.ID });
             return param;
         }
@@ -110,7 +110,7 @@ namespace EldenRingDataExtractor
                 if (paramdefName.StartsWith("Cs")) paramdefName = paramdefName.Replace("Cs", "");
                 if (paramdefName.EndsWith("StDlc02.xml")) paramdefName = paramdefName.Replace("StDlc02.xml", ".xml");
                 else if (paramdefName.EndsWith("St.xml")) paramdefName = paramdefName.Replace("St.xml", ".xml");
-                Console.WriteLine(paramdefName);
+                //Console.WriteLine(paramdefName);
             }
 			return paramdefName;
         }
@@ -142,10 +142,12 @@ namespace EldenRingDataExtractor
             partialClassText.AppendLine("namespace EldenRingDataExtractor\r\n{");
             partialClassText.AppendLine("\tpublic partial class RegulationHandler\r\n\t{");
             HashSet<string> classesList = [];
+            //HashSet<string> typesList = [];
             foreach (var file in GetFiles())
             {
                 PARAM param = GetFile(file.Name);
                 string className = GetParamdefName(param).Replace(".xml", "");
+                //if (!className.Contains("BonfireWarpParam")) continue;
 				if (!classesList.Add(className)) continue;
 
                 partialClassText.AppendLine($"\t\tprivate {className} _{className};");
@@ -174,6 +176,7 @@ namespace EldenRingDataExtractor
                 foreach (var cell in param.Rows[0].Cells)
                 {
                     string propertyName = cell.Def.InternalName;
+                    //typesList.Add(MapType(cell.Def.InternalType));
 					if (!cellsNames.Add(propertyName)) continue;
                     string csharpType = MapType(cell.Def.InternalType);
                     if (csharpType != "byte[]") toStringText.Append($" | {propertyName}: {{{propertyName}}}");
@@ -185,30 +188,36 @@ namespace EldenRingDataExtractor
                 classText.AppendLine("}");
                 File.WriteAllText(Path.Combine(outputDir, $"{className}.cs"), classText.ToString());
             }
-
+            //foreach (var t in typesList) Console.WriteLine(t);
             partialClassText.AppendLine("\t}");
             partialClassText.AppendLine("}");
             File.WriteAllText(Path.Combine(outputDir, "RegulationHandler.Generated.cs"), partialClassText.ToString());
+            Console.WriteLine(outputDir);
         }
 
         public static string MapType(string xmlType)
         {
-            return xmlType.Trim().ToLower() switch
+            string type = xmlType.Trim();
+            string lowerType = type.ToLower();
+            switch (lowerType)
             {
-                "s8" => "sbyte",
-                "u8" => "byte",
-                "s16" => "short",
-                "u16" => "ushort",
-                "s32" => "int",
-                "u32" => "uint",
-                "b32" => "int",
-                "f32" => "float",
-                "angle32" => "float",
-                "f64" => "double",
-                "dummy8" => "byte[]",
-                "fixstr" or "fixstrw" => "string",
-                _ => "byte[]"
-            };
+                case "s8": return "sbyte";
+                case "u8": return "byte";
+                case "s16": return "short";
+                case "u16": return "ushort";
+                case "s32": return "int";
+                case "u32": return "uint";
+                case "b32": return "int";
+                case "f32": return "float";
+                case "angle32": return "float";
+                case "f64": return "double";
+                case "dummy8": return "byte[]";
+                case "fixstr": return "string";
+                case "fixstrw": return "string";
+            }
+            bool isEnum = !type.Any(char.IsLower) || type.Contains('_');
+            if (isEnum) return "byte";
+            return "byte[]";
         }
 
 

@@ -1,0 +1,51 @@
+--------------------------------------------------ITEM--------------------------------------------------
+Flags: 0x02 | ID: 10 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\GoodsName.fmg | Length: 114464
+Flags: 0x02 | ID: 11 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\WeaponName.fmg | Length: 242396
+Flags: 0x02 | ID: 12 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\ProtectorName.fmg | Length: 40836
+Flags: 0x02 | ID: 13 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\AccessoryName.fmg | Length: 11436
+Flags: 0x02 | ID: 14 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\MagicName.fmg | Length: 68
+WorldMapPointParam Flags: 0x02 | ID: 18 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\NpcName.fmg | Length: 22616
+WorldMapPointParam Flags: 0x02 | ID: 19 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\PlaceName.fmg | Length: 35116
+Flags: 0x02 | ID: 20 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\GoodsInfo.fmg | Length: 163768
+Flags: 0x02 | ID: 21 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\WeaponInfo.fmg | Length: 4152
+Flags: 0x02 | ID: 22 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\ProtectorInfo.fmg | Length: 59180
+Flags: 0x02 | ID: 23 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\AccessoryInfo.fmg | Length: 14692
+Flags: 0x02 | ID: 24 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\GoodsCaption.fmg | Length: 973056
+Flags: 0x02 | ID: 25 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\WeaponCaption.fmg | Length: 1341708
+Flags: 0x02 | ID: 26 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\ProtectorCaption.fmg | Length: 266588
+Flags: 0x02 | ID: 27 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\AccessoryCaption.fmg | Length: 69060
+Flags: 0x02 | ID: 28 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\MagicInfo.fmg | Length: 68
+Flags: 0x02 | ID: 29 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\MagicCaption.fmg | Length: 72
+Flags: 0x02 | ID: 35 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\GemName.fmg | Length: 10984
+Flags: 0x02 | ID: 36 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\GemInfo.fmg | Length: 12276
+Flags: 0x02 | ID: 37 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\GemCaption.fmg | Length: 58568
+Flags: 0x02 | ID: 41 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\GoodsDialog.fmg | Length: 4192
+Flags: 0x02 | ID: 42 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\ArtsName.fmg | Length: 7424
+Flags: 0x02 | ID: 43 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\ArtsCaption.fmg | Length: 67344
+Flags: 0x02 | ID: 44 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\WeaponEffect.fmg | Length: 5500
+Flags: 0x02 | ID: 45 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\GemEffect.fmg | Length: 64
+Flags: 0x02 | ID: 46 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\GoodsInfo2.fmg | Length: 40168
+--------------------------------------------------------------------------------------------------------
+
+
+
+--------------------------------------------------MENU--------------------------------------------------
+Flags: 0x02 | ID: 1 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\TalkMsg.fmg | Length: 1237464
+Flags: 0x02 | ID: 2 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\BloodMsg.fmg | Length: 441808
+Flags: 0x02 | ID: 3 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\MovieSubtitle.fmg | Length: 128
+Flags: 0x02 | ID: 31 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\NetworkMessage.fmg | Length: 37228
+Flags: 0x02 | ID: 32 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\ActionButtonText.fmg | Length: 11952
+Flags: 0x02 | ID: 33 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\EventTextForTalk.fmg | Length: 43848
+Flags: 0x02 | ID: 34 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\EventTextForMap.fmg | Length: 18476
+Flags: 0x02 | ID: 200 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\GR_MenuText.fmg | Length: 92552
+Flags: 0x02 | ID: 201 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\GR_LineHelp.fmg | Length: 30680
+Flags: 0x02 | ID: 202 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\GR_KeyGuide.fmg | Length: 5408
+Flags: 0x02 | ID: 203 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\GR_System_Message_win64.fmg | Length: 37600
+Flags: 0x02 | ID: 204 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\GR_Dialogues.fmg | Length: 41724
+Flags: 0x02 | ID: 205 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\LoadingTitle.fmg | Length: 3148
+Flags: 0x02 | ID: 206 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\LoadingText.fmg | Length: 27564
+Flags: 0x02 | ID: 207 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\TutorialTitle.fmg | Length: 8112
+Flags: 0x02 | ID: 208 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\TutorialBody.fmg | Length: 41648
+Flags: 0x02 | ID: 209 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\TextEmbedImageName_win64.fmg | Length: 5004
+Flags: 0x02 | ID: 210 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\ToS_win64.fmg | Length: 1499924
+--------------------------------------------------------------------------------------------------------

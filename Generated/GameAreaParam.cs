@@ -16,7 +16,7 @@ namespace EldenRingDataExtractor
 		public GameAreaParamRow(PARAM.Row row) => _row = row;
 		public int ID => _row.ID;
 		public string Name => _row.Name;
-		public byte[] disableParam_NT => (byte[])_row["disableParam_NT"].Value;
+		public byte disableParam_NT => (byte)_row["disableParam_NT"].Value;
 		public byte[] disableParamReserve1 => (byte[])_row["disableParamReserve1"].Value;
 		public byte[] disableParamReserve2 => (byte[])_row["disableParamReserve2"].Value;
 		public uint bonusSoul_single => (uint)_row["bonusSoul_single"].Value;
@@ -48,6 +48,6 @@ namespace EldenRingDataExtractor
 		public byte bossMapBlockNo => (byte)_row["bossMapBlockNo"].Value;
 		public byte bossMapMapNo => (byte)_row["bossMapMapNo"].Value;
 		public byte[] reserve => (byte[])_row["reserve"].Value;
-		public override string ToString() => $"ID: {ID} | Name: {Name} | bonusSoul_single: {bonusSoul_single} | bonusSoul_multi: {bonusSoul_multi} | humanityPointCountFlagIdTop: {humanityPointCountFlagIdTop} | humanityDropPoint1: {humanityDropPoint1} | humanityDropPoint2: {humanityDropPoint2} | humanityDropPoint3: {humanityDropPoint3} | humanityDropPoint4: {humanityDropPoint4} | humanityDropPoint5: {humanityDropPoint5} | humanityDropPoint6: {humanityDropPoint6} | humanityDropPoint7: {humanityDropPoint7} | humanityDropPoint8: {humanityDropPoint8} | humanityDropPoint9: {humanityDropPoint9} | humanityDropPoint10: {humanityDropPoint10} | soloBreakInPoint_Min: {soloBreakInPoint_Min} | soloBreakInPoint_Max: {soloBreakInPoint_Max} | defeatBossFlagId_forSignAimList: {defeatBossFlagId_forSignAimList} | displayAimFlagId: {displayAimFlagId} | foundBossFlagId: {foundBossFlagId} | foundBossTextId: {foundBossTextId} | notFindBossTextId: {notFindBossTextId} | bossChallengeFlagId: {bossChallengeFlagId} | defeatBossFlagId: {defeatBossFlagId} | bossPosX: {bossPosX} | bossPosY: {bossPosY} | bossPosZ: {bossPosZ} | bossMapAreaNo: {bossMapAreaNo} | bossMapBlockNo: {bossMapBlockNo} | bossMapMapNo: {bossMapMapNo}";
+		public override string ToString() => $"ID: {ID} | Name: {Name} | disableParam_NT: {disableParam_NT} | bonusSoul_single: {bonusSoul_single} | bonusSoul_multi: {bonusSoul_multi} | humanityPointCountFlagIdTop: {humanityPointCountFlagIdTop} | humanityDropPoint1: {humanityDropPoint1} | humanityDropPoint2: {humanityDropPoint2} | humanityDropPoint3: {humanityDropPoint3} | humanityDropPoint4: {humanityDropPoint4} | humanityDropPoint5: {humanityDropPoint5} | humanityDropPoint6: {humanityDropPoint6} | humanityDropPoint7: {humanityDropPoint7} | humanityDropPoint8: {humanityDropPoint8} | humanityDropPoint9: {humanityDropPoint9} | humanityDropPoint10: {humanityDropPoint10} | soloBreakInPoint_Min: {soloBreakInPoint_Min} | soloBreakInPoint_Max: {soloBreakInPoint_Max} | defeatBossFlagId_forSignAimList: {defeatBossFlagId_forSignAimList} | displayAimFlagId: {displayAimFlagId} | foundBossFlagId: {foundBossFlagId} | foundBossTextId: {foundBossTextId} | notFindBossTextId: {notFindBossTextId} | bossChallengeFlagId: {bossChallengeFlagId} | defeatBossFlagId: {defeatBossFlagId} | bossPosX: {bossPosX} | bossPosY: {bossPosY} | bossPosZ: {bossPosZ} | bossMapAreaNo: {bossMapAreaNo} | bossMapBlockNo: {bossMapBlockNo} | bossMapMapNo: {bossMapMapNo}";
 	}
 }

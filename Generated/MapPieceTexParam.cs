@@ -16,7 +16,7 @@ namespace EldenRingDataExtractor
 		public MapPieceTexParamRow(PARAM.Row row) => _row = row;
 		public int ID => _row.ID;
 		public string Name => _row.Name;
-		public byte[] disableParam_NT => (byte[])_row["disableParam_NT"].Value;
+		public byte disableParam_NT => (byte)_row["disableParam_NT"].Value;
 		public byte[] disableParamReserve1 => (byte[])_row["disableParamReserve1"].Value;
 		public byte[] disableParamReserve2 => (byte[])_row["disableParamReserve2"].Value;
 		public byte srcR => (byte)_row["srcR"].Value;
@@ -25,6 +25,6 @@ namespace EldenRingDataExtractor
 		public byte[] pad1 => (byte[])_row["pad1"].Value;
 		public int saveMapNameId => (int)_row["saveMapNameId"].Value;
 		public int multiPlayAreaId => (int)_row["multiPlayAreaId"].Value;
-		public override string ToString() => $"ID: {ID} | Name: {Name} | srcR: {srcR} | srcG: {srcG} | srcB: {srcB} | saveMapNameId: {saveMapNameId} | multiPlayAreaId: {multiPlayAreaId}";
+		public override string ToString() => $"ID: {ID} | Name: {Name} | disableParam_NT: {disableParam_NT} | srcR: {srcR} | srcG: {srcG} | srcB: {srcB} | saveMapNameId: {saveMapNameId} | multiPlayAreaId: {multiPlayAreaId}";
 	}
 }

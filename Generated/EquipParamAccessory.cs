@@ -16,7 +16,7 @@ namespace EldenRingDataExtractor
 		public EquipParamAccessoryRow(PARAM.Row row) => _row = row;
 		public int ID => _row.ID;
 		public string Name => _row.Name;
-		public byte[] disableParam_NT => (byte[])_row["disableParam_NT"].Value;
+		public byte disableParam_NT => (byte)_row["disableParam_NT"].Value;
 		public byte[] disableParamReserve1 => (byte[])_row["disableParamReserve1"].Value;
 		public byte[] disableParamReserve2 => (byte[])_row["disableParamReserve2"].Value;
 		public int refId => (int)_row["refId"].Value;
@@ -32,22 +32,22 @@ namespace EldenRingDataExtractor
 		public short shopLv => (short)_row["shopLv"].Value;
 		public short trophySGradeId => (short)_row["trophySGradeId"].Value;
 		public short trophySeqId => (short)_row["trophySeqId"].Value;
-		public byte[] equipModelCategory => (byte[])_row["equipModelCategory"].Value;
-		public byte[] equipModelGender => (byte[])_row["equipModelGender"].Value;
-		public byte[] accessoryCategory => (byte[])_row["accessoryCategory"].Value;
-		public byte[] refCategory => (byte[])_row["refCategory"].Value;
-		public byte[] spEffectCategory => (byte[])_row["spEffectCategory"].Value;
+		public byte equipModelCategory => (byte)_row["equipModelCategory"].Value;
+		public byte equipModelGender => (byte)_row["equipModelGender"].Value;
+		public byte accessoryCategory => (byte)_row["accessoryCategory"].Value;
+		public byte refCategory => (byte)_row["refCategory"].Value;
+		public byte spEffectCategory => (byte)_row["spEffectCategory"].Value;
 		public byte sortGroupId => (byte)_row["sortGroupId"].Value;
 		public int vagrantItemLotId => (int)_row["vagrantItemLotId"].Value;
 		public int vagrantBonusEneDropItemLotId => (int)_row["vagrantBonusEneDropItemLotId"].Value;
 		public int vagrantItemEneDropItemLotId => (int)_row["vagrantItemEneDropItemLotId"].Value;
-		public byte[] isDeposit => (byte[])_row["isDeposit"].Value;
-		public byte[] isEquipOutBrake => (byte[])_row["isEquipOutBrake"].Value;
-		public byte[] disableMultiDropShare => (byte[])_row["disableMultiDropShare"].Value;
-		public byte[] isDiscard => (byte[])_row["isDiscard"].Value;
-		public byte[] isDrop => (byte[])_row["isDrop"].Value;
-		public byte[] showLogCondType => (byte[])_row["showLogCondType"].Value;
-		public byte[] showDialogCondType => (byte[])_row["showDialogCondType"].Value;
+		public byte isDeposit => (byte)_row["isDeposit"].Value;
+		public byte isEquipOutBrake => (byte)_row["isEquipOutBrake"].Value;
+		public byte disableMultiDropShare => (byte)_row["disableMultiDropShare"].Value;
+		public byte isDiscard => (byte)_row["isDiscard"].Value;
+		public byte isDrop => (byte)_row["isDrop"].Value;
+		public byte showLogCondType => (byte)_row["showLogCondType"].Value;
+		public byte showDialogCondType => (byte)_row["showDialogCondType"].Value;
 		public byte rarity => (byte)_row["rarity"].Value;
 		public byte[] pad2 => (byte[])_row["pad2"].Value;
 		public int saleValue => (int)_row["saleValue"].Value;
@@ -59,6 +59,6 @@ namespace EldenRingDataExtractor
 		public int residentSpEffectId3 => (int)_row["residentSpEffectId3"].Value;
 		public int residentSpEffectId4 => (int)_row["residentSpEffectId4"].Value;
 		public byte[] pad1 => (byte[])_row["pad1"].Value;
-		public override string ToString() => $"ID: {ID} | Name: {Name} | refId: {refId} | sfxVariationId: {sfxVariationId} | weight: {weight} | behaviorId: {behaviorId} | basicPrice: {basicPrice} | sellValue: {sellValue} | sortId: {sortId} | qwcId: {qwcId} | equipModelId: {equipModelId} | iconId: {iconId} | shopLv: {shopLv} | trophySGradeId: {trophySGradeId} | trophySeqId: {trophySeqId} | sortGroupId: {sortGroupId} | vagrantItemLotId: {vagrantItemLotId} | vagrantBonusEneDropItemLotId: {vagrantBonusEneDropItemLotId} | vagrantItemEneDropItemLotId: {vagrantItemEneDropItemLotId} | rarity: {rarity} | saleValue: {saleValue} | accessoryGroup: {accessoryGroup} | compTrophySedId: {compTrophySedId} | residentSpEffectId1: {residentSpEffectId1} | residentSpEffectId2: {residentSpEffectId2} | residentSpEffectId3: {residentSpEffectId3} | residentSpEffectId4: {residentSpEffectId4}";
+		public override string ToString() => $"ID: {ID} | Name: {Name} | disableParam_NT: {disableParam_NT} | refId: {refId} | sfxVariationId: {sfxVariationId} | weight: {weight} | behaviorId: {behaviorId} | basicPrice: {basicPrice} | sellValue: {sellValue} | sortId: {sortId} | qwcId: {qwcId} | equipModelId: {equipModelId} | iconId: {iconId} | shopLv: {shopLv} | trophySGradeId: {trophySGradeId} | trophySeqId: {trophySeqId} | equipModelCategory: {equipModelCategory} | equipModelGender: {equipModelGender} | accessoryCategory: {accessoryCategory} | refCategory: {refCategory} | spEffectCategory: {spEffectCategory} | sortGroupId: {sortGroupId} | vagrantItemLotId: {vagrantItemLotId} | vagrantBonusEneDropItemLotId: {vagrantBonusEneDropItemLotId} | vagrantItemEneDropItemLotId: {vagrantItemEneDropItemLotId} | isDeposit: {isDeposit} | isEquipOutBrake: {isEquipOutBrake} | disableMultiDropShare: {disableMultiDropShare} | isDiscard: {isDiscard} | isDrop: {isDrop} | showLogCondType: {showLogCondType} | showDialogCondType: {showDialogCondType} | rarity: {rarity} | saleValue: {saleValue} | accessoryGroup: {accessoryGroup} | compTrophySedId: {compTrophySedId} | residentSpEffectId1: {residentSpEffectId1} | residentSpEffectId2: {residentSpEffectId2} | residentSpEffectId3: {residentSpEffectId3} | residentSpEffectId4: {residentSpEffectId4}";
 	}
 }

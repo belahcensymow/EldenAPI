@@ -17,15 +17,15 @@ namespace EldenRingDataExtractor
 		public int ID => _row.ID;
 		public string Name => _row.Name;
 		public int textID => (int)_row["textID"].Value;
-		public byte[] key => (byte[])_row["key"].Value;
-		public byte[] enableUnassign => (byte[])_row["enableUnassign"].Value;
-		public byte[] enablePadConfig => (byte[])_row["enablePadConfig"].Value;
-		public byte[] enableMouseConfig => (byte[])_row["enableMouseConfig"].Value;
-		public byte[] group => (byte[])_row["group"].Value;
+		public byte key => (byte)_row["key"].Value;
+		public byte enableUnassign => (byte)_row["enableUnassign"].Value;
+		public byte enablePadConfig => (byte)_row["enablePadConfig"].Value;
+		public byte enableMouseConfig => (byte)_row["enableMouseConfig"].Value;
+		public byte group => (byte)_row["group"].Value;
 		public int mappingTextID => (int)_row["mappingTextID"].Value;
-		public byte[] viewPad => (byte[])_row["viewPad"].Value;
-		public byte[] viewKeyboardMouse => (byte[])_row["viewKeyboardMouse"].Value;
+		public byte viewPad => (byte)_row["viewPad"].Value;
+		public byte viewKeyboardMouse => (byte)_row["viewKeyboardMouse"].Value;
 		public byte[] padding => (byte[])_row["padding"].Value;
-		public override string ToString() => $"ID: {ID} | Name: {Name} | textID: {textID} | mappingTextID: {mappingTextID}";
+		public override string ToString() => $"ID: {ID} | Name: {Name} | textID: {textID} | key: {key} | enableUnassign: {enableUnassign} | enablePadConfig: {enablePadConfig} | enableMouseConfig: {enableMouseConfig} | group: {group} | mappingTextID: {mappingTextID} | viewPad: {viewPad} | viewKeyboardMouse: {viewKeyboardMouse}";
 	}
 }

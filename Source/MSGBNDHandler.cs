@@ -26,14 +26,18 @@ namespace EldenAPI
     public class MSGBNDHandler
     {
         private readonly string _path;
-        private BND4 _item = new();
-        private BND4 _menu = new();
-        private BND4 _itemDLC1 = new();
-        private BND4 _menuDLC1 = new();
-        private BND4 _itemDLC2 = new();
-        private BND4 _menuDLC2 = new();
-        public class FMGMetadata : ResourceMetadata { public BNDType bndType { get; set; } = BNDType.MENU; }
-        private readonly ConditionalWeakTable<FMG, FMGMetadata> _FMGTable = new();
+        private readonly BND4 _item = new();
+        private readonly BND4 _menu = new();
+        private readonly BND4 _itemDLC1 = new();
+        private readonly BND4 _menuDLC1 = new();
+        private readonly BND4 _itemDLC2 = new();
+        private readonly BND4 _menuDLC2 = new();
+        public class FMGMetadata : ResourceMetadata { 
+            public BNDType bndType { get; set; } = BNDType.MENU;
+            internal Dictionary<int, string> _textCache = [];
+        }
+        private readonly ConditionalWeakTable<FMG, FMGMetadata> _FMGTable = [];
+        //public List<Dictionary<int, string>> _textCache = [];
         public MSGBNDHandler(string gamePath)
         {
             _path = Path.Combine(gamePath, @"msg", @"engus");
@@ -70,32 +74,41 @@ namespace EldenAPI
 
         public FMG GetFMG(BNDType bndType, int ID)
         {
-            FMG fmg = new FMG();
+            var existing = _FMGTable.FirstOrDefault(x => x.Value.ID == ID && x.Value.bndType == bndType);
+            if (existing.Key is not null) return existing.Key;
+            FMG fmg = new();
             var file = GetFiles(bndType).FirstOrDefault(file => file.ID == ID);
+            Dictionary<int, string> textCache = [];
             if (file is null)
             {
                 Console.WriteLine($"FMG wiht ID: {ID} was not found!");
-                _FMGTable.Add(fmg, new FMGMetadata { bndType = bndType });
+                _FMGTable.Add(fmg, new FMGMetadata { bndType = bndType, ID = ID});
                 return fmg;
             }
             fmg = FMG.Read(file.Bytes);
-            _FMGTable.Add(fmg, new FMGMetadata { Name = file.Name, ID = file.ID, bndType = bndType });
+            foreach (var entry in fmg.Entries)
+            {
+                if (entry.ID == -1 || string.IsNullOrEmpty(entry.Text)) continue;
+                textCache.Add(entry.ID, entry.Text);
+            }
+            _FMGTable.Add(fmg, new FMGMetadata { Name = file.Name, ID = file.ID, bndType = bndType, _textCache = textCache });
             return fmg;
         }
 
         public FMG GetFMG(BNDType bndType, string Name)
         {
-            FMG fmg = new FMG();
-            var file = GetFiles(bndType).FirstOrDefault(file => file.Name.Contains(Name));
-            if (file is null)
+            BinderFile file;
+            int ID = -1;
+            foreach (var f in GetFiles(bndType))
             {
-                Console.WriteLine($"FMG wiht Name: {Name} was not found!");
-                _FMGTable.Add(fmg, new FMGMetadata { bndType = bndType });
-                return fmg;
+                if (f.Name.Contains(Name, StringComparison.OrdinalIgnoreCase))
+                { 
+                    ID = f.ID;
+                    file = f;
+                    break;
+                }
             }
-            fmg = FMG.Read(file.Bytes);
-            _FMGTable.Add(fmg, new FMGMetadata { Name = file.Name, ID = file.ID, bndType = bndType });
-            return fmg;
+            return GetFMG(bndType, ID);
         }
 
         public FMGMetadata GetInfo(FMG fmg)
@@ -106,9 +119,44 @@ namespace EldenAPI
             }
             else
             {
-                Console.WriteLine($"FMG not found!");
+                Console.WriteLine($"FMG not found!\nYou must use the GetFile() function for this function to work.");
                 return new FMGMetadata { };
             }
+        }
+
+        public string TextIdToText(FMG fmg, int ID)
+        {
+            var metadata = GetInfo(fmg);
+            if(metadata.ID == -1)
+            {
+                foreach (var entry in fmg.Entries) if (entry.ID == ID) return entry.Text;
+                return $"Unknown ID: {ID}";
+            }
+            //return metadata._textCache.TryGetValue(ID, out var text) ? text : $"Unknown ID: {ID}";
+            return metadata._textCache.TryGetValue(ID, out var text) ? text : $"{ID}";
+        }
+
+        public string TextIdToText(List<FMG> fmgs, int ID)
+        {
+            string idString = ID.ToString();
+            foreach(FMG fmg in fmgs)
+            {
+                string result = TextIdToText(fmg, ID);
+                if (result != "-1" && result != idString) return result;
+            }
+            return $"{ID}";
+        }
+
+        public string TextIdToText(FMG fmg, string ID)
+        {
+            return TextIdToText(fmg, int.Parse(ID));
+        }
+
+        public List<int> TextToTextId(FMG fmg, string Text)
+        {
+            List<int> idList = [];
+            foreach (var entry in fmg.Entries) if (entry.Text == Text) idList.Add(entry.ID);
+            return [-1];
         }
     }
 }

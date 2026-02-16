@@ -1,0 +1,101 @@
+ID: 6800  | Name:  | disableParam_NT: 1 | textId: 241417 | sortId: 8000 | iconId: 68 : Gravesite Plain
+ID: 6900  | Name:  | disableParam_NT: 1 | textId: 241418 | sortId: 9000 | iconId: 69 : Scadu Altus
+ID: 10000 | Name:  | disableParam_NT: 0 | textId: 241401 | sortId: 1010 | iconId: 10 : Stormveil Castle
+ID: 11000 | Name:  | disableParam_NT: 1 | textId: 241402 | sortId: 3020 | iconId: 11 : Leyndell, Royal Capital
+ID: 11100 | Name:  | disableParam_NT: 1 | textId: 241400 | sortId: -1   | iconId: 1  : Roundtable Hold
+ID: 12000 | Name:  | disableParam_NT: 1 | textId: 241407 | sortId: 6000 | iconId: 40 : Ainsel River
+ID: 12001 | Name:  | disableParam_NT: 1 | textId: 241408 | sortId: 6100 | iconId: 41 : Siofra River
+ID: 12002 | Name:  | disableParam_NT: 1 | textId: 241409 | sortId: 6200 | iconId: 42 : Deeproot Depths
+ID: 13000 | Name:  | disableParam_NT: 1 | textId: 241403 | sortId: 7000 | iconId: 13 : Crumbling Farum Azula
+ID: 14000 | Name:  | disableParam_NT: 1 | textId: 241404 | sortId: 2010 | iconId: 14 : Academy of Raya Lucaria
+ID: 15000 | Name:  | disableParam_NT: 1 | textId: 241405 | sortId: 5010 | iconId: 15 : Miquella's Haligtree
+ID: 16000 | Name:  | disableParam_NT: 1 | textId: 241406 | sortId: 3010 | iconId: 16 : Volcano Manor
+ID: 20000 | Name:  | disableParam_NT: 1 | textId: 241419 | sortId: 8010 | iconId: 20 : Land of the Tower
+ID: 21000 | Name:  | disableParam_NT: 1 | textId: 241420 | sortId: 9010 | iconId: 21 : Shadow Keep
+ID: 61000 | Name:  | disableParam_NT: 0 | textId: 241410 | sortId: 1000 | iconId: 61 : Limgrave
+ID: 62000 | Name:  | disableParam_NT: 1 | textId: 241411 | sortId: 2000 | iconId: 62 : Liurnia of the Lakes
+ID: 63000 | Name:  | disableParam_NT: 1 | textId: 241412 | sortId: 3000 | iconId: 63 : Altus Plateau
+ID: 64000 | Name:  | disableParam_NT: 1 | textId: 241413 | sortId: 4000 | iconId: 64 : Caelid
+ID: 65000 | Name:  | disableParam_NT: 1 | textId: 241414 | sortId: 5000 | iconId: 65 : Mountaintops of the Giants
+
+
+
+
+var regionNames = new Dictionary<int, string>
+{
+    { 6800, "Gravesite Plain" },
+    { 6900, "Scadu Altus" },
+    { 10000, "Stormveil Castle" },
+    { 11000, "Leyndell, Royal Capital" },
+    { 11100, "Roundtable Hold" },
+    { 12000, "Ainsel River" },
+    { 12001, "Siofra River" },
+    { 12002, "Deeproot Depths" },
+    { 13000, "Crumbling Farum Azula" },
+    { 14000, "Academy of Raya Lucaria" },
+    { 15000, "Miquella's Haligtree" },
+    { 16000, "Volcano Manor" },
+    { 20000, "Land of the Tower" },
+    { 21000, "Shadow Keep" },
+    { 61000, "Limgrave" },
+    { 62000, "Liurnia of the Lakes" },
+    { 63000, "Altus Plateau" },
+    { 64000, "Caelid" },
+    { 65000, "Mountaintops of the Giants" }
+};
+
+ID: 6800 | Name:   | disableParam_NT: 1 | textId: 241353 | tabId: 6800  | sortId: 10 : Gravesite Plain
+ID: 6820 | Name:   | disableParam_NT: 1 | textId: 241352 | tabId: 6800  | sortId: 20 : Castle Ensis
+ID: 6830 | Name:   | disableParam_NT: 1 | textId: 241338 | tabId: 6800  | sortId: 30 : Cerulean Coast
+ID: 6840 | Name:   | disableParam_NT: 1 | textId: 241341 | tabId: 6800  | sortId: 40 : Charo's Hidden Grave
+ID: 6850 | Name:   | disableParam_NT: 1 | textId: 241340 | tabId: 6800  | sortId: 70 : Jagged Peak
+ID: 6851 | Name:   | disableParam_NT: 1 | textId: 241339 | tabId: 6800  | sortId: 60 : Foot of the Jagged Peak
+ID: 6860 | Name:   | disableParam_NT: 1 | textId: 241344 | tabId: 6900  | sortId: 40 : Abyssal Woods
+ID: 6900 | Name:   | disableParam_NT: 1 | textId: 241337 | tabId: 6900  | sortId: 10 : Scadu Altus
+ID: 6920 | Name:   | disableParam_NT: 1 | textId: 241343 | tabId: 21000 | sortId: 40 : Scaduview
+ID: 6940 | Name:   | disableParam_NT: 1 | textId: 241342 | tabId: 20000 | sortId: 30 : Ancient Ruins of Rauh
+ID: 6950 | Name:   | disableParam_NT: 1 | textId: 241354 | tabId: 20000 | sortId: 40 : Rauh Base
+ID: 10000 | Name:  | disableParam_NT: 0 | textId: 241300 | tabId: 10000 | sortId: 10 : Stormveil Castle
+ID: 10010 | Name:  | disableParam_NT: 1 | textId: 241301 | tabId: 10000 | sortId: 20 : Chapel of Anticipation
+ID: 11000 | Name:  | disableParam_NT: 1 | textId: 241302 | tabId: 11000 | sortId: 10 : Leyndell, Royal Capital
+ID: 11050 | Name:  | disableParam_NT: 1 | textId: 241303 | tabId: 11000 | sortId: 30 : Leyndell, Ashen Capital
+ID: 11100 | Name:  | disableParam_NT: 1 | textId: 241304 | tabId: 11100 | sortId: 10 : Roundtable Hold
+ID: 12010 | Name:  | disableParam_NT: 1 | textId: 241305 | tabId: 12000 | sortId: 20 : Ainsel River Main
+ID: 12011 | Name:  | disableParam_NT: 1 | textId: 241306 | tabId: 12000 | sortId: 30 : Lake of Rot
+ID: 12012 | Name:  | disableParam_NT: 1 | textId: 241307 | tabId: 12000 | sortId: 10 : Ainsel River
+ID: 12020 | Name:  | disableParam_NT: 1 | textId: 241308 | tabId: 12001 | sortId: 10 : Nokron, Eternal City
+ID: 12030 | Name:  | disableParam_NT: 1 | textId: 241310 | tabId: 12002 | sortId: 10 : Deeproot Depths
+ID: 12050 | Name:  | disableParam_NT: 1 | textId: 241311 | tabId: 12001 | sortId: 30 : Mohgwyn Palace
+ID: 12070 | Name:  | disableParam_NT: 1 | textId: 241309 | tabId: 12001 | sortId: 20 : Siofra River
+ID: 13000 | Name:  | disableParam_NT: 1 | textId: 241312 | tabId: 13000 | sortId: 10 : Crumbling Farum Azula
+ID: 14000 | Name:  | disableParam_NT: 1 | textId: 241313 | tabId: 14000 | sortId: 10 : Academy of Raya Lucaria
+ID: 15000 | Name:  | disableParam_NT: 1 | textId: 241315 | tabId: 15000 | sortId: 20 : Elphael, Brace of the Haligtree
+ID: 15001 | Name:  | disableParam_NT: 1 | textId: 241314 | tabId: 15000 | sortId: 10 : Miquella's Haligtree
+ID: 16000 | Name:  | disableParam_NT: 1 | textId: 241316 | tabId: 16000 | sortId: 10 : Volcano Manor
+ID: 18000 | Name:  | disableParam_NT: 0 | textId: 241317 | tabId: 61000 | sortId: 11 : Stranded Graveyard
+ID: 19000 | Name:  | disableParam_NT: 1 | textId: 241318 | tabId: 11000 | sortId: 40 : Stone Platform
+ID: 20000 | Name:  | disableParam_NT: 1 | textId: 241345 | tabId: 20000 | sortId: 10 : Belurat, Tower Settlement
+ID: 20010 | Name:  | disableParam_NT: 1 | textId: 241346 | tabId: 20000 | sortId: 20 : Enir-Ilim
+ID: 21000 | Name:  | disableParam_NT: 1 | textId: 241347 | tabId: 21000 | sortId: 10 : Shadow Keep
+ID: 21001 | Name:  | disableParam_NT: 1 | textId: 241348 | tabId: 21000 | sortId: 20 : Shadow Keep, Church District
+ID: 21010 | Name:  | disableParam_NT: 1 | textId: 241349 | tabId: 21000 | sortId: 30 : Specimen Storehouse
+ID: 22000 | Name:  | disableParam_NT: 1 | textId: 241350 | tabId: 6800  | sortId: 50 : Stone Coffin Fissure
+ID: 28000 | Name:  | disableParam_NT: 1 | textId: 241351 | tabId: 6900  | sortId: 50 : Midra's Manse
+ID: 35000 | Name:  | disableParam_NT: 1 | textId: 241319 | tabId: 11000 | sortId: 20 : Subterranean Shunning-Grounds
+ID: 39200 | Name:  | disableParam_NT: 1 | textId: 241320 | tabId: 62000 | sortId: 30 : Ruin-Strewn Precipice
+ID: 61000 | Name:  | disableParam_NT: 0 | textId: 241321 | tabId: 61000 | sortId: 10 : Limgrave
+ID: 61001 | Name:  | disableParam_NT: 0 | textId: 241322 | tabId: 61000 | sortId: 20 : Stormhill
+ID: 61002 | Name:  | disableParam_NT: 1 | textId: 241323 | tabId: 61000 | sortId: 30 : Weeping Peninsula
+ID: 62000 | Name:  | disableParam_NT: 1 | textId: 241324 | tabId: 62000 | sortId: 10 : Liurnia of the Lakes
+ID: 62001 | Name:  | disableParam_NT: 1 | textId: 241325 | tabId: 62000 | sortId: 20 : Bellum Highway
+ID: 62002 | Name:  | disableParam_NT: 1 | textId: 241326 | tabId: 62000 | sortId: 40 : Moonlight Altar
+ID: 63000 | Name:  | disableParam_NT: 1 | textId: 241327 | tabId: 63000 | sortId: 10 : Altus Plateau
+ID: 63001 | Name:  | disableParam_NT: 1 | textId: 241328 | tabId: 63000 | sortId: 20 : Mt. Gelmir
+ID: 63002 | Name:  | disableParam_NT: 1 | textId: 241329 | tabId: 63000 | sortId: 30 : Capital Outskirts
+ID: 63003 | Name:  | disableParam_NT: 1 | textId: 241330 | tabId: 65000 | sortId: 10 : Forbidden Lands
+ID: 64000 | Name:  | disableParam_NT: 1 | textId: 241331 | tabId: 64000 | sortId: 10 : Caelid
+ID: 64001 | Name:  | disableParam_NT: 1 | textId: 241332 | tabId: 64000 | sortId: 30 : Greyoll's Dragonbarrow
+ID: 64002 | Name:  | disableParam_NT: 1 | textId: 241336 | tabId: 64000 | sortId: 20 : Swamp of Aeonia
+ID: 65000 | Name:  | disableParam_NT: 1 | textId: 241333 | tabId: 65000 | sortId: 20 : Mountaintops of the Giants
+ID: 65001 | Name:  | disableParam_NT: 1 | textId: 241334 | tabId: 65000 | sortId: 30 : Flame Peak
+ID: 65002 | Name:  | disableParam_NT: 1 | textId: 241335 | tabId: 65000 | sortId: 40 : Consecrated Snowfield

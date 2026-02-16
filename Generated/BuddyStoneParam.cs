@@ -16,13 +16,13 @@ namespace EldenRingDataExtractor
 		public BuddyStoneParamRow(PARAM.Row row) => _row = row;
 		public int ID => _row.ID;
 		public string Name => _row.Name;
-		public byte[] disableParam_NT => (byte[])_row["disableParam_NT"].Value;
+		public byte disableParam_NT => (byte)_row["disableParam_NT"].Value;
 		public byte[] disableParamReserve1 => (byte[])_row["disableParamReserve1"].Value;
 		public byte[] disableParamReserve2 => (byte[])_row["disableParamReserve2"].Value;
 		public uint talkChrEntityId => (uint)_row["talkChrEntityId"].Value;
 		public uint eliminateTargetEntityId => (uint)_row["eliminateTargetEntityId"].Value;
 		public uint summonedEventFlagId => (uint)_row["summonedEventFlagId"].Value;
-		public byte[] isSpecial => (byte[])_row["isSpecial"].Value;
+		public byte isSpecial => (byte)_row["isSpecial"].Value;
 		public byte[] pad1 => (byte[])_row["pad1"].Value;
 		public byte[] pad2 => (byte[])_row["pad2"].Value;
 		public int buddyId => (int)_row["buddyId"].Value;
@@ -32,6 +32,6 @@ namespace EldenRingDataExtractor
 		public uint overwriteActivateRegionEntityId => (uint)_row["overwriteActivateRegionEntityId"].Value;
 		public uint warnRegionEntityId => (uint)_row["warnRegionEntityId"].Value;
 		public byte[] pad3 => (byte[])_row["pad3"].Value;
-		public override string ToString() => $"ID: {ID} | Name: {Name} | talkChrEntityId: {talkChrEntityId} | eliminateTargetEntityId: {eliminateTargetEntityId} | summonedEventFlagId: {summonedEventFlagId} | buddyId: {buddyId} | dopingSpEffectId: {dopingSpEffectId} | activateRange: {activateRange} | overwriteReturnRange: {overwriteReturnRange} | overwriteActivateRegionEntityId: {overwriteActivateRegionEntityId} | warnRegionEntityId: {warnRegionEntityId}";
+		public override string ToString() => $"ID: {ID} | Name: {Name} | disableParam_NT: {disableParam_NT} | talkChrEntityId: {talkChrEntityId} | eliminateTargetEntityId: {eliminateTargetEntityId} | summonedEventFlagId: {summonedEventFlagId} | isSpecial: {isSpecial} | buddyId: {buddyId} | dopingSpEffectId: {dopingSpEffectId} | activateRange: {activateRange} | overwriteReturnRange: {overwriteReturnRange} | overwriteActivateRegionEntityId: {overwriteActivateRegionEntityId} | warnRegionEntityId: {warnRegionEntityId}";
 	}
 }

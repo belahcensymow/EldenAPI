@@ -16,11 +16,11 @@ namespace EldenRingDataExtractor
 		public SignPuddleParamRow(PARAM.Row row) => _row = row;
 		public int ID => _row.ID;
 		public string Name => _row.Name;
-		public byte[] disableParam_NT => (byte[])_row["disableParam_NT"].Value;
+		public byte disableParam_NT => (byte)_row["disableParam_NT"].Value;
 		public byte[] disableParamReserve1 => (byte[])_row["disableParamReserve1"].Value;
 		public byte[] disableParamReserve2 => (byte[])_row["disableParamReserve2"].Value;
 		public int matchAreaId => (int)_row["matchAreaId"].Value;
 		public byte[] pad1 => (byte[])_row["pad1"].Value;
-		public override string ToString() => $"ID: {ID} | Name: {Name} | matchAreaId: {matchAreaId}";
+		public override string ToString() => $"ID: {ID} | Name: {Name} | disableParam_NT: {disableParam_NT} | matchAreaId: {matchAreaId}";
 	}
 }

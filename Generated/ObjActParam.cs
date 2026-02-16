@@ -25,20 +25,20 @@ namespace EldenRingDataExtractor
 		public ushort spQualifiedId => (ushort)_row["spQualifiedId"].Value;
 		public ushort spQualifiedId2 => (ushort)_row["spQualifiedId2"].Value;
 		public byte objDummyId => (byte)_row["objDummyId"].Value;
-		public byte[] isEventKickSync => (byte[])_row["isEventKickSync"].Value;
+		public byte isEventKickSync => (byte)_row["isEventKickSync"].Value;
 		public uint objAnimId => (uint)_row["objAnimId"].Value;
 		public byte validPlayerAngle => (byte)_row["validPlayerAngle"].Value;
-		public byte[] spQualifiedType => (byte[])_row["spQualifiedType"].Value;
-		public byte[] spQualifiedType2 => (byte[])_row["spQualifiedType2"].Value;
+		public byte spQualifiedType => (byte)_row["spQualifiedType"].Value;
+		public byte spQualifiedType2 => (byte)_row["spQualifiedType2"].Value;
 		public byte validObjAngle => (byte)_row["validObjAngle"].Value;
-		public byte[] chrSorbType => (byte[])_row["chrSorbType"].Value;
-		public byte[] eventKickTiming => (byte[])_row["eventKickTiming"].Value;
+		public byte chrSorbType => (byte)_row["chrSorbType"].Value;
+		public byte eventKickTiming => (byte)_row["eventKickTiming"].Value;
 		public byte[] pad1 => (byte[])_row["pad1"].Value;
 		public int actionButtonParamId => (int)_row["actionButtonParamId"].Value;
 		public float enableTreasureDelaySec => (float)_row["enableTreasureDelaySec"].Value;
 		public int preActionSfxDmypolyId => (int)_row["preActionSfxDmypolyId"].Value;
 		public int preActionSfxId => (int)_row["preActionSfxId"].Value;
 		public byte[] pad2 => (byte[])_row["pad2"].Value;
-		public override string ToString() => $"ID: {ID} | Name: {Name} | actionEnableMsgId: {actionEnableMsgId} | actionFailedMsgId: {actionFailedMsgId} | spQualifiedPassEventFlag: {spQualifiedPassEventFlag} | playerAnimId: {playerAnimId} | chrAnimId: {chrAnimId} | validDist: {validDist} | spQualifiedId: {spQualifiedId} | spQualifiedId2: {spQualifiedId2} | objDummyId: {objDummyId} | objAnimId: {objAnimId} | validPlayerAngle: {validPlayerAngle} | validObjAngle: {validObjAngle} | actionButtonParamId: {actionButtonParamId} | enableTreasureDelaySec: {enableTreasureDelaySec} | preActionSfxDmypolyId: {preActionSfxDmypolyId} | preActionSfxId: {preActionSfxId}";
+		public override string ToString() => $"ID: {ID} | Name: {Name} | actionEnableMsgId: {actionEnableMsgId} | actionFailedMsgId: {actionFailedMsgId} | spQualifiedPassEventFlag: {spQualifiedPassEventFlag} | playerAnimId: {playerAnimId} | chrAnimId: {chrAnimId} | validDist: {validDist} | spQualifiedId: {spQualifiedId} | spQualifiedId2: {spQualifiedId2} | objDummyId: {objDummyId} | isEventKickSync: {isEventKickSync} | objAnimId: {objAnimId} | validPlayerAngle: {validPlayerAngle} | spQualifiedType: {spQualifiedType} | spQualifiedType2: {spQualifiedType2} | validObjAngle: {validObjAngle} | chrSorbType: {chrSorbType} | eventKickTiming: {eventKickTiming} | actionButtonParamId: {actionButtonParamId} | enableTreasureDelaySec: {enableTreasureDelaySec} | preActionSfxDmypolyId: {preActionSfxDmypolyId} | preActionSfxId: {preActionSfxId}";
 	}
 }

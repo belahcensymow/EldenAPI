@@ -16,7 +16,7 @@ namespace EldenRingDataExtractor
 		public TalkParamRow(PARAM.Row row) => _row = row;
 		public int ID => _row.ID;
 		public string Name => _row.Name;
-		public byte[] disableParam_NT => (byte[])_row["disableParam_NT"].Value;
+		public byte disableParam_NT => (byte)_row["disableParam_NT"].Value;
 		public byte[] disableParamReserve1 => (byte[])_row["disableParamReserve1"].Value;
 		public byte[] disableParamReserve2 => (byte[])_row["disableParamReserve2"].Value;
 		public int msgId => (int)_row["msgId"].Value;
@@ -35,9 +35,9 @@ namespace EldenRingDataExtractor
 		public byte[] pad2 => (byte[])_row["pad2"].Value;
 		public float timeout => (float)_row["timeout"].Value;
 		public int talkAnimationId => (int)_row["talkAnimationId"].Value;
-		public byte[] isForceDisp => (byte[])_row["isForceDisp"].Value;
+		public byte isForceDisp => (byte)_row["isForceDisp"].Value;
 		public byte[] pad3 => (byte[])_row["pad3"].Value;
 		public byte[] pad1 => (byte[])_row["pad1"].Value;
-		public override string ToString() => $"ID: {ID} | Name: {Name} | msgId: {msgId} | voiceId: {voiceId} | spEffectId0: {spEffectId0} | motionId0: {motionId0} | spEffectId1: {spEffectId1} | motionId1: {motionId1} | returnPos: {returnPos} | reactionId: {reactionId} | eventId: {eventId} | msgId_female: {msgId_female} | voiceId_female: {voiceId_female} | lipSyncStart: {lipSyncStart} | lipSyncTime: {lipSyncTime} | timeout: {timeout} | talkAnimationId: {talkAnimationId}";
+		public override string ToString() => $"ID: {ID} | Name: {Name} | disableParam_NT: {disableParam_NT} | msgId: {msgId} | voiceId: {voiceId} | spEffectId0: {spEffectId0} | motionId0: {motionId0} | spEffectId1: {spEffectId1} | motionId1: {motionId1} | returnPos: {returnPos} | reactionId: {reactionId} | eventId: {eventId} | msgId_female: {msgId_female} | voiceId_female: {voiceId_female} | lipSyncStart: {lipSyncStart} | lipSyncTime: {lipSyncTime} | timeout: {timeout} | talkAnimationId: {talkAnimationId} | isForceDisp: {isForceDisp}";
 	}
 }

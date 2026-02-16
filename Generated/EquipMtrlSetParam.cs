@@ -30,12 +30,12 @@ namespace EldenRingDataExtractor
 		public sbyte itemNum05 => (sbyte)_row["itemNum05"].Value;
 		public sbyte itemNum06 => (sbyte)_row["itemNum06"].Value;
 		public byte[] pad_num => (byte[])_row["pad_num"].Value;
-		public byte[] materialCate01 => (byte[])_row["materialCate01"].Value;
-		public byte[] materialCate02 => (byte[])_row["materialCate02"].Value;
-		public byte[] materialCate03 => (byte[])_row["materialCate03"].Value;
-		public byte[] materialCate04 => (byte[])_row["materialCate04"].Value;
-		public byte[] materialCate05 => (byte[])_row["materialCate05"].Value;
-		public byte[] materialCate06 => (byte[])_row["materialCate06"].Value;
+		public byte materialCate01 => (byte)_row["materialCate01"].Value;
+		public byte materialCate02 => (byte)_row["materialCate02"].Value;
+		public byte materialCate03 => (byte)_row["materialCate03"].Value;
+		public byte materialCate04 => (byte)_row["materialCate04"].Value;
+		public byte materialCate05 => (byte)_row["materialCate05"].Value;
+		public byte materialCate06 => (byte)_row["materialCate06"].Value;
 		public byte[] pad_cate => (byte[])_row["pad_cate"].Value;
 		public byte isDisableDispNum01 => (byte)_row["isDisableDispNum01"].Value;
 		public byte isDisableDispNum02 => (byte)_row["isDisableDispNum02"].Value;
@@ -44,6 +44,6 @@ namespace EldenRingDataExtractor
 		public byte isDisableDispNum05 => (byte)_row["isDisableDispNum05"].Value;
 		public byte isDisableDispNum06 => (byte)_row["isDisableDispNum06"].Value;
 		public byte[] pad => (byte[])_row["pad"].Value;
-		public override string ToString() => $"ID: {ID} | Name: {Name} | materialId01: {materialId01} | materialId02: {materialId02} | materialId03: {materialId03} | materialId04: {materialId04} | materialId05: {materialId05} | materialId06: {materialId06} | itemNum01: {itemNum01} | itemNum02: {itemNum02} | itemNum03: {itemNum03} | itemNum04: {itemNum04} | itemNum05: {itemNum05} | itemNum06: {itemNum06} | isDisableDispNum01: {isDisableDispNum01} | isDisableDispNum02: {isDisableDispNum02} | isDisableDispNum03: {isDisableDispNum03} | isDisableDispNum04: {isDisableDispNum04} | isDisableDispNum05: {isDisableDispNum05} | isDisableDispNum06: {isDisableDispNum06}";
+		public override string ToString() => $"ID: {ID} | Name: {Name} | materialId01: {materialId01} | materialId02: {materialId02} | materialId03: {materialId03} | materialId04: {materialId04} | materialId05: {materialId05} | materialId06: {materialId06} | itemNum01: {itemNum01} | itemNum02: {itemNum02} | itemNum03: {itemNum03} | itemNum04: {itemNum04} | itemNum05: {itemNum05} | itemNum06: {itemNum06} | materialCate01: {materialCate01} | materialCate02: {materialCate02} | materialCate03: {materialCate03} | materialCate04: {materialCate04} | materialCate05: {materialCate05} | materialCate06: {materialCate06} | isDisableDispNum01: {isDisableDispNum01} | isDisableDispNum02: {isDisableDispNum02} | isDisableDispNum03: {isDisableDispNum03} | isDisableDispNum04: {isDisableDispNum04} | isDisableDispNum05: {isDisableDispNum05} | isDisableDispNum06: {isDisableDispNum06}";
 	}
 }

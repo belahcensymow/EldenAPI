@@ -16,8 +16,8 @@ namespace EldenRingDataExtractor
 		public CutsceneMapIdParamRow(PARAM.Row row) => _row = row;
 		public int ID => _row.ID;
 		public string Name => _row.Name;
-		public byte[] disableParam_NT => (byte[])_row["disableParam_NT"].Value;
-		public byte[] disableParam_Debug => (byte[])_row["disableParam_Debug"].Value;
+		public byte disableParam_NT => (byte)_row["disableParam_NT"].Value;
+		public byte disableParam_Debug => (byte)_row["disableParam_Debug"].Value;
 		public byte[] disableParamReserve1 => (byte[])_row["disableParamReserve1"].Value;
 		public byte[] disableParamReserve2 => (byte[])_row["disableParamReserve2"].Value;
 		public uint PlayMapId => (uint)_row["PlayMapId"].Value;
@@ -30,6 +30,6 @@ namespace EldenRingDataExtractor
 		public byte[] reserved => (byte[])_row["reserved"].Value;
 		public int HitParts_0 => (int)_row["HitParts_0"].Value;
 		public int HitParts_1 => (int)_row["HitParts_1"].Value;
-		public override string ToString() => $"ID: {ID} | Name: {Name} | PlayMapId: {PlayMapId} | RequireMapId0: {RequireMapId0} | RequireMapId1: {RequireMapId1} | RequireMapId2: {RequireMapId2} | RefCamPosHitPartsID: {RefCamPosHitPartsID} | ClientDisableViewTimeForProgress: {ClientDisableViewTimeForProgress} | HitParts_0: {HitParts_0} | HitParts_1: {HitParts_1}";
+		public override string ToString() => $"ID: {ID} | Name: {Name} | disableParam_NT: {disableParam_NT} | disableParam_Debug: {disableParam_Debug} | PlayMapId: {PlayMapId} | RequireMapId0: {RequireMapId0} | RequireMapId1: {RequireMapId1} | RequireMapId2: {RequireMapId2} | RefCamPosHitPartsID: {RefCamPosHitPartsID} | ClientDisableViewTimeForProgress: {ClientDisableViewTimeForProgress} | HitParts_0: {HitParts_0} | HitParts_1: {HitParts_1}";
 	}
 }
