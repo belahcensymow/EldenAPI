@@ -22,7 +22,7 @@ namespace EldenRingDataExtractor
 		public uint eventFlagId => (uint)_row["eventFlagId"].Value;
 		public uint distViewEventFlagId => (uint)_row["distViewEventFlagId"].Value;
 		public ushort iconId => (ushort)_row["iconId"].Value;
-		public byte bgmPlaceType => (byte)_row["bgmPlaceType"].Value;
+		public Int16 bgmPlaceType => (Int16)_row["bgmPlaceType"].Value;
 		public byte isAreaIcon => (byte)_row["isAreaIcon"].Value;
 		public byte isOverrideDistViewMarkPos => (byte)_row["isOverrideDistViewMarkPos"].Value;
 		public byte isEnableNoText => (byte)_row["isEnableNoText"].Value;

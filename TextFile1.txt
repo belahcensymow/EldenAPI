@@ -4,8 +4,8 @@ Flags: 0x02 | ID: 11 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\WeaponName.fmg
 Flags: 0x02 | ID: 12 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\ProtectorName.fmg | Length: 40836
 Flags: 0x02 | ID: 13 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\AccessoryName.fmg | Length: 11436
 Flags: 0x02 | ID: 14 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\MagicName.fmg | Length: 68
-WorldMapPointParam Flags: 0x02 | ID: 18 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\NpcName.fmg | Length: 22616
-WorldMapPointParam Flags: 0x02 | ID: 19 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\PlaceName.fmg | Length: 35116
+Flags: 0x02 | ID: 18 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\NpcName.fmg | Length: 22616
+Flags: 0x02 | ID: 19 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\PlaceName.fmg | Length: 35116
 Flags: 0x02 | ID: 20 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\GoodsInfo.fmg | Length: 163768
 Flags: 0x02 | ID: 21 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\WeaponInfo.fmg | Length: 4152
 Flags: 0x02 | ID: 22 | Name: N:\GR\data\INTERROOT_win64\msg\engUS\ProtectorInfo.fmg | Length: 59180

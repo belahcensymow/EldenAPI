@@ -28,66 +28,96 @@ namespace EldenAPI
                     $"{msgbndHandler.TextIdToText(fmg, entry.textId7)} | " +
                     $"{msgbndHandler.TextIdToText(fmg, entry.textId8)}");
             }*/
-            //foreach (var file in msgbndHandler.GetFiles(BNDType.MENUDLC2)) Console.WriteLine(file);
+            //foreach (var file in msgbndHandler.GetFiles(BNDType.ITEMDLC2)) Console.WriteLine(file);
 
 
 
-            var subcategoryParam = regulation.BonfireWarpSubCategoryParam.Entries;
-            var categoryParam = regulation.BonfireWarpTabParam.Entries;
+            var regions = regulation.BonfireWarpTabParam.Entries;
+            var subregions = regulation.BonfireWarpSubCategoryParam.Entries;
             var sitesOfGrace = regulation.BonfireWarpParam.Entries;
-            FMG npcName = msgbndHandler.GetFMG(BNDType.ITEMDLC2, 18);
+            var landmarks = regulation.WorldMapPointParam.Entries;
+
+            FMG npcName = msgbndHandler.GetFMG(BNDType.ITEMDLC2, "NpcName");
+            FMG npcNameDLC1 = msgbndHandler.GetFMG(BNDType.ITEMDLC2, "NpcName_dlc01");
+            FMG npcNameDLC2 = msgbndHandler.GetFMG(BNDType.ITEMDLC2, "NpcName_dlc02");
+            
             FMG placeName = msgbndHandler.GetFMG(BNDType.ITEMDLC2, 19);
             FMG placeNameDLC1 = msgbndHandler.GetFMG(BNDType.ITEMDLC2, "PlaceName_dlc01");
             FMG placeNameDLC2 = msgbndHandler.GetFMG(BNDType.ITEMDLC2, "PlaceName_dlc02");
+            
             FMG menuText = msgbndHandler.GetFMG(BNDType.MENUDLC2, "MenuText");
-            HashSet<int> subCategoryIds = [];
-            Dictionary<int, string> foundSubCategories = [];
-            var regionNames = new Dictionary<int, string>
-            {
-                { 6800, "Gravesite Plain" },
-                { 6900, "Scadu Altus" },
-                { 10000, "Stormveil Castle" },
-                { 11000, "Leyndell, Royal Capital" },
-                { 11100, "Roundtable Hold" },
-                { 12000, "Ainsel River" },
-                { 12001, "Siofra River" },
-                { 12002, "Deeproot Depths" },
-                { 13000, "Crumbling Farum Azula" },
-                { 14000, "Academy of Raya Lucaria" },
-                { 15000, "Miquella's Haligtree" },
-                { 16000, "Volcano Manor" },
-                { 20000, "Land of the Tower" },
-                { 21000, "Shadow Keep" },
-                { 61000, "Limgrave" },
-                { 62000, "Liurnia of the Lakes" },
-                { 63000, "Altus Plateau" },
-                { 64000, "Caelid" },
-                { 65000, "Mountaintops of the Giants" }
-            };
+            FMG menuTextDLC1 = msgbndHandler.GetFMG(BNDType.MENUDLC2, "MenuText_dlc01");
+            FMG menuTextDLC2 = msgbndHandler.GetFMG(BNDType.MENUDLC2, "MenuText_dlc02");
 
-            foreach (var siteOfGrace in sitesOfGrace.ToList().OrderBy(s => s.bonfireSubCategoryId))
+            string GetSubcategory(int bonfireSubCategoryId)
             {
-                //if (siteOfGrace.iconId != 1)
-                //Console.WriteLine(msgbndHandler.TextIdToText([placeName, placeNameDLC1], siteOfGrace.textId1));
-                //if (landmark.iconId == 7)
-                if (siteOfGrace.bonfireSubCategoryId == 0) continue;
-                Console.WriteLine($"{siteOfGrace} : {msgbndHandler.TextIdToText([placeName, placeNameDLC1], siteOfGrace.textId1)}");
-                Console.WriteLine();
-                subCategoryIds.Add(siteOfGrace.bonfireSubCategoryId);
-            }
-            foreach (var id in subCategoryIds)
-            {
-                if (regionNames.TryGetValue(id, out string? text))
+                foreach (var subregion in subregions)
                 {
-                    foundSubCategories.Add(id, text);
+                    if (subregion.ID == bonfireSubCategoryId) return msgbndHandler.TextIdToText([menuText, menuTextDLC1], subregion.textId);
                 }
+                return bonfireSubCategoryId.ToString();
             }
-            //int regionId = 0;
-            //string subcategory = regionNames.TryGetValue(subcategoryParam.FirstOrDefault(subcategory => subcategory.ID == regionId).textId);
-            foreach (var subcategory in subcategoryParam)
+
+            string GetCategory(int bonfireSubCategoryId)
             {
-                //Console.WriteLine($"{landmark} : {msgbndHandler.TextIdToText(menuText, landmark.textId)}");
+                foreach (var subregion in subregions)
+                {
+                    if (subregion.ID == bonfireSubCategoryId)
+                    {
+                        foreach (var region in regions)
+                        {
+                            if (region.ID == subregion.tabId) return msgbndHandler.TextIdToText([menuText, menuTextDLC1], region.textId);
+                        }
+                    }
+                }
+                return bonfireSubCategoryId.ToString();
             }
+            
+            foreach (var region in regions)
+            {
+                //Console.WriteLine($"{region} {msgbndHandler.TextIdToText([menuText, menuTextDLC1], region.textId)}");
+            }
+
+            foreach (var subregion in subregions)
+            {
+                //Console.WriteLine($"{subregion} {msgbndHandler.TextIdToText([menuText, menuTextDLC1], subregion.textId)}");
+            }
+            /*
+            foreach (var siteOfGrace in sitesOfGrace)
+            {
+                if (siteOfGrace.bonfireSubCategoryId != 0)
+                    Console.WriteLine($"" +
+                        $"{GetCategory(siteOfGrace.bonfireSubCategoryId)} : " +
+                        $"{msgbndHandler.TextIdToText([placeName, placeNameDLC1, placeNameDLC2, npcName, npcNameDLC1, npcNameDLC2], siteOfGrace.textId1)} | " +
+                        $"{msgbndHandler.TextIdToText([placeName, placeNameDLC1, placeNameDLC2, npcName, npcNameDLC1, npcNameDLC2], siteOfGrace.textId2)} | " +
+                        $"{msgbndHandler.TextIdToText([placeName, placeNameDLC1, placeNameDLC2, npcName, npcNameDLC1, npcNameDLC2], siteOfGrace.textId3)} | " +
+                        $"{msgbndHandler.TextIdToText([placeName, placeNameDLC1, placeNameDLC2, npcName, npcNameDLC1, npcNameDLC2], siteOfGrace.textId4)} | " +
+                        $"{msgbndHandler.TextIdToText([placeName, placeNameDLC1, placeNameDLC2, npcName, npcNameDLC1, npcNameDLC2], siteOfGrace.textId5)} | " +
+                        $"{msgbndHandler.TextIdToText([placeName, placeNameDLC1, placeNameDLC2, npcName, npcNameDLC1, npcNameDLC2], siteOfGrace.textId6)} | " +
+                        $"{msgbndHandler.TextIdToText([placeName, placeNameDLC1, placeNameDLC2, npcName, npcNameDLC1, npcNameDLC2], siteOfGrace.textId7)} | " +
+                        $"{msgbndHandler.TextIdToText([placeName, placeNameDLC1, placeNameDLC2, npcName, npcNameDLC1, npcNameDLC2], siteOfGrace.textId8)} | " +
+                        $"{{{siteOfGrace.posX},{siteOfGrace.posY},{siteOfGrace.posZ}}}");
+            }
+            */
+
+            foreach (var landmark in landmarks)
+            {
+                //Console.WriteLine($"" +
+                //$"{GetCategory(landmark.)} : " +
+                //$"{msgbndHandler.TextIdToText([placeName, placeNameDLC1, placeNameDLC2, npcName, npcNameDLC1, npcNameDLC2], landmark.textId1)} | " +
+                //$"{msgbndHandler.TextIdToText([placeName, placeNameDLC1, placeNameDLC2, npcName, npcNameDLC1, npcNameDLC2], landmark.textId2)} | " +
+                //$"{msgbndHandler.TextIdToText([placeName, placeNameDLC1, placeNameDLC2, npcName, npcNameDLC1, npcNameDLC2], landmark.textId3)} | " +
+                //$"{msgbndHandler.TextIdToText([placeName, placeNameDLC1, placeNameDLC2, npcName, npcNameDLC1, npcNameDLC2], landmark.textId4)} | " +
+                //$"{msgbndHandler.TextIdToText([placeName, placeNameDLC1, placeNameDLC2, npcName, npcNameDLC1, npcNameDLC2], landmark.textId5)} | " +
+                //$"{msgbndHandler.TextIdToText([placeName, placeNameDLC1, placeNameDLC2, npcName, npcNameDLC1, npcNameDLC2], landmark.textId6)} | " +
+                //$"{msgbndHandler.TextIdToText([placeName, placeNameDLC1, placeNameDLC2, npcName, npcNameDLC1, npcNameDLC2], landmark.textId7)} | " +
+                //$"{msgbndHandler.TextIdToText([placeName, placeNameDLC1, placeNameDLC2, npcName, npcNameDLC1, npcNameDLC2], landmark.textId8)} | " +
+                //$"{{{landmark.posX},{landmark.posY},{landmark.posZ}}}");
+                Console.WriteLine(landmark);
+                //Console.WriteLine(GetSubcategory(12059165));
+            }
+
+
 
             /*
              * BonfireWarpParam
@@ -108,64 +138,21 @@ namespace EldenAPI
             //foreach (var original in subCategoryIds) Console.WriteLine(original);
 
 
-            Type type = sitesOfGrace.ToList()[0].GetType();
-            foreach (var property in type.GetProperties())
-            {
-                //Console.WriteLine($"{property.PropertyType.Name} {property.Name}");
-            }
+            //Type type = sitesOfGrace.ToList()[0].GetType();
+            //foreach (var property in type.GetProperties())
+            //{
+            //    Console.WriteLine($"{property.PropertyType.Name} {property.Name}");
+            //}
             /*
             posX posY posZ : Coordinates
             textId1->8 : Name
             iconId : Icon sprite
-            clearedEventFlagId : alternate icon color
-            isAreaIcon : Icon scale makes icon bigger
+            clearedEventFlagId : alternate icon color ?
+            isAreaIcon : Icon scale, makes icon bigger
             areaNo: 61 60 11 etc what are Limgrave and such
             gridXNo gridZNo : Xhorizontal Zvertical tile
             dispMinZoomStep : At what zoom level you start seeing it 0 for everything
              */
-
-
-
-
-
-
-
-
-
-            //foreach (var file in msgbndHandler.GetFiles(BNDType.MENUDLC2))
-            {
-            //    FMG fmg = msgbndHandler.GetFMG(BNDType.MENUDLC2, file.ID);
-            //    Console.WriteLine(msgbndHandler.TextIdToText(fmg, 120601), file.ID);
-            }
-            /*
-            var allParams = regulation.GetType().GetProperties(BindingFlags.Public | BindingFlags.Instance);
-
-            foreach (var paramSource in allParams)
-            {
-                // Get the Param instance (e.g., regulation.BonfireWarpParam)
-                var paramValue = paramSource.GetValue(regulation);
-                if (paramValue == null) continue;
-
-                // Get the "Entries" property
-                var entriesProperty = paramValue.GetType().GetProperty("Entries");
-                if (entriesProperty == null) continue;
-
-                // Get the type of the row inside the Entries list
-                var entryType = entriesProperty.PropertyType.GetGenericArguments()[0];
-
-                // Find all properties in the row that contain "textid" (case-insensitive)
-                var matches = entryType.GetProperties()
-                    .Where(p => p.Name.Contains("textid", StringComparison.OrdinalIgnoreCase))
-                    .Select(p => p.Name)
-                    .ToList();
-
-                if (matches.Any())
-                {
-                    Console.WriteLine($"Param: {paramSource.Name}");
-                    Console.WriteLine($"   Fields found: {string.Join(", ", matches)}");
-                    Console.WriteLine(new string('-', 30));
-                }
-            }*/
         }
     }
 
