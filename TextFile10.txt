@@ -1,0 +1,369 @@
+100000 : Stormveil Castle | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+110000 : Leyndell, Royal Capital | Leyndell, Ashen Capital | -1 | -1 | -1 | -1 | -1 | -1 |
+130000 : Crumbling Farum Azula | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+140000 : Academy of Raya Lucaria | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+150000 : Miquella's Haligtree | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+150001 : Elphael, Brace of the Haligtree | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+160000 : Volcano Manor | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+180000 : Stranded Graveyard | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+180001 : Fringefolk Hero's Grave | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+200000 : Belurat, Tower Settlement | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+200001 : Miquella's Cross | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+200100 : Enir-Ilim | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+200101 : Miquella's Cross | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+210000 : Shadow Keep | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+210101 : Miquella's Cross | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+220000 : Stone Coffin Fissure | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+220001 : Miquella's Cross | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+280000 : Midra's Manse | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+300000 : Tombsward Catacombs | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+300100 : Impaler's Catacombs | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+300200 : Stormfoot Catacombs | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+300300 : Road's End Catacombs | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+300400 : Murkwater Catacombs | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+300500 : Black Knife Catacombs | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+300600 : Cliffbottom Catacombs | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+300700 : Wyndham Catacombs | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+300800 : Sainted Hero's Grave | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+300900 : Gelmir Hero's Grave | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+301000 : Auriza Hero's Grave | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+301100 : Deathtouched Catacombs | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+301200 : Unsightly Catacombs | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+301300 : Auriza Side Tomb | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+301400 : Minor Erdtree Catacombs | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+301500 : Caelid Catacombs | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+301600 : War-Dead Catacombs | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+301700 : Giant-Conquering Hero's Grave | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+301800 : Giants' Mountaintop Catacombs | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+301900 : Consecrated Snowfield Catacombs | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+302000 : Hidden Path to the Haligtree | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+310000 : Murkwater Cave | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+310100 : Earthbore Cave | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+310200 : Tombsward Cave | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+310300 : Groveside Cave | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+310400 : Stillwater Cave | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+310500 : Lakeside Crystal Cave | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+310600 : Academy Crystal Cave | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+310700 : Seethewater Cave | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+310900 : Volcano Cave | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+311000 : Dragonbarrow Cave | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+311100 : Sellia Hideaway | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+311200 : Cave of the Forlorn | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+311500 : Coastal Cave | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+311700 : Highroad Cave | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+311800 : Perfumer's Grotto | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+311900 : Sage's Cave | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+312000 : Abandoned Cave | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+312100 : Gaol Cave | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+312200 : Spiritcaller Cave | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+320000 : Morne Tunnel | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+320100 : Limgrave Tunnels | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+320200 : Raya Lucaria Crystal Tunnel | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+320400 : Old Altus Tunnel | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+320500 : Altus Tunnel | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+320700 : Gael Tunnel | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+320800 : Sellia Crystal Tunnel | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+321100 : Yelough Anix Tunnel | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+341000 : Divine Tower of Limgrave | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+341100 : Carian Study Hall | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+341101 : Divine Tower of Liurnia | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+341200 : Sealed Tunnel | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+341201 : Divine Tower of West Altus | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+341300 : Divine Tower of Caelid | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+341400 : Divine Tower of East Altus | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+341500 : Isolated Divine Tower | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+350000 : Subterranean Shunning-Grounds | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+392000 : Ruin-Strewn Precipice | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+400000 : Fog Rift Catacombs | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+400100 : Scorpion River Catacombs | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+400200 : Darklight Catacombs | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+410000 : Belurat Gaol | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+410100 : Bonny Gaol | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+410200 : Lamenter's Gaol | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+420000 : Ruined Forge Lava Intake | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+420100 : 42010 | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+420200 : Ruined Forge of Starfall Past | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+420300 : Taylew's Ruined Forge | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+430000 : Rivermouth Cave | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+430100 : Dragon's Pit | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+450000 : Royal Colosseum | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+450100 : Limgrave Colosseum | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+450200 : Caelid Colosseum | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+61413200 : Isolated Merchant's Shack | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+61413300 : Fourth Church of Marika | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+61413301 : Witchbane Ruins | -1 | Sorceress Sellen | Castellan Jerren | -1 | -1 | -1 | -1 |
+61413500 : Church of Dragon Communion | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+61413800 : Stormhill Shack | -1 | Heartbroken Maiden | -1 | -1 | -1 | -1 | -1 |
+61423200 : Tower of Return | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+61423300 : Weeping Evergaol | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+61423400 : Tombsward Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+61423600 : Church of Elleh | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+61423700 : Gatefront Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+61423701 : Stormhill Evergaol | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+61423702 : Stormgate | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+61423800 : Warmaster's Shack | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+61433100 : Castle Morne | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+61433301 : Minor Erdtree | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+61433400 : Church of Pilgrimage | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+61433401 : Demi-Human Forest Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+61433600 : Dragon-Burnt Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+61443300 : Callu Baptismal Church | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+61443302 : Ailing Village | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+61443400 : Bridge of Sacrifice | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+61443401 : Forest Lookout Tower | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+61443500 : Forlorn Hound Evergaol | -1 | Blaidd the Half-Wolf | Blaidd the Half-Wolf | -1 | -1 | -1 | -1 |
+61443600 : Waypoint Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+61443800 : Artist's Shack | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+61453300 : Oridys's Rise | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+61453600 : Starfall Crater | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+61453700 : Siofra River Well | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+61453701 : Mistwood Ruins | -1 | Blaidd the Half-Wolf | -1 | -1 | -1 | -1 | -1 |
+61453702 : Minor Erdtree | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+61453900 : Summonwater Village | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+61463600 : Fort Haight | -1 | Kenneth Haight, Limgrave Heir | -1 | -1 | -1 | -1 | -1 |
+61463800 : Third Church of Marika | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+62334000 : Chelona's Rise | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+62334200 : Ringleader's Evergaol | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+62334300 : Minor Erdtree | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+62334400 : Revenger's Shack | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+62334500 : Cuckoo's Evergaol | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+62334700 : The Four Belfries | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+62344100 : Deep Ainsel Well | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+62344200 : Moonfolk Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+62344300 : Converted Tower | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+62344400 : Temple Quarter | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+62344800 : Kingsrealm Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+62345000 : Seluvis's Rise | -1 | Preceptor Seluvis | Preceptor Seluvis | Preceptor Seluvis | -1 | -1 | -1 |
+62345001 : Ranni's Rise | -1 | Ranni the Witch | Ranni the Witch | Blaidd the Half-Wolf | Blaidd the Half-Wolf | War Counselor Iji | Preceptor Seluvis |
+62345002 : Three Sisters | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+62345100 : Renna's Rise | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+62354100 : Lunar Estate Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+62354200 : Village of the Albinaurics | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+62354201 : Cathedral of Manus Celes | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+62354400 : Rose Church | -1 | White Mask Varré | -1 | -1 | -1 | -1 | -1 |
+62354700 : Testu's Rise | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+62355000 : Caria Manor | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+62364100 : Slumbering Wolf's Shack | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+62364300 : Boilprawn Shack | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+62364900 : Bellum Church | -1 | Lightseeker Hyetta | -1 | -1 | -1 | -1 | -1 |
+62365000 : Royal Grave Evergaol | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+62374200 : Laskyar Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+62374400 : Academy Gate Town | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+62374600 : Church of Vows | -1 | Miriel, Pastor of Vows | -1 | -1 | -1 | -1 | -1 |
+62374900 : Church of Inhibition | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+62384100 : Malefactor's Evergaol | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+62384200 : Highway Lookout Tower | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+62384500 : Artist's Shack | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+62384600 : Ainsel River Well | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+62384700 : Uld Palace Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+62384800 : Frenzied Flame Village | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+62384801 : Minor Erdtree | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+62384900 : Frenzy-Flaming Tower | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+62393900 : Church of Irith | -1 | Sorcerer Thops | -1 | -1 | -1 | -1 | -1 |
+62394100 : Purified Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+62394400 : Jarburg | -1 | Jar-Bairn | Potentate Diallos | Potentate Diallos | -1 | -1 | -1 |
+62394800 : Converted Fringe Tower | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+63355400 : Fort Laiedd | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+63365100 : Perfumer's Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+63365200 : Hermit's Shack | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+63365203 : Craftsman's Shack | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+63375100 : Stormcaller Church | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+63375200 : Hermit Village | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+63375400 : Minor Erdtree | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+63385000 : Grand Lift of Dectus | -1 | Rya the Scout | -1 | -1 | -1 | -1 | -1 |
+63385100 : Lux Ruins | -1 | Rya the Scout | -1 | -1 | -1 | -1 | -1 |
+63385200 : Wyndham Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+63385400 : Corpse-Stench Shack | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+63395000 : Golden Lineage Evergaol | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+63395200 : Second Church of Marika | -1 | Yura, Hunter of Bloody Fingers | -1 | -1 | -1 | -1 | -1 |
+63395300 : Mirage Rise | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+63395400 : The Shaded Castle | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+63405200 : St. Trina's Hideaway | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+63405300 : Writheblood Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+63405500 : West Windmill Pasture | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+63415300 : Woodfolk Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+63415301 : Minor Erdtree | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+63415400 : Dominula, Windmill Village | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+63415500 : East Windmill Pasture | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+63415501 : Village Windmill Pasture | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+63425400 : Highway Lookout Tower | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+63435000 : Minor Erdtree Church | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+63435300 : Hermit Merchant's Shack | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+63445300 : Minor Erdtree | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+64464000 : Smoldering Church | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+64464001 : Shack of the Rotting | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+64473800 : Caelid Waypoint Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+64473801 : Fort Gael | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+64474000 : Forsaken Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+64474001 : Minor Erdtree | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+64474002 : Caelem Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+64483600 : Cathedral of Dragon Communion | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+64483800 : Street of Sages Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+64484100 : Isolated Merchant's Shack | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+64493800 : Swamp Lookout Tower | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+64493801 : Sellia Gateway | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+64493900 : Sellia Evergaol | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+64494000 : Deep Siofra Well | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+64503800 : Gowry's Shack | -1 | Millicent | Sage Gowry | -1 | -1 | -1 | -1 |
+64503900 : Church of the Plague | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+64503901 : Sellia, Town of Sorcery | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+64513600 : Redmane Castle | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+64513700 : Wailing Dunes | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+64513900 : Fort Faroth | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+64514000 : Minor Erdtree | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+64514300 : Bestial Sanctum | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+64524100 : Lenne's Rise | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+65475500 : Yelough Anix Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+65475800 : Apostate Derelict | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+65485700 : Ordina, Liturgical Town | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+65495300 : Zamor Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+65495301 : Grand Lift of Rold | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+65505600 : Shack of the Lofty | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+65505601 : Minor Erdtree | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+65505602 : Albinauric Rise | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+65515300 : Church of Repose | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+65515600 : Stargazers' Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+65515700 : Castle Sol | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+65525500 : Guardians' Garrison | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+65525600 : Minor Erdtree | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+65525700 : Heretical Rise | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+65535600 : Lord Contender's Evergaol | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+65545300 : Forge of the Giants | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+65545500 : First Church of Marika | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+66120100 : Uhl Palace Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+66120102 : Uhl Palace Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+66120103 : Nokstella, Eternal City | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+66120104 : Grand Cloister | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+66120200 : Night's Sacred Ground | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+66120201 : Siofra Aqueduct | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+66120202 : Hallowhorn Grounds | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+66120203 : Hallowhorn Grounds | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+66120500 : Mohgwyn Dynasty Mausoleum | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+66120700 : Nokron, Eternal City | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+68454100 : Prospect Town | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+68454200 : Miquella's Cross | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+68463800 : Southern Nameless Mausoleum | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+68464000 : Church of Benediction | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+68464001 : Artist's Shack | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+68464100 : Western Nameless Mausoleum | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+68464200 : Miquella's Cross | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+68464201 : Scorched Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+68464300 : Run-Down Traveler's Rest | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+68464301 : Ellac Greatbridge | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+68464400 : Abandoned Ailing Village | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+68474400 : Castle Ensis | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+68474401 : Miquella's Cross | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+68483700 : Miquella's Cross | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+68483800 : Finger-Weaver's Hovel | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+68484100 : Church of Consolation | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+68484101 : Suppressing Pillar | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+68484300 : Miquella's Cross | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+68493900 : Grand Altar of Dragon Communion | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+68494200 : Elder's Hovel | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+68503800 : Finger Ruins of Rhia | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+68504000 : Finger Ruins of Rhia | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+68534100 : Abandoned Church | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+69464500 : Temple Town Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+69464501 : Northern Nameless Mausoleum | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+69464700 : Miquella's Cross | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+69474500 : Fog Rift Fort | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+69474600 : Church of the Crusade | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+69484500 : Miquella's Cross | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+69494300 : Miquella's Cross | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+69494301 : Fort of Reprimand | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+69494400 : Miquella's Cross | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+69494500 : Moorth Ruins | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+69494901 : Scadutree Chalice | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+69494902 : Albinauric's Shack | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+69504400 : Whipping Hut | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+69504401 : Bonny Village | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+69504402 : Village of Flies | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+69504600 : Ruins of Unte | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+69504800 : Scadutree Base | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+69514400 : Eastern Nameless Mausoleum | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+69514500 : Cathedral of Manus Metyr | -1 | Count Ymir, High Priest | Swordhand of Night Jolán | -1 | -1 | -1 | -1 |
+69514501 : Finger Ruins of Miyr | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+69514600 : Rabbath's Rise | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+69514601 : Finger Ruins of Miyr | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+69514700 : Shaman Village | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+69534600 : Finger Ruins of Dheo | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+69534700 : Finger Ruins of Dheo | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
+80100000 : -1 | -1 | Gatekeeper Gostoc | -1 | -1 | -1 | -1 | -1 |
+80100010 : -1 | -1 | Sorcerer Rogier | -1 | -1 | -1 | -1 | -1 |
+80100015 : -1 | -1 | Nepheli Loux, Warrior | -1 | -1 | -1 | -1 | -1 |
+80100016 : -1 | -1 | Nepheli Loux, Warrior | Kenneth Haight, Limgrave Heir | Gatekeeper Gostoc | -1 | -1 | -1 |
+80110000 : -1 | -1 | Volcano Manor Request: Vargram | -1 | -1 | -1 | -1 | -1 |
+80110005 : -1 | -1 | The Noble Goldmask | Scribe Corhyn | -1 | -1 | -1 | -1 |
+80110510 : -1 | -1 | Scribe Corhyn | -1 | -1 | -1 | -1 | -1 |
+80130000 : -1 | -1 | Alexander, Warrior Jar | -1 | -1 | -1 | -1 | -1 |
+80140010 : -1 | -1 | Castellan Jerren | -1 | -1 | -1 | -1 | -1 |
+80150001 : -1 | -1 | Millicent | -1 | -1 | -1 | -1 | -1 |
+80160011 : -1 | -1 | Zorayas the Scout | -1 | -1 | -1 | -1 | -1 |
+80350005 : -1 | -1 | Dung Eater | -1 | -1 | -1 | -1 | -1 |
+80350006 : -1 | -1 | Dung Eater | -1 | -1 | -1 | -1 | -1 |
+80392000 : -1 | -1 | Volcano Manor Request: Tragoth | -1 | -1 | -1 | -1 | -1 |
+81413600 : -1 | -1 | Nomadic Merchant | -1 | -1 | -1 | -1 | -1 |
+81413900 : -1 | -1 | Finger Reader Crone | -1 | -1 | -1 | -1 | -1 |
+81423900 : -1 | -1 | Volcano Manor Request: Istvan | -1 | -1 | -1 | -1 | -1 |
+81433100 : -1 | -1 | Castellan Edgar | Castellan Edgar | -1 | -1 | -1 | -1 |
+81433500 : -1 | -1 | Yura, Hunter of Bloody Fingers | -1 | -1 | -1 | -1 | -1 |
+81433700 : -1 | -1 | Demi-Human Boc | -1 | -1 | -1 | -1 | -1 |
+81433900 : -1 | -1 | Alexander, Warrior Jar | -1 | -1 | -1 | -1 | -1 |
+81443800 : -1 | -1 | Yura, Hunter of Bloody Fingers | -1 | -1 | -1 | -1 | -1 |
+81443900 : -1 | -1 | D, Hunter of the Dead | -1 | -1 | -1 | -1 | -1 |
+81443905 : -1 | -1 | Nomadic Merchant | -1 | -1 | -1 | -1 | -1 |
+81453400 : -1 | -1 | Irina of Morne | Castellan Edgar | -1 | -1 | -1 | -1 |
+81453600 : -1 | -1 | Nomadic Merchant | -1 | -1 | -1 | -1 | -1 |
+81453800 : -1 | -1 | Kenneth Haight, Limgrave Heir | -1 | -1 | -1 | -1 | -1 |
+81453900 : -1 | -1 | D, Hunter of the Dead | -1 | -1 | -1 | -1 | -1 |
+81463900 : -1 | -1 | Sending Gate | -1 | -1 | -1 | -1 | -1 |
+82344200 : -1 | -1 | Nepheli Loux, Warrior | -1 | -1 | -1 | -1 | -1 |
+82345020 : -1 | -1 | Sorceress Sellen | -1 | -1 | -1 | -1 | -1 |
+82354200 : -1 | -1 | Ranni the Witch | Ranni the Witch | -1 | -1 | -1 | -1 |
+82354205 : -1 | -1 | Old Albus | -1 | -1 | -1 | -1 | -1 |
+82354500 : -1 | -1 | Isolated Merchant | -1 | -1 | -1 | -1 | -1 |
+82354600 : -1 | -1 | Yura, Hunter of Bloody Fingers | -1 | -1 | -1 | -1 | -1 |
+82355000 : -1 | -1 | Pidia, Carian Servant | -1 | -1 | -1 | -1 | -1 |
+82364400 : -1 | -1 | Finger Reader Crone | -1 | -1 | -1 | -1 | -1 |
+82364805 : -1 | -1 | Finger Reader Crone | -1 | -1 | -1 | -1 | -1 |
+82364900 : -1 | -1 | Nomadic Merchant | -1 | -1 | -1 | -1 | -1 |
+82374205 : -1 | -1 | Rya the Scout | -1 | -1 | -1 | -1 | -1 |
+82374400 : -1 | -1 | Knight Diallos | -1 | -1 | -1 | -1 | -1 |
+82384100 : -1 | -1 | Lightseeker Hyetta | -1 | -1 | -1 | -1 | -1 |
+82384300 : -1 | -1 | Lightseeker Hyetta | Lightseeker Hyetta | -1 | -1 | -1 | -1 |
+82394400 : -1 | -1 | Alexander, Warrior Jar | -1 | -1 | -1 | -1 | -1 |
+83355300 : -1 | -1 | Alexander, Warrior Jar | Alexander, Warrior Jar | -1 | -1 | -1 | -1 |
+83375400 : -1 | -1 | Patches | -1 | -1 | -1 | -1 | -1 |
+83375405 : -1 | -1 | Nomadic Merchant | -1 | -1 | -1 | -1 | -1 |
+83385105 : -1 | -1 | Millicent | -1 | -1 | -1 | -1 | -1 |
+83395300 : -1 | -1 | Volcano Manor Request: Rileigh | -1 | -1 | -1 | -1 | -1 |
+83395405 : -1 | -1 | Patches | -1 | -1 | -1 | -1 | -1 |
+83405200 : -1 | -1 | Brother Corhyn | -1 | -1 | -1 | -1 | -1 |
+83405205 : -1 | -1 | Finger Reader Crone | -1 | -1 | -1 | -1 | -1 |
+83405415 : -1 | -1 | The Noble Goldmask | Scribe Corhyn | -1 | -1 | -1 | -1 |
+83435200 : -1 | -1 | Finger Reader Crone | -1 | -1 | -1 | -1 | -1 |
+83445200 : -1 | -1 | Blackguard | -1 | -1 | -1 | -1 | -1 |
+84483805 : -1 | -1 | Nomadic Merchant | -1 | -1 | -1 | -1 | -1 |
+84483905 : -1 | -1 | Finger Reader Crone | -1 | -1 | -1 | -1 | -1 |
+84493700 : -1 | -1 | Nomadic Merchant | -1 | -1 | -1 | -1 | -1 |
+84513610 : -1 | -1 | Castellan Jerren | Castellan Jerren | -1 | -1 | -1 | -1 |
+85495300 : -1 | -1 | Grand Lift of Rold | -1 | -1 | -1 | -1 | -1 |
+85495301 : -1 | -1 | The Rold Route | -1 | -1 | -1 | -1 | -1 |
+85505600 : -1 | -1 | Volcano Manor Request: Juno Hoslow | -1 | -1 | -1 | -1 | -1 |
+85515600 : -1 | -1 | The Noble Goldmask | Scribe Corhyn | Scribe Corhyn | -1 | -1 | -1 |
+85515620 : -1 | -1 | Hermit Merchant | -1 | -1 | -1 | -1 | -1 |
+86120100 : -1 | -1 | Hermit Merchant | -1 | -1 | -1 | -1 | -1 |
+86120200 : -1 | -1 | Blaidd the Half-Wolf | -1 | -1 | -1 | -1 | -1 |
+86120205 : -1 | -1 | D, Beholder of Death | -1 | -1 | -1 | -1 | -1 |
+86120215 : -1 | -1 | Abandoned Merchant | -1 | -1 | -1 | -1 | -1 |
+86120500 : -1 | -1 | Imprisoned Merchant | -1 | -1 | -1 | -1 | -1 |
+86120520 : -1 | -1 | White Mask Varré | -1 | -1 | -1 | -1 | -1 |
+87200000 : -1 | -1 | Hornsent Grandam | -1 | -1 | -1 | -1 | -1 |
+87200100 : -1 | -1 | Needle Knight Leda | Redmane Freyja | Hornsent | Moore | Dryleaf Dane | -1 |
+87200101 : -1 | -1 | Pureblood Knight Ansbach | -1 | -1 | -1 | -1 | -1 |
+87200102 : -1 | -1 | Pureblood Knight Ansbach | Thiollier | -1 | -1 | -1 | -1 |
+87200103 : -1 | -1 | Needle Knight Leda | -1 | -1 | -1 | -1 | -1 |
+87210000 : -1 | -1 | Fire Knight Queelign | -1 | -1 | -1 | -1 | -1 |
+87210100 : -1 | -1 | Sir Ansbach | -1 | -1 | -1 | -1 | -1 |
+88484200 : -1 | -1 | Igon | -1 | -1 | -1 | -1 | -1 |
+88524000 : -1 | -1 | Igon | -1 | -1 | -1 | -1 | -1 |

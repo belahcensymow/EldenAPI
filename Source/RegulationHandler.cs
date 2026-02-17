@@ -215,6 +215,8 @@ namespace EldenRingDataExtractor
                 case "fixstr": return "string";
                 case "fixstrw": return "string";
                 case "SOUND_BGM_MAP_PLACE_TYPE": return "Int16";
+                case "SOUND_MAP_DEFAULT_REVERB_TYPE": return "SByte";
+                case "SOUND_ENV_MAP_PLACE_TYPE": return "Int16";
             }
             bool isEnum = !type.Any(char.IsLower) || type.Contains('_');
             if (isEnum) return "byte";
