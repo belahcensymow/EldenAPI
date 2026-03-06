@@ -1,0 +1,507 @@
+subcategoryID : 6800 | 241353 : Gravesite Plain
+landmark | ID : 400000 | 40_0_0 | textId1 : 40000 | Fog Rift Catacombs
+bonefire | ID : 400000 | 40_0_0 | textId1 : 400000 | Fog Rift Catacombs
+
+subcategoryID : 6800 | 241353 : Gravesite Plain
+landmark | ID : 410000 | 41_0_0 | textId1 : 41000 | Belurat Gaol
+bonefire | ID : 410000 | 41_0_0 | textId1 : 410000 | Belurat Gaol
+
+subcategoryID : 6800 | 241353 : Gravesite Plain
+landmark | ID : 420000 | 42_0_0 | textId1 : 42000 | Ruined Forge Lava Intake
+bonefire | ID : 420000 | 42_0_0 | textId1 : 420000 | Ruined Forge Lava Intake
+
+subcategoryID : 6800 | 241353 : Gravesite Plain
+landmark | ID : 430000 | 43_0_0 | textId1 : 43000 | Rivermouth Cave
+bonefire | ID : 430000 | 43_0_0 | textId1 : 430000 | Rivermouth Cave
+
+subcategoryID : 6800 | 241353 : Gravesite Plain
+landmark | ID : 430100 | 43_1_0 | textId1 : 43010 | Dragon's Pit
+bonefire | ID : 430100 | 43_1_0 | textId1 : 430100 | Dragon's Pit
+
+subcategoryID : 6800 | 241353 : Gravesite Plain
+landmark | ID : 68464201 | 61_47_41 | textId1 : 6805000 | Scorched Ruins
+bonefire | ID : 61474100 | 61_47_41 | textId1 : 680001 | Scorched Ruins
+
+subcategoryID : 6830 | 241338 : Cerulean Coast
+landmark | ID : 68503800 | 61_50_40 | textId1 : 6830000 | Finger Ruins of Rhia
+bonefire | ID : 68503800 | 61_50_38 | textId1 : 683004 | Finger Ruins of Rhia
+
+subcategoryID : 6840 | 241341 : Charo's Hidden Grave
+landmark | ID : 410200 | 41_2_0 | textId1 : 41020 | Lamenter's Gaol
+bonefire | ID : 410200 | 41_2_0 | textId1 : 410200 | Lamenter's Gaol
+
+subcategoryID : 6851 | 241339 : Foot of the Jagged Peak
+landmark | ID : 68493900 | 61_49_39 | textId1 : 6844900 | Grand Altar of Dragon Communion
+bonefire | ID : 68493900 | 61_49_39 | textId1 : 684000 | Grand Altar of Dragon Communion
+
+subcategoryID : 6900 | 241337 : Scadu Altus
+landmark | ID : 400200 | 40_2_0 | textId1 : 40020 | Darklight Catacombs
+bonefire | ID : 400200 | 40_2_0 | textId1 : 400200 | Darklight Catacombs
+
+subcategoryID : 6900 | 241337 : Scadu Altus
+landmark | ID : 410100 | 41_1_0 | textId1 : 41010 | Bonny Gaol
+bonefire | ID : 410100 | 41_1_0 | textId1 : 410100 | Bonny Gaol
+
+subcategoryID : 6900 | 241337 : Scadu Altus
+landmark | ID : 420200 | 42_2_0 | textId1 : 42020 | Ruined Forge of Starfall Past
+bonefire | ID : 420200 | 42_2_0 | textId1 : 420200 | Ruined Forge of Starfall Past
+
+subcategoryID : 6900 | 241337 : Scadu Altus
+landmark | ID : 69494301 | 61_49_43 | textId1 : 6904300 | Fort of Reprimand
+bonefire | ID : 69494301 | 61_49_43 | textId1 : 690009 | Fort of Reprimand
+
+subcategoryID : 6900 | 241337 : Scadu Altus
+landmark | ID : 69494500 | 61_49_44 | textId1 : 6905400 | Moorth Ruins
+bonefire | ID : 69494400 | 61_49_44 | textId1 : 690002 | Moorth Ruins
+
+subcategoryID : 6900 | 241337 : Scadu Altus
+landmark | ID : 69504401 | 61_50_44 | textId1 : 6906800 | Bonny Village
+bonefire | ID : 69494401 | 61_49_44 | textId1 : 690003 | Bonny Village
+
+subcategoryID : 6900 | 241337 : Scadu Altus
+landmark | ID : 69514500 | 61_51_45 | textId1 : 6904800 | Cathedral of Manus Metyr
+bonefire | ID : 69514500 | 61_51_45 | textId1 : 690006 | Cathedral of Manus Metyr
+
+subcategoryID : 6920 | 241343 : Scaduview
+landmark | ID : 69504800 | 61_50_48 | textId1 : 6920001 | Scadutree Base
+bonefire | ID : 69504801 | 61_50_48 | textId1 : 696000 | Scadutree Base
+
+subcategoryID : 6950 | 241354 : Rauh Base
+landmark | ID : 400100 | 40_1_0 | textId1 : 40010 | Scorpion River Catacombs
+bonefire | ID : 400100 | 40_1_0 | textId1 : 400100 | Scorpion River Catacombs
+
+subcategoryID : 6950 | 241354 : Rauh Base
+landmark | ID : 420300 | 42_3_0 | textId1 : 42030 | Taylew's Ruined Forge
+bonefire | ID : 420300 | 42_3_0 | textId1 : 420300 | Taylew's Ruined Forge
+
+subcategoryID : 6950 | 241354 : Rauh Base
+landmark | ID : 69464500 | 61_46_45 | textId1 : 6905200 | Temple Town Ruins
+bonefire | ID : 69454600 | 61_45_46 | textId1 : 690013 | Temple Town Ruins
+
+subcategoryID : 12010 | 241305 : Ainsel River Main
+landmark | ID : 66120103 | 12_1_0 | textId1 : 6614600 | Nokstella, Eternal City
+bonefire | ID : 120105 | 12_1_0 | textId1 : 120105 | Nokstella, Eternal City
+
+subcategoryID : 12011 | 241306 : Lake of Rot
+landmark | ID : 66120104 | 12_1_0 | textId1 : 6614700 | Grand Cloister
+bonefire | ID : 120108 | 12_1_0 | textId1 : 120108 | Grand Cloister
+
+subcategoryID : 12020 | 241308 : Nokron, Eternal City
+landmark | ID : 66120200 | 12_2_0 | textId1 : 6654601 | Night's Sacred Ground
+bonefire | ID : 120208 | 12_2_0 | textId1 : 120208 | Night's Sacred Ground
+
+subcategoryID : 12020 | 241308 : Nokron, Eternal City
+landmark | ID : 66120700 | 12_7_0 | textId1 : 6654600 | Nokron, Eternal City
+bonefire | ID : 120701 | 12_7_0 | textId1 : 120701 | Nokron, Eternal City
+
+subcategoryID : 16000 | 241316 : Volcano Manor
+landmark | ID : 160000 | 60_36_53 | textId1 : 6316000 | Volcano Manor
+bonefire | ID : 160002 | 16_0_0 | textId1 : 160002 | Volcano Manor
+
+subcategoryID : 18000 | 241317 : Stranded Graveyard
+landmark | ID : 180000 | 18_0_0 | textId1 : 18000 | Stranded Graveyard
+bonefire | ID : 180001 | 18_0_0 | textId1 : 180001 | Stranded Graveyard
+
+subcategoryID : 20000 | 241345 : Belurat, Tower Settlement
+landmark | ID : 200000 | 20_0_0 | textId1 : 6801000 | Belurat, Tower Settlement
+bonefire | ID : 200001 | 20_0_0 | textId1 : 200001 | Belurat, Tower Settlement
+
+subcategoryID : 22000 | 241350 : Stone Coffin Fissure
+landmark | ID : 220000 | 22_0_0 | textId1 : 6831700 | Stone Coffin Fissure
+bonefire | ID : 220001 | 22_0_0 | textId1 : 220001 | Stone Coffin Fissure
+
+subcategoryID : 39200 | 241320 : Ruin-Strewn Precipice
+landmark | ID : 392000 | 39_20_0 | textId1 : 39200 | Ruin-Strewn Precipice
+bonefire | ID : 390001 | 39_20_0 | textId1 : 390001 | Ruin-Strewn Precipice
+
+subcategoryID : 61000 | 241321 : Limgrave
+landmark | ID : 300200 | 30_2_0 | textId1 : 30020 | Stormfoot Catacombs
+bonefire | ID : 300200 | 30_2_0 | textId1 : 300200 | Stormfoot Catacombs
+
+subcategoryID : 61000 | 241321 : Limgrave
+landmark | ID : 300400 | 30_4_0 | textId1 : 30040 | Murkwater Catacombs
+bonefire | ID : 300400 | 30_4_0 | textId1 : 300400 | Murkwater Catacombs
+
+subcategoryID : 61000 | 241321 : Limgrave
+landmark | ID : 310000 | 60_43_37 | textId1 : 31000 | Murkwater Cave
+bonefire | ID : 310000 | 60_43_37 | textId1 : 310000 | Murkwater Cave
+
+subcategoryID : 61000 | 241321 : Limgrave
+landmark | ID : 310300 | 31_3_0 | textId1 : 31030 | Groveside Cave
+bonefire | ID : 310300 | 31_3_0 | textId1 : 310300 | Groveside Cave
+
+subcategoryID : 61000 | 241321 : Limgrave
+landmark | ID : 311500 | 31_15_0 | textId1 : 31150 | Coastal Cave
+bonefire | ID : 311500 | 31_15_0 | textId1 : 311500 | Coastal Cave
+
+subcategoryID : 61000 | 241321 : Limgrave
+landmark | ID : 311700 | 31_17_0 | textId1 : 31170 | Highroad Cave
+bonefire | ID : 311700 | 31_17_0 | textId1 : 311700 | Highroad Cave
+
+subcategoryID : 61000 | 241321 : Limgrave
+landmark | ID : 320100 | 60_42_37 | textId1 : 32010 | Limgrave Tunnels
+bonefire | ID : 320100 | 60_43_37 | textId1 : 320100 | Limgrave Tunnels
+
+subcategoryID : 61000 | 241321 : Limgrave
+landmark | ID : 61413500 | 60_41_35 | textId1 : 6100301 | Church of Dragon Communion
+bonefire | ID : 61413500 | 60_41_35 | textId1 : 610008 | Church of Dragon Communion
+
+subcategoryID : 61000 | 241321 : Limgrave
+landmark | ID : 61423600 | 60_42_36 | textId1 : 6100300 | Church of Elleh
+bonefire | ID : 61423600 | 60_42_36 | textId1 : 610000 | Church of Elleh
+
+subcategoryID : 61000 | 241321 : Limgrave
+landmark | ID : 61443800 | 60_44_38 | textId1 : 6100600 | Artist's Shack
+bonefire | ID : 61443800 | 60_44_38 | textId1 : 610002 | Artist's Shack
+
+subcategoryID : 61000 | 241321 : Limgrave
+landmark | ID : 61463800 | 60_46_38 | textId1 : 6100302 | Third Church of Marika
+bonefire | ID : 61463800 | 60_46_38 | textId1 : 610003 | Third Church of Marika
+
+subcategoryID : 61001 | 241322 : Stormhill
+landmark | ID : 301100 | 30_11_0 | textId1 : 30110 | Deathtouched Catacombs
+bonefire | ID : 301100 | 30_11_0 | textId1 : 301100 | Deathtouched Catacombs
+
+subcategoryID : 61001 | 241322 : Stormhill
+landmark | ID : 341000 | 34_10_0 | textId1 : 34100 | Divine Tower of Limgrave
+bonefire | ID : 341002 | 34_10_0 | textId1 : 341002 | Divine Tower of Limgrave
+
+subcategoryID : 61001 | 241322 : Stormhill
+landmark | ID : 61413800 | 60_41_38 | textId1 : 6100602 | Stormhill Shack
+bonefire | ID : 61413800 | 60_41_38 | textId1 : 610001 | Stormhill Shack
+
+subcategoryID : 61001 | 241322 : Stormhill
+landmark | ID : 61423800 | 60_42_38 | textId1 : 6100601 | Warmaster's Shack
+bonefire | ID : 61423800 | 60_42_38 | textId1 : 610017 | Warmaster's Shack
+
+subcategoryID : 61002 | 241323 : Weeping Peninsula
+landmark | ID : 300000 | 30_0_0 | textId1 : 30000 | Tombsward Catacombs
+bonefire | ID : 300000 | 30_0_0 | textId1 : 300000 | Tombsward Catacombs
+
+subcategoryID : 61002 | 241323 : Weeping Peninsula
+landmark | ID : 300100 | 30_1_0 | textId1 : 30010 | Impaler's Catacombs
+bonefire | ID : 300100 | 30_1_0 | textId1 : 300100 | Impaler's Catacombs
+
+subcategoryID : 61002 | 241323 : Weeping Peninsula
+landmark | ID : 310100 | 31_1_0 | textId1 : 31010 | Earthbore Cave
+bonefire | ID : 310100 | 31_1_0 | textId1 : 310100 | Earthbore Cave
+
+subcategoryID : 61002 | 241323 : Weeping Peninsula
+landmark | ID : 310200 | 60_42_33 | textId1 : 31020 | Tombsward Cave
+bonefire | ID : 310200 | 60_42_33 | textId1 : 310200 | Tombsward Cave
+
+subcategoryID : 61002 | 241323 : Weeping Peninsula
+landmark | ID : 320000 | 32_0_0 | textId1 : 32000 | Morne Tunnel
+bonefire | ID : 320000 | 32_0_0 | textId1 : 320000 | Morne Tunnel
+
+subcategoryID : 61002 | 241323 : Weeping Peninsula
+landmark | ID : 61413200 | 60_41_32 | textId1 : 6110600 | Isolated Merchant's Shack
+bonefire | ID : 61413200 | 60_41_32 | textId1 : 611006 | Isolated Merchant's Shack
+
+subcategoryID : 61002 | 241323 : Weeping Peninsula
+landmark | ID : 61413300 | 60_41_33 | textId1 : 6110300 | Fourth Church of Marika
+bonefire | ID : 61413300 | 60_41_33 | textId1 : 611000 | Fourth Church of Marika
+
+subcategoryID : 61002 | 241323 : Weeping Peninsula
+landmark | ID : 61433400 | 60_43_34 | textId1 : 6110301 | Church of Pilgrimage
+bonefire | ID : 61433400 | 60_43_34 | textId1 : 611012 | Church of Pilgrimage
+
+subcategoryID : 61002 | 241323 : Weeping Peninsula
+landmark | ID : 61443400 | 60_44_34 | textId1 : 6101100 | Bridge of Sacrifice
+bonefire | ID : 61443400 | 60_44_34 | textId1 : 611007 | Bridge of Sacrifice
+
+subcategoryID : 62000 | 241324 : Liurnia of the Lakes
+landmark | ID : 300300 | 30_3_0 | textId1 : 30030 | Road's End Catacombs
+bonefire | ID : 300300 | 30_3_0 | textId1 : 300300 | Road's End Catacombs
+
+subcategoryID : 62000 | 241324 : Liurnia of the Lakes
+landmark | ID : 300500 | 30_5_0 | textId1 : 30050 | Black Knife Catacombs
+bonefire | ID : 300500 | 30_5_0 | textId1 : 300500 | Black Knife Catacombs
+
+subcategoryID : 62000 | 241324 : Liurnia of the Lakes
+landmark | ID : 300600 | 30_6_0 | textId1 : 30060 | Cliffbottom Catacombs
+bonefire | ID : 300600 | 30_6_0 | textId1 : 300600 | Cliffbottom Catacombs
+
+subcategoryID : 62000 | 241324 : Liurnia of the Lakes
+landmark | ID : 310400 | 31_4_0 | textId1 : 31040 | Stillwater Cave
+bonefire | ID : 310400 | 31_4_0 | textId1 : 310400 | Stillwater Cave
+
+subcategoryID : 62000 | 241324 : Liurnia of the Lakes
+landmark | ID : 310500 | 31_5_0 | textId1 : 31050 | Lakeside Crystal Cave
+bonefire | ID : 310500 | 31_5_0 | textId1 : 310500 | Lakeside Crystal Cave
+
+subcategoryID : 62000 | 241324 : Liurnia of the Lakes
+landmark | ID : 310600 | 31_6_0 | textId1 : 31060 | Academy Crystal Cave
+bonefire | ID : 310600 | 31_6_0 | textId1 : 310600 | Academy Crystal Cave
+
+subcategoryID : 62000 | 241324 : Liurnia of the Lakes
+landmark | ID : 320200 | 60_37_47 | textId1 : 32020 | Raya Lucaria Crystal Tunnel
+bonefire | ID : 320200 | 60_37_47 | textId1 : 320200 | Raya Lucaria Crystal Tunnel
+
+subcategoryID : 62000 | 241324 : Liurnia of the Lakes
+landmark | ID : 341101 | 34_11_0 | textId1 : 34111 | Divine Tower of Liurnia
+bonefire | ID : 341102 | 34_11_0 | textId1 : 341102 | Divine Tower of Liurnia
+
+subcategoryID : 62000 | 241324 : Liurnia of the Lakes
+landmark | ID : 62334400 | 60_33_44 | textId1 : 6200603 | Revenger's Shack
+bonefire | ID : 62334400 | 60_33_44 | textId1 : 620033 | Revenger's Shack
+
+subcategoryID : 62000 | 241324 : Liurnia of the Lakes
+landmark | ID : 62334700 | 60_33_47 | textId1 : 6205200 | The Four Belfries
+bonefire | ID : 62334700 | 60_33_47 | textId1 : 620042 | The Four Belfries
+
+subcategoryID : 62000 | 241324 : Liurnia of the Lakes
+landmark | ID : 62354200 | 60_34_42 | textId1 : 6200700 | Village of the Albinaurics
+bonefire | ID : 62344200 | 60_34_42 | textId1 : 620035 | Village of the Albinaurics
+
+subcategoryID : 62000 | 241324 : Liurnia of the Lakes
+landmark | ID : 62344300 | 60_34_43 | textId1 : 6201700 | Converted Tower
+bonefire | ID : 62344300 | 60_34_43 | textId1 : 620052 | Converted Tower
+
+subcategoryID : 62000 | 241324 : Liurnia of the Lakes
+landmark | ID : 62344400 | 60_34_44 | textId1 : 6203201 | Temple Quarter
+bonefire | ID : 62344400 | 60_34_44 | textId1 : 620056 | Temple Quarter
+
+subcategoryID : 62000 | 241324 : Liurnia of the Lakes
+landmark | ID : 62345001 | 60_34_50 | textId1 : 6201703 | Ranni's Rise
+bonefire | ID : 62345000 | 60_34_50 | textId1 : 620043 | Ranni's Rise
+
+subcategoryID : 62000 | 241324 : Liurnia of the Lakes
+landmark | ID : 62364100 | 60_36_41 | textId1 : 6200600 | Slumbering Wolf's Shack
+bonefire | ID : 62364100 | 60_36_41 | textId1 : 620030 | Slumbering Wolf's Shack
+
+subcategoryID : 62000 | 241324 : Liurnia of the Lakes
+landmark | ID : 62364300 | 60_36_43 | textId1 : 6200601 | Boilprawn Shack
+bonefire | ID : 62364300 | 60_36_43 | textId1 : 620031 | Boilprawn Shack
+
+subcategoryID : 62000 | 241324 : Liurnia of the Lakes
+landmark | ID : 62374400 | 60_37_44 | textId1 : 6203200 | Academy Gate Town
+bonefire | ID : 62374400 | 60_37_44 | textId1 : 620004 | Academy Gate Town
+
+subcategoryID : 62000 | 241324 : Liurnia of the Lakes
+landmark | ID : 62374600 | 60_37_46 | textId1 : 6200301 | Church of Vows
+bonefire | ID : 62374600 | 60_37_46 | textId1 : 620039 | Church of Vows
+
+subcategoryID : 62000 | 241324 : Liurnia of the Lakes
+landmark | ID : 62374200 | 60_37_42 | textId1 : 6200502 | Laskyar Ruins
+bonefire | ID : 62384100 | 60_38_41 | textId1 : 620002 | Laskyar Ruins
+
+subcategoryID : 62000 | 241324 : Liurnia of the Lakes
+landmark | ID : 62394400 | 60_39_44 | textId1 : 6200702 | Jarburg
+bonefire | ID : 62394400 | 60_39_44 | textId1 : 620060 | Jarburg
+
+subcategoryID : 62001 | 241325 : Bellum Highway
+landmark | ID : 62364900 | 60_36_49 | textId1 : 6200303 | Bellum Church
+bonefire | ID : 62364900 | 60_36_49 | textId1 : 620011 | Bellum Church
+
+subcategoryID : 62001 | 241325 : Bellum Highway
+landmark | ID : 62374900 | 60_37_49 | textId1 : 6200304 | Church of Inhibition
+bonefire | ID : 62374900 | 60_37_49 | textId1 : 620055 | Church of Inhibition
+
+subcategoryID : 62001 | 241325 : Bellum Highway
+landmark | ID : 63385000 | 60_38_50 | textId1 : 6302100 | Grand Lift of Dectus
+bonefire | ID : 62385000 | 60_38_50 | textId1 : 620012 | Grand Lift of Dectus
+
+subcategoryID : 62002 | 241326 : Moonlight Altar
+landmark | ID : 62354201 | 60_35_42 | textId1 : 6210300 | Cathedral of Manus Celes
+bonefire | ID : 62354200 | 60_35_42 | textId1 : 621001 | Cathedral of Manus Celes
+
+subcategoryID : 63000 | 241327 : Altus Plateau
+landmark | ID : 300800 | 30_8_0 | textId1 : 30080 | Sainted Hero's Grave
+bonefire | ID : 300800 | 30_8_0 | textId1 : 300800 | Sainted Hero's Grave
+
+subcategoryID : 63000 | 241327 : Altus Plateau
+landmark | ID : 301200 | 30_12_0 | textId1 : 30120 | Unsightly Catacombs
+bonefire | ID : 301200 | 30_12_0 | textId1 : 301200 | Unsightly Catacombs
+
+subcategoryID : 63000 | 241327 : Altus Plateau
+landmark | ID : 311800 | 31_18_0 | textId1 : 31180 | Perfumer's Grotto
+bonefire | ID : 311800 | 31_18_0 | textId1 : 311800 | Perfumer's Grotto
+
+subcategoryID : 63000 | 241327 : Altus Plateau
+landmark | ID : 311900 | 31_19_0 | textId1 : 31190 | Sage's Cave
+bonefire | ID : 311900 | 31_19_0 | textId1 : 311900 | Sage's Cave
+
+subcategoryID : 63000 | 241327 : Altus Plateau
+landmark | ID : 320400 | 60_38_53 | textId1 : 32040 | Old Altus Tunnel
+bonefire | ID : 320400 | 60_38_53 | textId1 : 320400 | Old Altus Tunnel
+
+subcategoryID : 63000 | 241327 : Altus Plateau
+landmark | ID : 320500 | 32_5_0 | textId1 : 32050 | Altus Tunnel
+bonefire | ID : 320500 | 32_5_0 | textId1 : 320500 | Altus Tunnel
+
+subcategoryID : 63001 | 241328 : Mt. Gelmir
+landmark | ID : 300700 | 30_7_0 | textId1 : 30070 | Wyndham Catacombs
+bonefire | ID : 300700 | 30_7_0 | textId1 : 300700 | Wyndham Catacombs
+
+subcategoryID : 63001 | 241328 : Mt. Gelmir
+landmark | ID : 300900 | 30_9_0 | textId1 : 30090 | Gelmir Hero's Grave
+bonefire | ID : 300900 | 30_9_0 | textId1 : 300900 | Gelmir Hero's Grave
+
+subcategoryID : 63001 | 241328 : Mt. Gelmir
+landmark | ID : 310700 | 31_7_0 | textId1 : 31070 | Seethewater Cave
+bonefire | ID : 310700 | 31_7_0 | textId1 : 310700 | Seethewater Cave
+
+subcategoryID : 63001 | 241328 : Mt. Gelmir
+landmark | ID : 310900 | 31_9_0 | textId1 : 31090 | Volcano Cave
+bonefire | ID : 310900 | 31_9_0 | textId1 : 310900 | Volcano Cave
+
+subcategoryID : 63001 | 241328 : Mt. Gelmir
+landmark | ID : 63365203 | 60_36_52 | textId1 : 6310604 | Craftsman's Shack
+bonefire | ID : 63365200 | 60_36_52 | textId1 : 631006 | Craftsman's Shack
+
+subcategoryID : 63002 | 241329 : Capital Outskirts
+landmark | ID : 301000 | 30_10_0 | textId1 : 30100 | Auriza Hero's Grave
+bonefire | ID : 301000 | 30_10_0 | textId1 : 301000 | Auriza Hero's Grave
+
+subcategoryID : 63002 | 241329 : Capital Outskirts
+landmark | ID : 301300 | 30_13_0 | textId1 : 30130 | Auriza Side Tomb
+bonefire | ID : 301300 | 30_13_0 | textId1 : 301300 | Auriza Side Tomb
+
+subcategoryID : 63002 | 241329 : Capital Outskirts
+landmark | ID : 341201 | 34_12_0 | textId1 : 34121 | Divine Tower of West Altus
+bonefire | ID : 341200 | 34_12_0 | textId1 : 341200 | Divine Tower of West Altus
+
+subcategoryID : 63002 | 241329 : Capital Outskirts
+landmark | ID : 341200 | 60_43_50 | textId1 : 34120 | Sealed Tunnel
+bonefire | ID : 341201 | 60_43_50 | textId1 : 341201 | Sealed Tunnel
+
+subcategoryID : 63002 | 241329 : Capital Outskirts
+landmark | ID : 63435000 | 60_43_50 | textId1 : 6300302 | Minor Erdtree Church
+bonefire | ID : 63435000 | 60_43_50 | textId1 : 630002 | Minor Erdtree Church
+
+subcategoryID : 63002 | 241329 : Capital Outskirts
+landmark | ID : 63435300 | 60_43_53 | textId1 : 6300601 | Hermit Merchant's Shack
+bonefire | ID : 63435300 | 60_43_53 | textId1 : 630005 | Hermit Merchant's Shack
+
+subcategoryID : 63003 | 241330 : Forbidden Lands
+landmark | ID : 302000 | 30_20_0 | textId1 : 30200 | Hidden Path to the Haligtree
+bonefire | ID : 302000 | 30_20_0 | textId1 : 302000 | Hidden Path to the Haligtree
+
+subcategoryID : 63003 | 241330 : Forbidden Lands
+landmark | ID : 341400 | 34_14_0 | textId1 : 34140 | Divine Tower of East Altus
+bonefire | ID : 341401 | 34_14_0 | textId1 : 341401 | Divine Tower of East Altus
+
+subcategoryID : 63003 | 241330 : Forbidden Lands
+landmark | ID : 65495301 | 60_49_53 | textId1 : 6502100 | Grand Lift of Rold
+bonefire | ID : 65495301 | 60_49_53 | textId1 : 650010 | Grand Lift of Rold
+
+subcategoryID : 64000 | 241331 : Caelid
+landmark | ID : 301400 | 30_14_0 | textId1 : 30140 | Minor Erdtree Catacombs
+bonefire | ID : 301400 | 30_14_0 | textId1 : 301400 | Minor Erdtree Catacombs
+
+subcategoryID : 64000 | 241331 : Caelid
+landmark | ID : 301500 | 30_15_0 | textId1 : 30150 | Caelid Catacombs
+bonefire | ID : 301500 | 30_15_0 | textId1 : 301500 | Caelid Catacombs
+
+subcategoryID : 64000 | 241331 : Caelid
+landmark | ID : 301600 | 30_16_0 | textId1 : 30160 | War-Dead Catacombs
+bonefire | ID : 301600 | 30_16_0 | textId1 : 301600 | War-Dead Catacombs
+
+subcategoryID : 64000 | 241331 : Caelid
+landmark | ID : 312000 | 31_20_0 | textId1 : 31200 | Abandoned Cave
+bonefire | ID : 312000 | 31_20_0 | textId1 : 312000 | Abandoned Cave
+
+subcategoryID : 64000 | 241331 : Caelid
+landmark | ID : 312100 | 31_21_0 | textId1 : 31210 | Gaol Cave
+bonefire | ID : 312100 | 31_21_0 | textId1 : 312100 | Gaol Cave
+
+subcategoryID : 64000 | 241331 : Caelid
+landmark | ID : 320700 | 32_7_0 | textId1 : 32070 | Gael Tunnel
+bonefire | ID : 320700 | 60_46_39 | textId1 : 320700 | Gael Tunnel
+
+subcategoryID : 64000 | 241331 : Caelid
+landmark | ID : 320800 | 32_8_0 | textId1 : 32080 | Sellia Crystal Tunnel
+bonefire | ID : 320800 | 32_8_0 | textId1 : 320800 | Sellia Crystal Tunnel
+
+subcategoryID : 64000 | 241331 : Caelid
+landmark | ID : 64464000 | 60_46_40 | textId1 : 6400300 | Smoldering Church
+bonefire | ID : 64464000 | 60_46_40 | textId1 : 640000 | Smoldering Church
+
+subcategoryID : 64000 | 241331 : Caelid
+landmark | ID : 64474002 | 60_47_40 | textId1 : 6400503 | Caelem Ruins
+bonefire | ID : 64474000 | 60_47_40 | textId1 : 640005 | Caelem Ruins
+
+subcategoryID : 64000 | 241331 : Caelid
+landmark | ID : 64483600 | 60_48_36 | textId1 : 6400301 | Cathedral of Dragon Communion
+bonefire | ID : 64483600 | 60_48_36 | textId1 : 640002 | Cathedral of Dragon Communion
+
+subcategoryID : 64000 | 241331 : Caelid
+landmark | ID : 64494000 | 60_49_40 | textId1 : 6401500 | Deep Siofra Well
+bonefire | ID : 64484000 | 60_48_40 | textId1 : 640004 | Deep Siofra Well
+
+subcategoryID : 64000 | 241331 : Caelid
+landmark | ID : 64503900 | 60_50_39 | textId1 : 6400302 | Church of the Plague
+bonefire | ID : 64503800 | 60_50_38 | textId1 : 640018 | Church of the Plague
+
+subcategoryID : 64001 | 241332 : Greyoll's Dragonbarrow
+landmark | ID : 311000 | 31_10_0 | textId1 : 31100 | Dragonbarrow Cave
+bonefire | ID : 311000 | 31_10_0 | textId1 : 311000 | Dragonbarrow Cave
+
+subcategoryID : 64001 | 241332 : Greyoll's Dragonbarrow
+landmark | ID : 311100 | 31_11_0 | textId1 : 31110 | Sellia Hideaway
+bonefire | ID : 311100 | 31_11_0 | textId1 : 311100 | Sellia Hideaway
+
+subcategoryID : 64001 | 241332 : Greyoll's Dragonbarrow
+landmark | ID : 341500 | 60_51_46 | textId1 : 34150 | Isolated Divine Tower
+bonefire | ID : 341500 | 34_15_0 | textId1 : 341500 | Isolated Divine Tower
+
+subcategoryID : 64001 | 241332 : Greyoll's Dragonbarrow
+landmark | ID : 64513900 | 60_51_39 | textId1 : 6411800 | Fort Faroth
+bonefire | ID : 64513900 | 60_51_39 | textId1 : 640021 | Fort Faroth
+
+subcategoryID : 64001 | 241332 : Greyoll's Dragonbarrow
+landmark | ID : 64514300 | 60_51_43 | textId1 : 6415400 | Bestial Sanctum
+bonefire | ID : 64514300 | 60_51_43 | textId1 : 640025 | Bestial Sanctum
+
+subcategoryID : 64001 | 241332 : Greyoll's Dragonbarrow
+landmark | ID : 64524100 | 60_52_41 | textId1 : 6411700 | Lenne's Rise
+bonefire | ID : 64524100 | 60_52_41 | textId1 : 640023 | Lenne's Rise
+
+subcategoryID : 65000 | 241333 : Mountaintops of the Giants
+landmark | ID : 312200 | 60_53_56 | textId1 : 31220 | Spiritcaller Cave
+bonefire | ID : 312200 | 60_53_56 | textId1 : 312200 | Spiritcaller Cave
+
+subcategoryID : 65000 | 241333 : Mountaintops of the Giants
+landmark | ID : 65495300 | 60_49_53 | textId1 : 6500500 | Zamor Ruins
+bonefire | ID : 65495300 | 60_49_53 | textId1 : 650001 | Zamor Ruins
+
+subcategoryID : 65000 | 241333 : Mountaintops of the Giants
+landmark | ID : 65545500 | 60_54_55 | textId1 : 6500300 | First Church of Marika
+bonefire | ID : 65545500 | 60_54_55 | textId1 : 650004 | First Church of Marika
+
+subcategoryID : 65001 | 241334 : Flame Peak
+landmark | ID : 301700 | 60_50_53 | textId1 : 30170 | Giant-Conquering Hero's Grave
+bonefire | ID : 301700 | 60_50_53 | textId1 : 301700 | Giant-Conquering Hero's Grave
+
+subcategoryID : 65001 | 241334 : Flame Peak
+landmark | ID : 301800 | 60_50_53 | textId1 : 30180 | Giants' Mountaintop Catacombs
+bonefire | ID : 301800 | 60_50_53 | textId1 : 301800 | Giants' Mountaintop Catacombs
+
+subcategoryID : 65001 | 241334 : Flame Peak
+landmark | ID : 65515300 | 60_51_53 | textId1 : 6500301 | Church of Repose
+bonefire | ID : 65515300 | 60_51_53 | textId1 : 650006 | Church of Repose
+
+subcategoryID : 65001 | 241334 : Flame Peak
+landmark | ID : 65545300 | 60_54_53 | textId1 : 6505700 | Forge of the Giants
+bonefire | ID : 65545300 | 60_54_53 | textId1 : 650009 | Forge of the Giants
+
+subcategoryID : 65002 | 241335 : Consecrated Snowfield
+landmark | ID : 301900 | 60_50_55 | textId1 : 30190 | Consecrated Snowfield Catacombs
+bonefire | ID : 301900 | 60_50_55 | textId1 : 301900 | Consecrated Snowfield Catacombs
+
+subcategoryID : 65002 | 241335 : Consecrated Snowfield
+landmark | ID : 311200 | 31_12_0 | textId1 : 31120 | Cave of the Forlorn
+bonefire | ID : 311200 | 31_12_0 | textId1 : 311200 | Cave of the Forlorn
+
+subcategoryID : 65002 | 241335 : Consecrated Snowfield
+landmark | ID : 321100 | 60_47_55 | textId1 : 32110 | Yelough Anix Tunnel
+bonefire | ID : 321100 | 60_47_55 | textId1 : 321100 | Yelough Anix Tunnel
+
+subcategoryID : 65002 | 241335 : Consecrated Snowfield
+landmark | ID : 65475800 | 60_47_58 | textId1 : 6510300 | Apostate Derelict
+bonefire | ID : 65475800 | 60_47_58 | textId1 : 651003 | Apostate Derelict
+
+subcategoryID : 65002 | 241335 : Consecrated Snowfield
+landmark | ID : 65485700 | 60_48_57 | textId1 : 6513400 | Ordina, Liturgical Town
+bonefire | ID : 65485700 | 60_48_57 | textId1 : 651002 | Ordina, Liturgical Town

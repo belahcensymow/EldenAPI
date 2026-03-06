@@ -9,7 +9,8 @@ namespace EldenAPI.Samples
             //For Japanese character support
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-            string gameDir = @"C:\Games\ELDEN RING\Game\";
+            // string gameDir = @"C:\Games\ELDEN RING\Game\";
+            string gameDir = @"/mnt/F81CEC961CEC50E4/Games/ELDEN RING/Game";
             //The handler automatically finds all MSGBND files and extracts/reads them
             //You can select the MSGBND to open with and enum BNDType
             //The options are ITEM/MENU and the DLC01 and DLC02 variants

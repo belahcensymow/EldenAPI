@@ -1,0 +1,107 @@
+1. Limgrave / Weeping Peninsula Area
+
+These entries currently use raw coordinates as their subregion. You likely want to assign these to Limgrave, Stormhill, or Weeping Peninsula:
+
+    60_42_40: Limgrave Colosseum
+
+    60_42_32: Tower of Return
+
+    60_42_34: Tombsward Ruins
+
+    60_43_33: Minor Erdtree (Weeping Peninsula)
+
+    60_43_36: Dragon-Burnt Ruins
+
+    60_45_37: Siofra River Well / Mistwood Ruins / Minor Erdtree
+
+    60_45_39: Summonwater Village
+
+    60_46_36: Fort Haight
+
+2. Liurnia / Moonlight Altar Area
+
+These coordinates represent open-world locations in the Liurnia marshes and plateaus:
+
+    60_33_42: Ringleader's Evergaol
+
+    60_33_43: Minor Erdtree
+
+    60_33_45: Cuckoo's Evergaol
+
+    60_35_51: Three Sisters
+
+    60_34_51: Renna's Rise
+
+    60_35_41: Lunar Estate Ruins
+
+    60_35_44: Rose Church
+
+    60_38_42: Highway Lookout Tower
+
+    60_38_49: Frenzy-Flaming Tower
+
+    60_39_39: Church of Irith
+
+    60_39_48: Converted Fringe Tower
+
+3. Altus Plateau / Mt. Gelmir Area
+
+These represent the various shacks, ruins, and windmills in the northern map:
+
+    60_35_54: Fort Laiedd
+
+    60_36_51: Perfumer's Ruins
+
+    60_40_51: Stormcaller Church
+
+    60_37_54: Minor Erdtree
+
+    60_38_52: Wyndham Ruins
+
+    60_39_50: Golden Lineage Evergaol
+
+    60_39_52: Second Church of Marika
+
+    60_40_55 / 60_41_55: Windmill Pastures (West/East/Village)
+
+    60_41_53: Woodfolk Ruins / Minor Erdtree
+
+    60_42_54: Dominula, Windmill Village / Highway Lookout Tower
+
+    60_44_53: Minor Erdtree
+
+4. Caelid & Mountaintops Area
+
+    60_47_42: Caelid Colosseum
+
+    60_47_38: Caelid Waypoint Ruins / Fort Gael
+
+    60_50_39: Sellia, Town of Sorcery
+
+    60_51_40: Minor Erdtree
+
+    60_50_56: Shack of the Lofty / Minor Erdtree / Albinauric Rise
+
+    60_52_55: Guardians' Garrison
+
+5. Shadow of the Erdtree (DLC) Area
+
+These coordinates cover the new regions from the Gravesite Plain to the Finger Ruins:
+
+    61_46_38 / 41 / 45: Nameless Mausoleums (Southern, Western, Northern)
+
+    61_46_43: Ellac Greatbridge / Run-Down Traveler's Rest
+
+    61_49_38: Finger-Weaver's Hovel
+
+    61_48_41: Church of Consolation / Suppressing Pillar
+
+    61_49_42: Elder's Hovel
+
+    61_47_46: Church of the Crusade
+
+    61_49_49: Scadutree Chalice / Albinauric's Shack
+
+    61_50_46: Ruins of Unte
+
+    61_53_46 / 47: Finger Ruins of Dheo
