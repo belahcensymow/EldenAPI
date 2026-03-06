@@ -1,4 +1,5 @@
 ﻿using EldenRingDataExtractor;
+using Microsoft.IdentityModel.Tokens;
 using SoulsFormats;
 using System.Numerics;
 
@@ -23,7 +24,7 @@ namespace EldenAPI.Source
                 if (firstEntry == null) continue;
                 Type entryType = firstEntry.GetType();
                 var nameProps = entryType.GetProperties().Where(p => p.Name.Contains("category", StringComparison.OrdinalIgnoreCase)).ToList();
-                if (nameProps.Any())
+                if (nameProps.Count > 0)
                 {
                     Console.WriteLine($"--- Class: {paramProp.Name} ---");
                     foreach (var prop in nameProps)
@@ -37,7 +38,7 @@ namespace EldenAPI.Source
         public static void analyseExperiments()
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
-            string gameDir = @"C:\Games\ELDEN RING\Game\";
+            string gameDir = @"/mnt/F81CEC961CEC50E4/Games/ELDEN RING/Game";
             MSGBNDHandler msgbndHandler = new(gameDir);
             RegulationHandler regulation = new(gameDir);
             using AppDbContext db = new();
@@ -102,6 +103,7 @@ namespace EldenAPI.Source
                 }
                 return bonfireSubCategoryId.ToString();
             }
+            GetCategoryOfSubCategory(0);
 
             string GetCategory(int bonfireSubCategoryId)
             {
@@ -120,13 +122,13 @@ namespace EldenAPI.Source
                 if (!ranges.ContainsKey(id)) ranges.Add(id, (
                     new(float.MaxValue, float.MaxValue, float.MaxValue),
                     new(float.MinValue, float.MinValue, float.MinValue)));
-                var current = ranges[id];
-                Vector3 updatedMin = new(Math.Min(current.min.X, site.posX),
-                                         Math.Min(current.min.Y, site.posY),
-                                         Math.Min(current.min.Z, site.posZ));
-                Vector3 updatedMax = new(Math.Max(current.max.X, site.posX),
-                                         Math.Max(current.max.Y, site.posY),
-                                         Math.Max(current.max.Z, site.posZ));
+                var (min, max) = ranges[id];
+                Vector3 updatedMin = new(Math.Min(min.X, site.posX),
+                                         Math.Min(min.Y, site.posY),
+                                         Math.Min(min.Z, site.posZ));
+                Vector3 updatedMax = new(Math.Max(max.X, site.posX),
+                                         Math.Max(max.Y, site.posY),
+                                         Math.Max(max.Z, site.posZ));
                 ranges[id] = (updatedMin, updatedMax);
             }
 
@@ -168,6 +170,7 @@ namespace EldenAPI.Source
                 string name = msgbndHandler.TextIdToText([placeName, placeNameDLC1, placeNameDLC2, npcName, npcNameDLC1, npcNameDLC2], siteOfGrace.textId1);
                 if (!int.TryParse(name, out _)) bonefireNames.Add(siteOfGrace);
                 if (siteOfGrace.bonfireSubCategoryId != 0) if (siteOfGrace.iconId != 1) continue;
+                // Console.WriteLine($"{siteOfGrace.areaNo}:{siteOfGrace.gridXNo}:{siteOfGrace.gridZNo}");
                 //        Console.WriteLine($"{siteOfGrace.iconId}" +
                 //            $"{GetCategory(siteOfGrace.bonfireSubCategoryId)} : " +
                 //            $"{msgbndHandler.TextIdToText([placeName, placeNameDLC1, placeNameDLC2, npcName, npcNameDLC1, npcNameDLC2], siteOfGrace.textId1)} | " +
@@ -223,11 +226,11 @@ namespace EldenAPI.Source
             {
                 if (landmark.textId1 == -1 && landmark.textId2 == -1 && landmark.textId3 == -1 && landmark.textId4 == -1 && landmark.textId5 == -1 && landmark.textId6 == -1 && landmark.textId7 == -1 && landmark.textId8 == -1) continue;
                 if (landmark.textId1 == -1) continue;
-                var result = GetLandmarkSubregion(landmark);
+                var (value, stage) = GetLandmarkSubregion(landmark);
                 string name = (msgbndHandler.TextIdToText([placeName, placeNameDLC1, placeNameDLC2, npcName, npcNameDLC1, npcNameDLC2], landmark.textId1));
-                if (result.stage == 5)
+                if (stage == 5)
                 {
-                    Console.WriteLine($"Subregion : {result.value} \nLandmark  : {name}");
+                    Console.WriteLine($"Subregion : {value} \nLandmark  : {name}");
                     Console.WriteLine();
                 }
                 //Console.WriteLine($"" +
@@ -243,79 +246,82 @@ namespace EldenAPI.Source
                 //$" ");
                 //$"{{{landmark.posX},{landmark.posY},{landmark.posZ}}}");
             }
-            return;
-            // return Task.CompletedTask;
-            //int n = 0;
-            //foreach (var siteOfGrace in sitesOfGrace)
-            //{
-            //    string text1 = msgbndHandler.TextIdToText([placeName], siteOfGrace.textId1);
-            //    string text2 = msgbndHandler.TextIdToText([placeName], siteOfGrace.textId2);
-            //    string text3 = msgbndHandler.TextIdToText([placeName], siteOfGrace.textId3);
-            //    string text4 = msgbndHandler.TextIdToText([placeName], siteOfGrace.textId4);
-            //    string text5 = msgbndHandler.TextIdToText([placeName], siteOfGrace.textId5);
-            //    string text6 = msgbndHandler.TextIdToText([placeName], siteOfGrace.textId6);
-            //    string text7 = msgbndHandler.TextIdToText([placeName], siteOfGrace.textId7);
-            //    string text8 = msgbndHandler.TextIdToText([placeName], siteOfGrace.textId8);
-            //    if (int.TryParse(text1, out _)) text1 = "";
-            //    if (int.TryParse(text2, out _)) text2 = "";
-            //    if (int.TryParse(text3, out _)) text3 = "";
-            //    if (int.TryParse(text4, out _)) text4 = "";
-            //    if (int.TryParse(text5, out _)) text5 = "";
-            //    if (int.TryParse(text6, out _)) text6 = "";
-            //    if (int.TryParse(text7, out _)) text7 = "";
-            //    if (int.TryParse(text8, out _)) text8 = "";
-            //    if (text1 == "" &&
-            //        text2 == "" &&
-            //        text3 == "" &&
-            //        text4 == "" &&
-            //        text5 == "" &&
-            //        text6 == "" &&
-            //        text7 == "" &&
-            //        text8 == "")
-            //        continue;
-            //if (text2 != "" || text3 != "" || text4 != "" || text5 != "" || text6 != "" || text7 != "" || text8 != "")
-            //Console.WriteLine($"{text1}" +
-            //               $" | {text2}" +
-            //               $" | {text3}" +
-            //               $" | {text4}" +
-            //               $" | {text5}" +
-            //               $" | {text6}" +
-            //               $" | {text7}" +
-            //               $" | {text8}");
+            void UpdateDb()
+            {
+                foreach (var siteOfGrace in sitesOfGrace)
+                {
+                    string text1 = msgbndHandler.TextIdToText([placeName], siteOfGrace.textId1);
+                    string text2 = msgbndHandler.TextIdToText([placeName], siteOfGrace.textId2);
+                    string text3 = msgbndHandler.TextIdToText([placeName], siteOfGrace.textId3);
+                    string text4 = msgbndHandler.TextIdToText([placeName], siteOfGrace.textId4);
+                    string text5 = msgbndHandler.TextIdToText([placeName], siteOfGrace.textId5);
+                    string text6 = msgbndHandler.TextIdToText([placeName], siteOfGrace.textId6);
+                    string text7 = msgbndHandler.TextIdToText([placeName], siteOfGrace.textId7);
+                    string text8 = msgbndHandler.TextIdToText([placeName], siteOfGrace.textId8);
+                    if (int.TryParse(text1, out _)) text1 = "";
+                    if (int.TryParse(text2, out _)) text2 = "";
+                    if (int.TryParse(text3, out _)) text3 = "";
+                    if (int.TryParse(text4, out _)) text4 = "";
+                    if (int.TryParse(text5, out _)) text5 = "";
+                    if (int.TryParse(text6, out _)) text6 = "";
+                    if (int.TryParse(text7, out _)) text7 = "";
+                    if (int.TryParse(text8, out _)) text8 = "";
+                    if (text1 == "" &&
+                        text2 == "" &&
+                        text3 == "" &&
+                        text4 == "" &&
+                        text5 == "" &&
+                        text6 == "" &&
+                        text7 == "" &&
+                        text8 == "")
+                        continue;
+                    if (text2 != "" || text3 != "" || text4 != "" || text5 != "" || text6 != "" || text7 != "" || text8 != "")
+                        Console.WriteLine($"{text1}" +
+                                      $" | {text2}" +
+                                      $" | {text3}" +
+                                      $" | {text4}" +
+                                      $" | {text5}" +
+                                      $" | {text6}" +
+                                      $" | {text7}" +
+                                      $" | {text8}");
 
-            //    db.Add(new SiteOfGrace
-            //    {
-            //        ID = siteOfGrace.ID,
-            //        IconId = (int)siteOfGrace.iconId,
-            //        SubRegionId = siteOfGrace.bonfireSubCategoryId,
-            //        Text1 = text1,
-            //        Text2 = text2,
-            //        Text3 = text3,
-            //        Text4 = text4,
-            //        Text5 = text5,
-            //        Text6 = text6,
-            //        Text7 = text7,
-            //        Text8 = text8,
-            //        posX = siteOfGrace.posX,
-            //        posY = siteOfGrace.posY,
-            //        posZ = siteOfGrace.posZ,
-            //    });
-            //    //n++;
-            //}
-            //await db.SaveChangesAsync();
-            //foreach (var siteOfGrace in db.SitesOfGrace)
-            //{
-            //    n++;
-            //    Console.WriteLine($"{siteOfGrace.Text1}" +
-            //                   $" | {siteOfGrace.Text2}" +
-            //                   $" | {siteOfGrace.Text3}" +
-            //                   $" | {siteOfGrace.Text4}" +
-            //                   $" | {siteOfGrace.Text5}" +
-            //                   $" | {siteOfGrace.Text6}" +
-            //                   $" | {siteOfGrace.Text7}" +
-            //                   $" | {siteOfGrace.Text8}");
-            //}
-            //Console.WriteLine(n);
+                    db.Add(new SiteOfGrace
+                    {
+                        ID = siteOfGrace.ID,
+                        IconId = (int)siteOfGrace.iconId,
+                        SubRegionId = siteOfGrace.bonfireSubCategoryId,
+                        Text1 = text1,
+                        Text2 = text2,
+                        Text3 = text3,
+                        Text4 = text4,
+                        Text5 = text5,
+                        Text6 = text6,
+                        Text7 = text7,
+                        Text8 = text8,
+                        PosX = siteOfGrace.posX,
+                        PosY = siteOfGrace.posY,
+                        PosZ = siteOfGrace.posZ,
+                        AreaNo = siteOfGrace.areaNo,
+                        GridXNo = siteOfGrace.gridXNo,
+                        GridZNo = siteOfGrace.gridZNo
+                    });
+                }
+                db.SaveChanges();
+            }
+            int n = 0;
+            foreach (var siteOfGrace in db.SitesOfGrace)
+            {
+                n++;
+                Console.WriteLine($"{siteOfGrace.Text1}" +
+                               $" | {siteOfGrace.Text2}" +
+                               $" | {siteOfGrace.Text3}" +
+                               $" | {siteOfGrace.Text4}" +
+                               $" | {siteOfGrace.Text5}" +
+                               $" | {siteOfGrace.Text6}" +
+                               $" | {siteOfGrace.Text7}" +
+                               $" | {siteOfGrace.Text8}");
+            }
+            Console.WriteLine(n);
 
             //FindAllNameProperties(regulation);
 

@@ -10,7 +10,7 @@ namespace EldenAPI.Source
     {
         static void Main()
         {
-            Samples.MSGBNDHandlingSamples.MSGBNDHandlingSample();
+            AnalyseExperiments.analyseExperiments();
         }
     }
 
